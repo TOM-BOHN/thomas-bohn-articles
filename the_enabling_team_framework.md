@@ -1,6 +1,6 @@
 [\[07.02\] Enabling Team Framework](https://docs.google.com/presentation/d/1Zpwh1zZteiHXFWtyy-8ZBHMy7Z0abtJpWZ8AkBVFjg4/edit?usp=sharing)
 
-# The Enabling Team Framework
+# The Enabling Team Playbook: A Framework for Capability Transformation
 
 Throughout my career, I've been asked the same questions by leaders facing the same frustrations: How do we develop a process-led culture? How do we mature our DevOps practices? How can we improve code quality? Why do our efforts to adopt new practices keep failing?
 
@@ -12,15 +12,15 @@ But this framework isn't just a diagnostic tool for advising others—it's becom
 
 The lesson I've learned is simple but powerful: you need all the pieces of this framework at some level of maturity to get new solutions to stick. Skip the policy, and teams won't understand why it matters. Skip the operations, and your tools won't address real friction points. Skip the enablement, and teams will struggle and resist. The framework emerged from repeatedly seeing these patterns—and from learning that sustainable change requires addressing the entire system, not just one piece of it.
 
-## What is an Enabling Team?
+## Understanding Enabling Teams
 
 An **Enabling Team** is a fundamental team type that has a primary focus to reduce intrinsic cognitive load and increase flow in Stream-aligned teams. A group of experts who mentor & facilitate to uplift capabilities and detect gaps. This team type should not own any software components.
 
-## What is their Primary Interaction Mode?
+## The Primary Interaction Mode
 
 Enabling Teams secret-sauce is the **Facilitating Mode**, where one team helps another. This is the main operating model for enabling teams. This mode is used to help clear impediments and discover gaps or inconsistencies in existing components and services used by other teams. There should be a focus on the quality of interaction between the teams. Like the Collaboration mode, Facilitating is a temporary interaction mode \- the interaction should generally last for no more than a few weeks.
 
-## What is the Enabling Team Framework?
+## The Framework Overview
 
 The Enabling Team Framework is a structured approach for how enabling teams should think about, organize, and deliver capability transformation work across an organization. While the concept of an enabling team is well-established in Team Topologies, this framework provides the practical "how" - a systematic way to break down the complex work of capability uplift into clear roles, sequential elements, delivery modes, and work types.
 
@@ -32,7 +32,7 @@ The framework's value lies in its ability to prevent the most common failure mod
 
 By following this framework, enabling teams can systematically identify gaps in their approach, understand which delivery mode they should be operating in, and structure their work to maximize the likelihood of sustained adoption. It transforms the abstract concept of "enabling" into concrete, actionable steps that guide teams from initial business case through successful capability uplift. The framework ensures that enabling teams don't just deliver tools or training - they deliver lasting organizational change.
 
-### What Responsibilities Align with the Framework?
+### The Two Core Roles: Advising and Facilitating
 
 The framework breaks the solution space into two primary roles:
 
@@ -40,13 +40,13 @@ The framework breaks the solution space into two primary roles:
 
 2. **Facilitating:** The operational role where the enabling team guides and supports teams through implementation and execution. The enabling team does not perform the operations—the implementing team does. Instead, the enabling team ensures operations begin, observes execution, and provides analysis and recommendations. This includes facilitating data collection, tool deployment, enablement delivery, ongoing support, and governance.
 
-### What About Development?
+### The Development Role: Building Enablement Toolkits
 
 The enabling team's development work centers on building enablement toolkits—comprehensive packages that include libraries, frameworks, business processes, training materials, and other resources that target teams can use to implement the capability themselves. Critically, the enabling team is never an execution team of the target process. 
 
 For example, when working with a development scrum team, the enabling team will not rebuild the application or modify the codebase directly. Instead, they provide a specific toolkit—whether it's a software package, a library, a framework, a business process, or training materials—that the targeted team can learn from and implement within their own codebase. This approach follows the principle: "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime." The enabling team builds the tools and knowledge that empower other teams to succeed independently, rather than performing the work on their behalf.
 
-### What to Consider When Advising?
+### The Advising Elements: Policy to Architecture
 
 When the team is thinking about advising, it should consider the following topics:
 
@@ -60,7 +60,7 @@ When the team is thinking about advising, it should consider the following topic
 
 5. **Architecture:** What designs, tools, software, and solutions help teams automate and comply with the new way of working? Architecture provides the technical foundation that enables efficient execution of the process.
 
-### What to Consider When Facilitating?
+### The Facilitating Elements: Operations to Governance
 
 When the team is thinking about facilitating, it should consider the following topics:
 
@@ -76,19 +76,23 @@ When the team is thinking about facilitating, it should consider the following t
 
 6. **Governance:** Oversight mechanisms, controls, and compliance measures that ensure teams are following the established process correctly. When operations, tools, and enablement are properly implemented, governance becomes less about enforcement and more about measurement and continuous improvement.
 
-### Why Consider an Order to the Elements of the Framework?
+### Why Sequence Matters
 
 The framework follows a deliberate sequence that builds from foundational understanding to practical implementation.
 
 **The Advising Sequence:** Policy → Standards → Methodology → Process → Architecture
 
-This sequence moves from "Why" to "What" to "How." **Policy** establishes the business rationale. **Standards** and **Methodology** define what must be done and what best practices guide the work. **Process** specifies the steps teams will follow. **Architecture** provides the tools and solutions that enable execution. Jumping directly to Architecture without establishing Policy and Standards often results in tools that don't align with business objectives. The order ensures each decision is informed by the appropriate level of context and strategic alignment.
+This sequence moves from "Why" to "What" to "How." **Policy** establishes the business rationale. **Standards** and **Methodology** define what must be done and what best practices guide the work. **Process** specifies the steps teams will follow. **Architecture** provides the tools and solutions that enable execution. 
+
+Jumping directly to Architecture without establishing Policy and Standards often results in tools that don't align with business objectives. The order ensures each decision is informed by the appropriate level of context and strategic alignment.
 
 **The Facilitating Sequence:** Operations → Data → Tools & Solutions → Enablement → Support → Governance
 
-This sequence is less rigid but equally intentional. **Operations** must happen first—someone must operationalize the process before meaningful progress can occur. This execution generates **Data**, which reveals where operations are needed most and highlights gaps. The data identifies what **Tools & Solutions** are required to scale effectively. Once experts have executed the process and identified necessary tools, they understand what **Enablement** is truly needed. **Support** becomes ineffective without proper enablement in place. Finally, **Governance** should come last—it's a fool's errand if teams haven't been properly taught the process and provided with tools to execute it efficiently. A supported, automated process should guide teams along the ideal path without requiring heavy-handed oversight.
+This sequence is less rigid but equally intentional. **Operations** must happen first—someone must operationalize the process before meaningful progress can occur. This execution generates **Data**, which reveals where operations are needed most and highlights gaps. The data identifies what **Tools & Solutions** are required to scale effectively. Once experts have executed the process and identified necessary tools, they understand what **Enablement** is truly needed. 
 
-### Why Do Gaps Matter?
+**Support** becomes ineffective without proper enablement in place. Finally, **Governance** should come last—it's a fool's errand if teams haven't been properly taught the process and provided with tools to execute it efficiently. A supported, automated process should guide teams along the ideal path without requiring heavy-handed oversight.
+
+### Diagnosing Gaps in Capability Adoption
 
 Gaps in the framework are diagnostic indicators that reveal why capability adoption is failing or struggling. When you map your current enabling work against the framework, missing or incomplete elements immediately highlight what's blocking success. These gaps create predictable failure patterns that undermine even the best intentions.
 
@@ -106,7 +110,7 @@ Consider a few common examples:
 
 The framework's power lies in making these gaps visible. When capability adoption struggles, you can systematically review each element and ask: "Have we addressed this?" The answer reveals not just what's missing, but what needs to happen next to get the capability back on track.
 
-## How Does the Team Deliver Work?
+## The Three Delivery Modes
 
 The Enabling Team operates in three delivery modes that correspond to different phases of capability transformation: Strategizing, Developing, and Facilitating. These modes allow the team to focus on the most impactful work, build coalition support, and ensure sustained adoption.
 
@@ -118,11 +122,17 @@ The Enabling Team operates in three delivery modes that correspond to different 
 
 3. **Facilitating:** The team works as a **facilitator and coach** aligned with individual teams to guide them through adopting the capability toolkit. The team partners closely with a target team to ensure operations begin, observes execution, collects data on adoption challenges, provides recommendations, delivers enablement, and offers ongoing support. The output is a successfully enabled team that can independently execute the capability. This mode ensures the investment in Strategizing and Developing delivers sustained organizational value.
 
-## How Does the Team Manage Work?
+## Work Management: The Five Epic Types
 
 The Enabling Team is like any other scrum team and uses agile ceremonies and work management tools to increase velocity and fail early. However, instead of strictly building software, they build a variety of work deliverables that span **strategy, capability development, and enablement.** Commonly, I think of the types of work this team delivers as one of  **5 types of template epics**. Each epic template has its own scope, final deliverable, definition of done, and operating mode for the enabling team.
 
-The Enabling Team begins in Strategizing mode, where it focuses on understanding the business and prioritizing. The team delivers a **(1) Business Case Development epic** in this mode. Once the value of the work is justified and sponsored by stakeholders, the team shifts to Developing mode. In this phase, the team builds a **(2) Capability Development epic**. The primary product is an Enabler Toolkit, which includes the required operations process, tooling, data collection, enablement, support, and governance to facilitate capability maturation. Because the team is agile, they test their new toolkit iteratively. This work is tracked as a **(3) Pilot or Incubation epic** where they work closely with one team to iterate on enhancements to their toolkit. Once the toolkit is fully validated, the enabling team transitions to Facilitating mode. In this phase, the enabling team manages work through loosely coupled epics that connect their **(4) Facilitation epic** to the target development scrum team's **(5) Implementation epic**. The two epics run in parallel until the target development scrum team successfully implements the new toolkit and reaches the desired level of competency with the capability.
+The Enabling Team begins in Strategizing mode, where it focuses on understanding the business and prioritizing. The team delivers a **(1) Business Case Development epic** in this mode. 
+
+Once the value of the work is justified and sponsored by stakeholders, the team shifts to Developing mode. In this phase, the team builds a **(2) Capability Development epic**. The primary product is an Enabler Toolkit, which includes the required operations process, tooling, data collection, enablement, support, and governance to facilitate capability maturation. 
+
+Because the team is agile, they test their new toolkit iteratively. This work is tracked as a **(3) Pilot or Incubation epic** where they work closely with one team to iterate on enhancements to their toolkit. 
+
+Once the toolkit is fully validated, the enabling team transitions to Facilitating mode. In this phase, the enabling team manages work through loosely coupled epics that connect their **(4) Facilitation epic** to the target development scrum team's **(5) Implementation epic**. The two epics run in parallel until the target development scrum team successfully implements the new toolkit and reaches the desired level of competency with the capability.
 
 ![The Enabling Team Work Types](images/the_enabling_team_framework/the_enabling_team_work_types.png)
 
@@ -134,9 +144,11 @@ The following is a more detailed definition of each type of work item epic:
 * **(4) Facilitation Epic:** Owned by the enabling team to collect work items related to the delivery of facilitation services to a specific scrum team. These services include enablement and collaboration to apply the toolkit to a product feature.  
 * **(5) Implementation Epic:** Owned by the scrum team to collect work items related to the development work for adopting the specific toolkit. This is delivered in parallel with the Facilitation Epic. A new implementation epic is required for each collaboration effort between a scrum team and the enabling team.
 
-## How Do We Know It Works?
+## Measuring Success
 
-The driving goal of the Enabling Team Framework is to implement lasting, self-sustaining change. The framework follows a land-and-expand model focused on not only adding mature capabilities, but also changing organizational culture through developing competency in new capabilities. By launching with a complete and well-tested toolkit, the enabling team can measure key KPIs and ensure all supporting work is included in the solution to maximize adoption success while reducing the time required to facilitate target teams.
+The driving goal of the Enabling Team Framework is to implement lasting, self-sustaining change. The framework follows a land-and-expand model focused on not only adding mature capabilities, but also changing organizational culture through developing competency in new capabilities. 
+
+By launching with a complete and well-tested toolkit, the enabling team can measure key KPIs and ensure all supporting work is included in the solution to maximize adoption success while reducing the time required to facilitate target teams.
 
 The framework is deliberately focused. It begins change on one business capability and ensures it is implemented fully before transitioning to a new capability. Organizations that want to transform faster can invest in multiple enabling teams to run facilitation and implementation work in parallel across the organization.
 
