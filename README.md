@@ -26,6 +26,18 @@ A comprehensive framework for measuring data governance maturity and cultural ch
 - Measuring progress and adoption
 - Building data-driven organizations
 
+### [The Digital Transformation Framework](the_digital_transformation_framework.md)
+
+A diagnostic tool for understanding business partner maturity and building strategic partnerships in analytics work. This framework helps analytics teams escape the "delivery danger zone" by recognizing three distinct levels of partnership—Transformation, Innovation, and Delivery—and positioning themselves as trusted advisors rather than replaceable order-takers.
+
+**Key Topics:**
+- Three levels of business partner maturity
+- Understanding needs vs. surface requests
+- Building strategic partnerships vs. transactional relationships
+- The maturity paradox: mature partners seek deep partnership
+- Five common failure modes and how to avoid them
+- Portfolio diagnostics and value-add assessment
+
 ## About
 
 These articles emerge from real-world experience leading organizational transformation initiatives, building enabling teams, and implementing sustainable change in software engineering organizations. The frameworks presented here serve as both diagnostic tools for advising leaders and practical checklists for executing transformation work.

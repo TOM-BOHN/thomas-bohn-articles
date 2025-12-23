@@ -20,7 +20,11 @@ Less mature business partners don't know to ask for this. They come with surface
 
 This framework helps you diagnose where your business partners are in their analytics maturity, recognize whether they're asking for partnership or just execution, and position yourself strategically. With mature partners, lean into the transformation and innovation work they're requesting. With less mature partners, educate them on why partnership delivers more value than transactional delivery. The goal is to spend as much time as possible in transformation and innovation work—where you add the most value and build the strongest relationships—and as little time as possible in pure delivery mode, where you're most easily replaced.
 
+The framework is visualized in the diagram below, showing how the three pathways differ in their sequence and complexity, and how they're all supported by common foundations.
+
 ![The Digital Transformation Framework](images/the_digital_transformation_framework/the_digital_transformation_framework.png)
+
+As shown in the diagram, the **Transformation** pathway includes the full sequence of Strategy and Planning, Business Requirements Gathering, Ideation, Iteration and Definition, and Development and Productionalization. The **Innovation** pathway streamlines this by removing the Iteration and Definition phase, while the **Delivery** pathway moves directly from requirements to development. All three pathways are supported by Business Analytics Process, Methodology, and Frameworks; Documentation; and Analytics and Process Tools.
 
 ## Understanding the Three Levels of Business Partner Maturity
 
