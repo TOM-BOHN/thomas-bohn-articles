@@ -38,6 +38,18 @@ A diagnostic tool for understanding business partner maturity and building strat
 - Five common failure modes and how to avoid them
 - Portfolio diagnostics and value-add assessment
 
+### [The Realms of Projects Framework](the_realms_of_projects_framework.md)
+
+A diagnostic tool for understanding what type of work you're being asked to do and whether it fits your team's charter and capabilities. This framework helps Centers of Excellence and specialized teams categorize work into three realms and nine project types, each requiring fundamentally different execution approaches. It provides clarity on boundaries, helps teams say no professionally, and prevents burnout from misaligned work.
+
+**Key Topics:**
+- Three project realms: Services and Success, Digital Transformation, Strategy and Planning
+- Nine distinct project types with specific business needs and execution approaches
+- Color-coded fit assessment (red/orange/yellow/green)
+- Diagnostic questions for unbundling complex requests
+- Five common failure patterns teams encounter
+- Daily usage for receiving requests, planning work, and evaluating teams
+
 ## About
 
 These articles emerge from real-world experience leading organizational transformation initiatives, building enabling teams, and implementing sustainable change in software engineering organizations. The frameworks presented here serve as both diagnostic tools for advising leaders and practical checklists for executing transformation work.
