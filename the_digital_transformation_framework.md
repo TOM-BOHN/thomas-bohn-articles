@@ -108,6 +108,10 @@ The framework isn't just about categorizing work—it's about understanding how 
 
 Every analytics request has two layers: what the business partner is asking for (the surface request) and what they actually need (the underlying objective). The difference between being a strategic partner and an order-taker is whether you dig deeper to understand that second layer.
 
+Think of it like an iceberg—the surface request is just the visible tip, while the real needs lie hidden beneath the surface.
+
+![The Art of Understanding Needs vs Requests](images/the_digital_transformation_framework/the_art_of_understanding_needs_vs_requests.png)
+
 **Surface request:** "Build me a customer churn dashboard."
 
 **What they might actually need:** A way to identify at-risk customers early enough to intervene, integrated into their customer success team's workflow, with clear action triggers and ownership.
@@ -120,7 +124,9 @@ But even in delivery-oriented work with mature partners, there's value in diggin
 
 ### The Relationship Spectrum: From Transactional to Strategic
 
-Your relationship with business partners exists on a spectrum:
+Your relationship with business partners exists on a spectrum, with each maturity level corresponding to a different type of relationship and level of partnership.
+
+![The Relationship Spectrum](images/the_digital_transformation_framework/the_relationship_spectrum.png)
 
 **Transactional relationship (Delivery):** Business partner sends specifications, you build to spec, you deliver. Minimal interaction, no collaboration, no shared discovery. You're a vendor.
 
@@ -289,6 +295,8 @@ Your analytics portfolio should reflect a healthy balance across the maturity sp
 **The diagnostic question:** What percentage of your portfolio is transformation vs. innovation vs. delivery? If you're heavily weighted toward delivery, you're in danger. You're not building strategic relationships, you're not adding significant value beyond execution, and you're replaceable.
 
 **The maturity paradox reconsidered:** Many analytics teams assume that as business partners become more data-literate and analytically mature, more work naturally shifts toward delivery. But this is a misconception. **Truly mature business partners understand the value of partnership and actively seek transformation and innovation work**. They want your expertise in ideation and experimentation. They know they need your technical skills to iterate on ideas and discover the right solutions.
+
+`![The Maturity Paradox Reconsidered](images/the_digital_transformation_framework/the_maturity_paradox_reconsidered.png)
 
 If you're working with supposedly "mature" business partners but all your work is delivery-focused, one of two things is happening:
 
