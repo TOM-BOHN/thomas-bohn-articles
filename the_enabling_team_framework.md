@@ -149,3 +149,7 @@ Ask the hard questions: Have we established policy that explains why this matter
 The framework won't guarantee success, but it will reveal the gaps that predict failure. And by systematically addressing each element in the right order, you dramatically increase the likelihood that your capability transformation will stick—that teams will adopt it, sustain it, and ultimately make it part of how the organization naturally operates.
 
 That's the difference between another failed initiative and lasting organizational change.
+
+## References
+
+Skelton, M., & Pais, M. (2019). *Team Topologies: Organizing Business and Technology Teams for Fast Flow*. IT Revolution Press.
