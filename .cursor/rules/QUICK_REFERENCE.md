@@ -198,6 +198,27 @@ Before publishing, verify:
 6. **Sequence Matters** - Make dependencies explicit
 7. **Measurement Enables Management** - Include success criteria
 
+## Commit Message Quick Format
+
+```
+[Type]: Brief description (50 chars or less)
+
+Detailed explanation of what changed and why.
+Include context, motivation, and impact.
+```
+
+**Types:** New, Update, Fix, Polish, Docs, Structure, Images, Rules
+
+**Example:**
+```
+Update: Expand gap analysis in Enabling Team Framework
+
+Added three additional gap examples with concrete scenarios to help 
+readers diagnose common failure modes.
+
+Impact: Readers can now identify 5 distinct failure modes.
+```
+
 ## When to Use Which Rule
 
 **Voice and Style** - Reference when:
@@ -222,7 +243,13 @@ Before publishing, verify:
 - Planning content creation
 - Editing existing articles
 - Maintaining the repository
-- Managing version control
+- Managing files and images
+
+**Release Engineering** - Reference when:
+- Writing commit messages
+- Creating branches or PRs
+- Version tagging
+- Git operations
 
 ## Getting Help
 

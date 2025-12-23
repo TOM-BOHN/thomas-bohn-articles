@@ -40,12 +40,13 @@ Every framework must include:
 
 ## Specialized Rules Available
 
-Four detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
+Five detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
 
 1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
 2. **framework-development-standards** - Framework creation requirements
 3. **article-structure-and-quality** - 8-part structure, quality standards
 4. **content-workflow-and-process** - Creation and editing workflows
+5. **release-engineering-and-version-control** - Git practices, commit messages, versioning
 
 ## Key Patterns
 

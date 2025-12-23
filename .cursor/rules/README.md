@@ -21,6 +21,7 @@ This repository uses **modern Cursor Project Rules** with intelligent applicatio
 | `framework-development-standards` | Framework, model, structure, elements, gap analysis | 324 |
 | `article-structure-and-quality` | Structure, organization, sections, outline, format | 464 |
 | `content-workflow-and-process` | Workflow, process, phases, steps, maintenance | 632 |
+| `release-engineering-and-version-control` | Commit, git, version, commit message, changelog | 177 |
 
 ## How Intelligent Application Works
 
@@ -134,13 +135,23 @@ AGENTS.md                                       # Core context (always loaded)
 - Quality review
 
 ### content-workflow-and-process
-**Triggers on:** workflow, process, phases, steps, research, outline, draft, revision, polish, review, editing, extending, repository, maintenance, file naming, images, version control, best practices
+**Triggers on:** workflow, process, phases, steps, research, outline, draft, revision, polish, review, editing, extending, repository, maintenance, file naming, images, best practices
 
 **Use when:**
 - Planning content creation
 - Following editing process
 - Repository maintenance
 - File management questions
+
+### release-engineering-and-version-control
+**Triggers on:** commit, git, version, release, changelog, merge, branch, pull request, PR, staging, deployment, version control, commit message, git history
+
+**Use when:**
+- Writing commit messages
+- Creating branches or PRs
+- Version tagging or releases
+- Git operations and troubleshooting
+- Maintaining CHANGELOG
 
 ## Benefits
 
