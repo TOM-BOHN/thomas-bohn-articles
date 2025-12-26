@@ -68,6 +68,17 @@ A diagnostic tool for understanding what type of work you're being asked to do a
 
 These articles emerge from real-world experience leading organizational transformation initiatives, building enabling teams, and implementing sustainable change in software engineering organizations. The frameworks presented here serve as both diagnostic tools for advising leaders and practical checklists for executing transformation work.
 
+## Development Environment
+
+These articles were created using spec-driven development principles with:
+- **Version Control**: Git for change management and collaboration
+- **AI Assistance**: Cursor IDE (as of Dec 2025) for agentic development
+- **Specifications**: Machine-readable rules in `.cursor/rules/` that guide both humans and agents
+- **Validation**: Checklists in `.cursor/checklists/` for quality gates and workflow guidance
+- **Templates**: Starting points in `.cursor/templates/` for common content patterns
+
+The approach is tool-agnostic—any AI-powered development environment with file access and custom instructions can follow these patterns. The principles of specification-driven writing, automated validation, and iterative refinement apply regardless of specific tooling.
+
 ## License
 
 All content © Thomas Bohn. All rights reserved.
