@@ -187,15 +187,15 @@ Consider the validation of a framework article. Structural validation confirms a
 
 **Iteration** is the process of continuously improving both the content you create and the specifications that guide creation. This is where learning happens and the system gets better over time.
 
-Iteration operates at two levels:
+Iteration operates through four interconnected practices:
 
 **Content Iteration**: Refining individual articles based on validation feedback, reader response, and evolving understanding. When validation reveals gaps, you iterate on the content. When readers provide feedback, you iterate to address their needs. When you gain new insights about the framework, you iterate to incorporate them.
 
 **Process Iteration**: Improving the specifications, development process, and validation approaches based on what you learn from creating content. When you discover a common quality issue, you update specifications to address it. When you find a development technique that works well, you codify it in the process. When you identify a validation check that catches important issues, you add it to the checklist.
 
-This is where **Session Reflection** becomes critical. After completing major work, you capture learnings in the `plans/` directory (working memory). You document what worked, what didn't, voice patterns discovered, process improvements identified, and quality issues found. These reflections are temporary. Once you've integrated learnings into rules, templates, or checklists (long-term memory), you delete the reflection. This creates a continuous improvement loop: experience → reflection → codification → better specifications → better content.
+**Session Reflection**: After completing major work, you capture learnings in the `plans/` directory (working memory). You document what worked, what didn't, voice patterns discovered, process improvements identified, and quality issues found. These reflections are temporary. Once you've integrated learnings into rules, templates, or checklists (long-term memory), you delete the reflection. This creates a continuous improvement loop: experience → reflection → codification → better specifications → better content.
 
-The power of iteration is that it creates a virtuous cycle. Better specifications lead to better content. Experience creating content reveals how to improve specifications. Validation identifies patterns that inform both content and process improvements. Over time, the entire system becomes more effective.
+**Compounding Knowledge**: Each article you create improves the next. Your growing reference library provides examples of voice, structure, and framework patterns. Previous whitepapers inform new ones. The specifications get sharper. The validation gets more comprehensive. The development process gets more efficient. Over time, the entire system becomes more effective at transforming expertise into documented frameworks.
 
 **Content Iteration Patterns:**
 
