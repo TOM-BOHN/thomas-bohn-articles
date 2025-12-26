@@ -4,6 +4,20 @@ A collection of whitepapers and articles on software engineering leadership, org
 
 ## Articles
 
+### [The Spec-Driven Writing Framework](the_spec_driven_writing_framework.md)
+
+An approach to creating technical content by treating writing as software engineering. Not metaphorically, but literally. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing. It emerged from a personal challenge: frameworks existed in fragments (diagrams, drafts, presentations, voice notes) but couldn't be turned into comprehensive whitepapers fast enough.
+
+**Key Topics:**
+- Treating whitepapers as code: GitHub for version control, Cursor for diff reviews, git for change management
+- Starting with artifacts (diagrams, drafts, presentations) and shaping them with AI agents
+- Machine-readable specifications in `.cursor/rules/` that guide both humans and agents
+- Four core components: Specification, Development, Validation, Iteration
+- Previous whitepapers as reference library that compounds quality over time
+- Automated validation against objective standards, not subjective judgment
+- Result: weeks per article to hours while maintaining quality
+- Proving that technical writing IS software engineering when you apply the same discipline and tools
+
 ### [The Enabling Team Framework](the_enabling_team_framework.md)
 
 A structured approach for how enabling teams should think about, organize, and deliver capability transformation work across an organization. This framework provides the practical "how" for enabling teams—breaking down complex capability uplift into clear roles, sequential elements, delivery modes, and work types.
