@@ -49,15 +49,17 @@ The framework's power lies in its ability to separate concerns and enable collab
 
 By treating technical writing as spec-driven agentic product development, I've achieved what traditional approaches couldn't: I can create detailed framework articles in hours instead of weeks, maintain consistent quality across all content, and continuously improve the process over time. I'm not just writing articles. I've built a scalable writer's room that turns my expertise into documented frameworks at the speed of thought.
 
-![The Spec-Driven Writing Framework](images/the_spec_driven_writing_framework/the_spec_driven_writing_framework.png)
+![The Spec-Driven Writing Framework Overview](images/the_spec_driven_writing_framework/overview.svg)
 
-As shown in the diagram, the framework consists of four primary components: **Specification**, **Development**, **Validation**, and **Iteration**. Each contains specific elements that work together to create a repeatable content development process.
+The framework consists of four primary components that flow sequentially, with iteration creating feedback loops back to development and specification. Each component plays a distinct role in transforming expertise into documented frameworks.
 
 ## Understanding the Four Core Components
 
 The framework distinguishes four fundamentally different phases of the content development process, each requiring different mindsets, tools, and approaches.
 
 ### Specification: Defining Excellence Before You Build
+
+![Specification Component](images/the_spec_driven_writing_framework/specification.svg)
 
 **Specification** is the process of explicitly defining what excellent content looks like before you start creating it. This includes codifying the structure, voice, quality standards, and framework requirements that make technical content useful and impactful.
 
@@ -97,6 +99,8 @@ Consider a team trying to document their organizational frameworks. Without spec
 
 ### Development: Transforming Expertise into Specified Content with Agentic Collaboration
 
+![Development Component](images/the_spec_driven_writing_framework/development.svg)
+
 **Development** is the process of taking expertise (mental models, frameworks, patterns observed in practice) and transforming it into content that meets the established specifications. This is where tacit knowledge becomes explicit, where experience becomes transferable frameworks. In the spec-driven approach, this phase becomes a collaboration between you and AI agents in a writer's room.
 
 The development phase follows a structured 9-phase workflow that mirrors agentic software development practices:
@@ -128,6 +132,8 @@ This approach has several advantages. First, it removes ambiguity about what "do
 **The writer's room in action:** Consider the development of this very article. I started by describing my frustration with scaling framework documentation and my "what if" moment about applying agentic development to writing. The agent, with specifications loaded and four previous whitepapers as reference, helped structure this into the opening hook following the pattern recognition language established in my earlier work. As I explained the four core components (Specification, Development, Validation, Iteration), the agent drafted sections following the 8-part structure, ensuring each element was defined clearly in a voice consistent with my previous articles. When I shared examples of failure modes, the agent formatted them according to the gap analysis template I'd used successfully before. The agent created the Mermaid diagram from my description of the framework's structure and converted it to PNG. Throughout, the agent validated against specifications and referenced my previous whitepapers, flagging when sections were missing or when voice drifted from the personal, experiential tone established across my body of work. The development process wasn't "write until it feels done." It was a collaborative dialogue where I provided expertise and the agent ensured it met specifications while maintaining consistency with my established style.
 
 ### Validation: Ensuring Content Meets Specifications
+
+![Validation Component](images/the_spec_driven_writing_framework/validation.svg)
 
 **Validation** is the process of checking whether developed content meets the established specifications. This is where you verify quality, completeness, and consistency before publication.
 
@@ -176,6 +182,8 @@ The detailed rules serve as the foundation. The checklists provide milestone-bas
 Consider the validation of a framework article. Structural validation confirms all 8 sections are present and properly formatted. Content validation verifies that the framework includes origin story, element definitions, gap analysis, and measurement. Voice validation checks for personal narrative, pattern recognition language, and problem-focused opening. Quality validation ensures clarity, evidence-based claims, and practical value. Technical validation confirms correct file naming, image paths, and links. Only when all validations pass is the content ready for publication.
 
 ### Iteration: Continuous Improvement of Content and Process
+
+![Iteration Component](images/the_spec_driven_writing_framework/iteration.svg)
 
 **Iteration** is the process of continuously improving both the content you create and the specifications that guide creation. This is where learning happens and the system gets better over time.
 

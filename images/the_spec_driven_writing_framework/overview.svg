@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="200" viewBox="0 0 1400 200">
+  <!-- Box 1: Specification -->
+  <rect x="20" y="40" width="250" height="120" fill="#e1f5ff" stroke="#0066cc" stroke-width="4" rx="8"/>
+  <text x="145" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#000">1. SPECIFICATION</text>
+  <text x="145" y="110" text-anchor="middle" font-family="Arial" font-size="16" fill="#000">Define Excellence</text>
+  
+  <!-- Arrow 1 -->
+  <text x="290" y="110" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#333">→</text>
+  
+  <!-- Box 2: Development -->
+  <rect x="330" y="40" width="250" height="120" fill="#fff4e1" stroke="#cc6600" stroke-width="4" rx="8"/>
+  <text x="455" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#000">2. DEVELOPMENT</text>
+  <text x="455" y="110" text-anchor="middle" font-family="Arial" font-size="16" fill="#000">Create Content</text>
+  
+  <!-- Arrow 2 -->
+  <text x="600" y="110" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#333">→</text>
+  
+  <!-- Box 3: Validation -->
+  <rect x="640" y="40" width="250" height="120" fill="#e8f5e9" stroke="#2e7d32" stroke-width="4" rx="8"/>
+  <text x="765" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#000">3. VALIDATION</text>
+  <text x="765" y="110" text-anchor="middle" font-family="Arial" font-size="16" fill="#000">Check Quality</text>
+  
+  <!-- Arrow 3 -->
+  <text x="910" y="110" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#333">→</text>
+  
+  <!-- Box 4: Iteration -->
+  <rect x="950" y="40" width="250" height="120" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="1075" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#000">4. ITERATION</text>
+  <text x="1075" y="110" text-anchor="middle" font-family="Arial" font-size="16" fill="#000">Improve System</text>
+  
+  <!-- Feedback arrows (dotted lines) -->
+  <path d="M 1075 165 Q 765 185 455 165" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="765" y="195" text-anchor="middle" font-family="Arial" font-size="14" fill="#999">↻ Refines Content | Updates Standards</text>
+</svg>
