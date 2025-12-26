@@ -2,25 +2,27 @@
 
 ## LinkedIn Post
 
-I had frameworks trapped in fragments: diagrams from presentations, rough drafts, voice recordings. But I couldn't turn them into comprehensive whitepapers fast enough. Each took weeks. I was limited by time.
+I had frameworks trapped in fragments: diagrams from presentations, rough drafts, voice notes. But I couldn't turn them into comprehensive whitepapers fast enough. Each took weeks. I was limited by time.
 
-Then I asked: "What if I treated technical writing exactly like software engineering?"
+Then I asked: "What if I treated writing whitepapers exactly like software engineering?"
 
 **The Spec-Driven Writing Framework: Building a Writer's Room with Agentic Workflows**
 
-An approach to creating technical content by treating writing as software engineering—literally. Using GitHub, Cursor, git, AI agents, and machine-readable specifications to transform artifacts into whitepapers.
+An approach to creating technical content by treating writing as software engineering. Not metaphorically, but literally. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing.
 
-Key insights:
-• Start with artifacts (diagrams, drafts, presentations, voice notes)—don't write from scratch
-• Use machine-readable specifications to define excellence and guide AI agents
-• Treat whitepapers as code: version control, diff reviews, automated validation, continuous integration
-• Each whitepaper becomes reference for the next—compounding quality over time
+The system:
+• GitHub for version control and codebase management
+• Cursor (VS Code) for diff reviews and editing
+• Machine-readable specifications in `.cursor/rules/` that guide both humans and agents
+• 6 detailed rules, 8 checklists, 9-phase workflow
+• Previous whitepapers as reference library that compounds quality over time
+• AI agents as collaborators in a writer's room
 
-Result: Weeks per article to hours. Consistent quality. The practice became sticky because friction dropped to near zero.
+The result: weeks per article to hours while maintaining quality. The specifications made the practice sticky—I do it now because the friction is so low.
 
-This article itself was created through the process: collaboration between my expertise and an agent, all managed through git. The commit history shows the evolution. The diffs show the refinements.
+This challenges the boundary of what we consider "software." If content is stored as markdown in a git repository, validated against specifications, reviewed through diffs, and collaboratively developed with agents, is it really different from software?
 
-If you have frameworks in fragments and limited time, maybe it's time to treat writing like code.
+The answer is no. Technical writing IS software engineering when you apply the same discipline, tools, and practices.
 
 Read the full framework: [LINK]
 
@@ -41,8 +43,14 @@ Read the full framework: [LINK]
 4. Knowledge Management
 5. Framework
 
-**Featured Image:** `images/the_spec_driven_writing_framework/the_spec_driven_writing_framework.png`
+**Featured Image:** `images/the_spec_driven_writing_framework/overview.svg`
 
 **Description for Medium:**
-A systematic approach to creating technical content by treating writing as software engineering. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing. It starts with existing artifacts (diagrams, drafts, presentations, voice notes) and uses AI agents collaborating within machine-readable specifications to shape them into comprehensive whitepapers. Includes four core components (Specification, Development, Validation, Iteration), five common failure modes, measurement approaches, and practical implementation steps. Demonstrates how GitHub, Cursor, git, and AI agents can transform the writing process from weeks to hours while maintaining quality. Based on experience documenting organizational frameworks and proving that technical writing IS software engineering when you apply the same discipline and tools.
+An approach to creating technical content by treating writing as software engineering. Not metaphorically, but literally. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing. It emerged from a personal challenge: frameworks existed in fragments (diagrams, drafts, presentations, voice notes) but couldn't be turned into comprehensive whitepapers fast enough.
+
+The system uses GitHub for version control, Cursor for diff reviews, machine-readable specifications in `.cursor/rules/`, and AI agents as collaborators in a writer's room. The framework consists of four core components (Specification, Development, Validation, Iteration) with 6 detailed rules, 8 checklists, and a 9-phase workflow. Previous whitepapers become reference material that compounds quality over time.
+
+Result: weeks per article to hours while maintaining quality. The specifications made the practice sticky by lowering the cost to conform. This article itself was created through the process, proving that when you apply the same discipline, tools, and practices, technical writing IS software engineering.
+
+Includes five common failure modes, measurement approaches, and practical steps for building your own writer's room.
 
