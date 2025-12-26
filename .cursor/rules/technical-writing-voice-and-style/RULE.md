@@ -211,6 +211,22 @@ Use transition phrases to guide readers:
 - Example of what NOT to do: "a writer's room—not a physical room, but a system"
 - Instead write: "a writer's room (not a physical room, but a system)" or break into two sentences
 
+### No Weak Intensifiers
+- Don't use "literally" as emphasis when stating facts
+- Don't use "actually" to strengthen claims
+- Let direct statements stand on their own
+- Use structural emphasis (bold, repetition, positioning) instead
+
+**Examples:**
+- ❌ "I literally use GitHub for version control"
+- ✅ "I use GitHub for version control"
+- ❌ "This is literally a GitHub repository"
+- ✅ "This is a GitHub repository"
+- ❌ "Writing is actually software engineering"
+- ✅ "Writing IS software engineering"
+
+**When stating facts, state them directly.** The word "literally" suggests you expect disbelief, which undermines your authority.
+
 ## Key Principles
 
 1. **Personal Experience Builds Trust**: Use first-person narrative to establish credibility

@@ -21,6 +21,7 @@ Use this checklist to ensure content matches the author's voice and style standa
 ## Prohibited Elements
 
 - [ ] No em dashes (—) anywhere in content
+- [ ] No weak intensifiers ("literally," "actually" when stating facts)
 - [ ] No corporate jargon (check for: "diagnostic tools for organizational transformation," "synergy," "leverage," "utilize")
 - [ ] No overuse of vague academic words (check for: "systematic," "comprehensive," "holistic")
 - [ ] No passive voice overuse
@@ -56,6 +57,9 @@ Use this checklist to ensure content matches the author's voice and style standa
 # Check for em dashes
 grep -n "—" [article_name].md
 
+# Check for weak intensifiers
+grep -ni "literally\|actually" [article_name].md
+
 # Check for corporate jargon
 grep -ni "diagnostic tools for organizational transformation\|synergy\|leverage\|utilize\|holistic approach" [article_name].md
 
@@ -76,6 +80,9 @@ grep -ni "imagine\|one might\|you could" [article_name].md
 
 ### Issue: Weak Emphasis
 **Fix:** State directly, not hypothetically. "Writing IS software engineering" not "writing is like software engineering"
+
+### Issue: Weak Intensifiers ("literally," "actually")
+**Fix:** Remove the intensifier and state the fact directly. "I use GitHub" not "I literally use GitHub"
 
 ### Issue: Corporate Jargon Detected
 **Fix:** Replace with plain language (use specific, direct terms instead of buzzwords)

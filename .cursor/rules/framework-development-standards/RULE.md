@@ -329,9 +329,17 @@ If creating a measurement framework:
 - Emphasize with structure (headings, sections)
 
 **Example patterns:**
-- "This isn't a metaphor. It's literal."
+- "This isn't a metaphor. This is X."
 - "Not 'like' X, but actually IS X"
 - Repeat key phrases for emphasis
+
+**Avoid weak intensifiers:**
+- ❌ "I literally use the same tools" (weak emphasis)
+- ✅ "I use the same tools" (direct statement)
+- ❌ "It's literally a GitHub repository" (unnecessary)
+- ✅ "It's a GitHub repository" (clear fact)
+
+**When to emphasize:** Use structural emphasis (bold, repetition, positioning) rather than word-level intensifiers like "literally" or "actually" that weaken rather than strengthen claims.
 
 ## Quality Checklist for Frameworks
 
