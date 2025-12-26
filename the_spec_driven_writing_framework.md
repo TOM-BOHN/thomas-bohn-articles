@@ -240,16 +240,6 @@ This loop is critical for quality. First drafts rarely meet all specifications. 
 
 At a higher level, there's a meta-loop where creating content improves the process, which improves future content. Each article you create teaches you something about the specifications, development process, or validation approach. These learnings feed back into improving the system. Better specifications make development easier. Better validation catches issues earlier. Better process guidance helps writers create higher quality content faster.
 
-### What Happens When You Violate the Sequence
-
-**Developing without specifications**: You create content based on intuition and experience, but you have no objective criteria for quality or completeness. Different writers produce inconsistent content. You can't tell when you're done. Quality is subjective and variable.
-
-**Validating without specifications**: You try to review content but have no clear standards to check against. Review becomes subjective opinion rather than objective assessment. Feedback is vague and inconsistent.
-
-**Iterating without validation**: You make changes without knowing what needs improvement. You're guessing rather than addressing identified gaps. Iteration doesn't improve quality.
-
-**Skipping iteration**: You publish content without learning from the experience. The same quality issues appear in future content. The process doesn't improve. Specifications don't evolve to address real-world challenges.
-
 The sequence ensures that each phase builds on the previous one and informs the next. Specifications guide development. Development produces content for validation. Validation identifies improvements for iteration. Iteration enhances both content and process. The system continuously improves.
 
 ## Common Failure Modes: When Knowledge Transfer Breaks Down
