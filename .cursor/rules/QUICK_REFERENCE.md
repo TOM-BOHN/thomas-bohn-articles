@@ -91,32 +91,47 @@ The framework's power lies in making these gaps visible.
 - Identify target audience pain points
 - Gather examples from experience
 
-### Phase 2: Outline (30-60 min)
+### Phase 2: Gather Artifacts (30-60 min)
+- Collect diagrams, drafts, presentations
+- Use previous whitepapers as reference
+- Start with existing materials, not blank page
+
+### Phase 3: Outline (30-60 min)
 - Use 8-part structure template
 - Write topic sentences for each section
 - Identify where examples/diagrams needed
 
-### Phase 3: Draft (3-6 hours)
+### Phase 4: Draft (3-6 hours)
 - Write from outline
 - Focus on getting ideas down
 - Include concrete examples
 - Don't stop to edit
 
-### Phase 4: Revision (1-2 hours)
+### Phase 5: Revision (1-2 hours)
 - Read full draft without editing first
 - Revise for clarity
 - Check terminology consistency
 - Ensure logical flow
 - Cut unnecessary content
 
-### Phase 5: Polish (30-45 min)
+### Phase 6: Condensing (30-60 min, if needed)
+- Remove less important sections
+- Cut entire ideas, not just words
+- Maintain voice and style
+
+### Phase 7: Polish (30-45 min)
 - Verify heading hierarchy
 - Check image paths and alt text
 - Ensure parallel structure in lists
 - Verify references cited properly
 - Confirm file naming conventions
 
-### Phase 6: Final Review (20-30 min)
+### Phase 8: Template Validation (10-15 min)
+- Validate against marketing post template
+- Validate against article header template
+- Check README updated
+
+### Phase 9: Final Review (20-30 min)
 - Read aloud (or use text-to-speech)
 - Verify voice is personal and experiential
 - Confirm tone is conversational yet professional
@@ -250,6 +265,12 @@ Impact: Readers can now identify 5 distinct failure modes.
 - Creating branches or PRs
 - Version tagging
 - Git operations
+
+**Session Reflection** - Reference when:
+- Completing major work items
+- End of work sessions
+- Capturing learnings
+- Improving processes and rules
 
 ## Getting Help
 

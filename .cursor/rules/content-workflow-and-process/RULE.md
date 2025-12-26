@@ -150,7 +150,7 @@ Follow this 9-phase process when creating new articles or frameworks:
 
 **Deliverable:** Revised draft with improved clarity and flow
 
-**Revision Checklist:** See [Content Creation Workflow Checklist - Phase 4](../../checklists/content-creation-workflow-checklist.md#phase-4-revision-focus-on-clarity)
+**Revision Checklist:** See [Content Creation Workflow Checklist - Phase 5](../../checklists/content-creation-workflow-checklist.md#phase-5-revision-focus-on-clarity)
 
 **Common Issues to Fix:**
 - Passive voice overuse
@@ -213,7 +213,7 @@ Follow this 9-phase process when creating new articles or frameworks:
 
 **Deliverable:** Polished article ready for final review
 
-**Technical Checklist:** See [Content Creation Workflow Checklist - Phase 5](../../checklists/content-creation-workflow-checklist.md#phase-5-polish-focus-on-details)
+**Technical Checklist:** See [Content Creation Workflow Checklist - Phase 7](../../checklists/content-creation-workflow-checklist.md#phase-7-polish-focus-on-details)
 
 **Time Investment:** 30-45 minutes
 
@@ -248,7 +248,7 @@ Follow this 9-phase process when creating new articles or frameworks:
 
 **Deliverable:** Publication-ready article
 
-**Final Quality Check:** See [Content Creation Workflow Checklist - Phase 6](../../checklists/content-creation-workflow-checklist.md#phase-6-final-review-read-aloud)
+**Final Quality Check:** See [Content Creation Workflow Checklist - Phase 9](../../checklists/content-creation-workflow-checklist.md#phase-9-final-review-read-aloud)
 
 **Time Investment:** 20-30 minutes
 

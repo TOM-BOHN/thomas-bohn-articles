@@ -54,7 +54,7 @@ plans/                                 # Working memory (NOT committed to remote
 ### For Writing New Content
 1. Review `AGENTS.md` in project root for core principles
 2. Use `templates/article-header-template.md` for article structure
-3. Follow `checklists/content-creation-workflow-checklist.md` through each phase
+3. Follow `checklists/content-creation-workflow-checklist.md` through all 9 phases
 4. Let Cursor's AI automatically load relevant rules based on your task
 5. Use `checklists/pre-publication-checklist.md` before publishing
 
@@ -105,12 +105,14 @@ Copy template content and fill in your specific details.
 
 ### Checklists (Milestone-Based Workflows)
 Checklists are organized by workflow milestones, not topics:
-- **Content Creation Workflow**: Complete workflow for new articles (6 phases)
+- **Content Creation Workflow**: Complete workflow for new articles (9 phases)
 - **Editing Workflow**: Complete workflow for editing existing content (5 phases)
 - **Framework Extension Workflow**: Complete workflow for extending frameworks (5 phases)
 - **Pre-Publication Checklist**: Final comprehensive quality gate
 - **Framework Quality Checklist**: Framework-specific requirements
 - **Pre-Commit Validation**: Technical validation before committing
+- **Condensing Content Checklist**: Guidance for reducing article length
+- **Voice Validation Checklist**: Voice and style validation
 
 See `checklists/README.md` for complete organization and usage guide.
 
@@ -136,12 +138,15 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 ### Creating New Framework Article
 1. Start with artifacts (diagram, rough draft, presentation, voice notes)
 2. Follow `checklists/content-creation-workflow-checklist.md`:
-   - Phase 1: Before Starting (research and preparation)
-   - Phase 2: Before Drafting (create detailed outline)
-   - Phase 3: Draft (focus on content)
-   - Phase 4: Revision (focus on clarity)
-   - Phase 5: Polish (focus on details)
-   - Phase 6: Final Review (read aloud)
+   - Phase 1: Research (understand repository standards)
+   - Phase 2: Gather Artifacts (start with existing materials)
+   - Phase 3: Outline (create detailed structure)
+   - Phase 4: Draft (focus on content)
+   - Phase 5: Revision (focus on clarity)
+   - Phase 6: Condensing (reduce length if needed)
+   - Phase 7: Polish (focus on details)
+   - Phase 8: Template Validation (match templates exactly)
+   - Phase 9: Final Review (read aloud)
 3. Use `article-header-template.md` for structure
 4. Let AI load relevant rules automatically
 5. Create Mermaid diagram (.mmd) and generate PNG

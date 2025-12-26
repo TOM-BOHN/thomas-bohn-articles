@@ -17,11 +17,12 @@ This repository uses **modern Cursor Project Rules** with intelligent applicatio
 
 | Rule | When Applied | Lines |
 |------|--------------|-------|
-| `technical-writing-voice-and-style` | Writing, editing, voice, tone, style, language | 230 |
-| `framework-development-standards` | Framework, model, structure, elements, gap analysis | 324 |
-| `article-structure-and-quality` | Structure, organization, sections, outline, format | 464 |
-| `content-workflow-and-process` | Workflow, process, phases, steps, maintenance | 632 |
-| `release-engineering-and-version-control` | Commit, git, version, commit message, changelog | 177 |
+| `technical-writing-voice-and-style` | Writing, editing, voice, tone, style, language | 238 |
+| `framework-development-standards` | Framework, model, structure, elements, gap analysis | 355 |
+| `article-structure-and-quality` | Structure, organization, sections, outline, format | 518 |
+| `content-workflow-and-process` | Workflow, process, phases, steps, maintenance | 688 |
+| `release-engineering-and-version-control` | Commit, git, version, commit message, changelog | 165 |
+| `session-reflection-and-improvement` | Reflection, retrospective, improvement, learnings | 117 |
 
 ## How Intelligent Application Works
 
@@ -152,6 +153,16 @@ AGENTS.md                                       # Core context (always loaded)
 - Version tagging or releases
 - Git operations and troubleshooting
 - Maintaining CHANGELOG
+
+### session-reflection-and-improvement
+**Triggers on:** reflection, retrospective, improvement, learnings, process, quality, voice, patterns, session end, wrap up, review, what worked, what didn't
+
+**Use when:**
+- Completing major work items
+- End of work sessions
+- Capturing learnings
+- Improving processes and rules
+- Updating templates and checklists
 
 ## Benefits
 

@@ -1,6 +1,6 @@
 # How the Rules Work Together
 
-This document explains how the four technical writing rules complement each other and work as a system.
+This document explains how the six technical writing rules complement each other and work as a system.
 
 ## Rule Relationships
 
@@ -8,7 +8,7 @@ This document explains how the four technical writing rules complement each othe
 ┌───────────────────────────────────────────────────────────────┐
 │                    AI ASSISTANCE SESSION                      │
 │                                                               │
-│  All four rules are automatically applied (alwaysApply: true) │
+│  Rules are intelligently applied based on context & keywords  │
 └───────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -59,9 +59,18 @@ This document explains how the four technical writing rules complement each othe
         └─────────────────────────────────────────┘
 ```
 
+## The Six Rules
+
+1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
+2. **framework-development-standards** - Framework creation requirements
+3. **article-structure-and-quality** - 8-part structure, quality standards
+4. **content-workflow-and-process** - Creation and editing workflows (9 phases)
+5. **release-engineering-and-version-control** - Git practices, commit messages
+6. **session-reflection-and-improvement** - Post-session reflection and continuous improvement
+
 ## Practical Example: Creating a New Framework Article
 
-Let's walk through how all four rules work together when creating a new framework article:
+Let's walk through how the rules work together when creating a new framework article:
 
 ### Phase 1: Research (Workflow Rule)
 **Workflow Rule says:** Spend 1-2 hours reading existing articles, gathering examples, understanding the problem
@@ -91,7 +100,7 @@ Let's walk through how all four rules work together when creating a new framewor
 
 **Voice and Style Rule guides:** Topic sentences should be conversational and problem-focused
 
-### Phase 3: Draft (Workflow Rule)
+### Phase 4: Draft (Workflow Rule)
 **Workflow Rule says:** Write 3-6 hours, focus on getting ideas down, don't stop to edit
 
 **Voice and Style Rule guides HOW to write:**
@@ -114,7 +123,7 @@ Let's walk through how all four rules work together when creating a new framewor
 - Provide 3-5 gap examples
 - Define measurement approach
 
-### Phase 4: Revision (Workflow Rule)
+### Phase 5: Revision (Workflow Rule)
 **Workflow Rule says:** Read full draft, revise for clarity, check consistency
 
 **Voice and Style Rule checks:**
@@ -133,7 +142,7 @@ Let's walk through how all four rules work together when creating a new framewor
 - Gap analysis with concrete examples?
 - Measurement approach defined?
 
-### Phase 5: Polish (Workflow Rule)
+### Phase 7: Polish (Workflow Rule)
 **Workflow Rule says:** Check formatting, references, image paths
 
 **Article Structure Rule provides:**
@@ -147,7 +156,7 @@ Let's walk through how all four rules work together when creating a new framewor
 - Image path conventions
 - Alt text standards
 
-### Phase 6: Final Review (Workflow Rule)
+### Phase 9: Final Review (Workflow Rule)
 **Workflow Rule says:** Read aloud, verify voice and tone
 
 **Voice and Style Rule confirms:**
@@ -303,21 +312,25 @@ What happens when rules seem to conflict?
 
 ## Key Takeaways
 
-1. **All rules are always active** - They work together automatically
+1. **Rules are intelligently applied** - AI loads relevant rules based on context and keywords
 2. **Rules complement, not compete** - Each has a distinct domain
-3. **Workflow orchestrates** - It determines when to apply what
+3. **Workflow orchestrates** - It determines when to apply what (9 phases)
 4. **Structure provides framework** - It determines what to include
 5. **Framework Development ensures completeness** - It determines requirements
 6. **Voice and Style guides execution** - It determines how to write
+7. **Release Engineering standardizes commits** - It ensures consistent git history
+8. **Session Reflection drives improvement** - It captures learnings and updates rules
 
 ## Mental Model
 
 Think of the rules as a team:
 
-- **Workflow Rule** = Project Manager (coordinates the process)
-- **Article Structure Rule** = Architect (designs the structure)
+- **Workflow Rule** = Project Manager (coordinates the 9-phase process)
+- **Article Structure Rule** = Architect (designs the 8-part structure)
 - **Framework Development Rule** = Quality Assurance (ensures completeness)
 - **Voice and Style Rule** = Editor (ensures consistent voice)
+- **Release Engineering Rule** = Version Control Specialist (manages git workflow)
+- **Session Reflection Rule** = Continuous Improvement Lead (captures learnings)
 
-All four work together to produce high-quality, consistent technical writing that helps leaders solve real problems with practical frameworks.
+All six work together to produce high-quality, consistent technical writing that helps leaders solve real problems with practical frameworks.
 

@@ -59,11 +59,11 @@ Three templates in `.cursor/templates/` provide starting points for common conte
 
 ## Checklists Available
 
-Six milestone-based checklists in `.cursor/checklists/` guide you through workflows:
+Eight milestone-based checklists in `.cursor/checklists/` guide you through workflows:
 
 ### Workflow Checklists
-1. **content-creation-workflow-checklist.md** - Complete workflow for new articles (6 phases)
-   - Phase 1: Before Starting, Phase 2: Before Drafting, Phase 4: Revision, Phase 5: Polish, Phase 6: Final Review
+1. **content-creation-workflow-checklist.md** - Complete workflow for new articles (9 phases)
+   - Phase 1: Research, Phase 2: Gather Artifacts, Phase 3: Outline, Phase 4: Draft, Phase 5: Revision, Phase 6: Condensing, Phase 7: Polish, Phase 8: Template Validation, Phase 9: Final Review
 2. **editing-workflow-checklist.md** - Complete workflow for editing existing content (5 phases)
    - Understand Intent → Identify Issues → Preserve Core → Enhance Selectively → Verify Consistency
 3. **framework-extension-checklist.md** - Complete workflow for extending frameworks (5 phases)
@@ -73,6 +73,10 @@ Six milestone-based checklists in `.cursor/checklists/` guide you through workfl
 4. **pre-publication-checklist.md** - Final comprehensive check before publishing (Structure, Quality, Formatting, Technical)
 5. **framework-quality-checklist.md** - Framework-specific requirements (Origin story, definitions, diagrams, gaps, measurement)
 6. **pre-commit-validation.md** - Technical validation before committing
+
+### Specialized Checklists
+7. **condensing-content-checklist.md** - Guidance for reducing article length while maintaining quality
+8. **voice-validation-checklist.md** - Voice and style validation before publication
 
 **See `.cursor/checklists/README.md` for complete organization guide.**
 

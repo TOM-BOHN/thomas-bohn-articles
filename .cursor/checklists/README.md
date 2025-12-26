@@ -10,11 +10,15 @@ This directory contains milestone-based checklists for content creation, editing
 
 ### Content Creation
 - **[content-creation-workflow-checklist.md](content-creation-workflow-checklist.md)** - Complete workflow for creating new articles
-  - Phase 1: Before Starting
-  - Phase 2: Before Drafting
-  - Phase 4: Revision (Focus on Clarity)
-  - Phase 5: Polish (Focus on Details)
-  - Phase 6: Final Review (Read Aloud)
+  - Phase 1: Research (Understand repository standards)
+  - Phase 2: Gather Artifacts (Start with existing materials)
+  - Phase 3: Outline (Create detailed structure)
+  - Phase 4: Draft (Focus on content)
+  - Phase 5: Revision (Focus on clarity)
+  - Phase 6: Condensing (Reduce length if needed)
+  - Phase 7: Polish (Focus on details)
+  - Phase 8: Template Validation (Match templates exactly)
+  - Phase 9: Final Review (Read aloud)
 
 ### Editing Existing Content
 - **[editing-workflow-checklist.md](editing-workflow-checklist.md)** - Complete workflow for editing existing articles
@@ -49,12 +53,17 @@ This directory contains milestone-based checklists for content creation, editing
 ### Development Process
 - **[pre-commit-validation.md](pre-commit-validation.md)** - Validation checks before committing code
 
+### Specialized Checklists
+- **[condensing-content-checklist.md](condensing-content-checklist.md)** - Guidance for reducing article length while maintaining quality
+- **[voice-validation-checklist.md](voice-validation-checklist.md)** - Voice and style validation before publication
+
 ## How to Use
 
 1. **During Work:** Use the workflow checklist for your current task (creation, editing, or extension)
-2. **Before Publishing:** Use the pre-publication checklist as your final gate
-3. **For Frameworks:** Also use the framework-quality-checklist
-4. **Before Committing:** Use pre-commit-validation for technical checks
+2. **When Condensing:** Use condensing-content-checklist if article is too long
+3. **Before Publishing:** Use pre-publication-checklist and voice-validation-checklist as final gates
+4. **For Frameworks:** Also use framework-quality-checklist
+5. **Before Committing:** Use pre-commit-validation for technical checks
 
 ## Design Philosophy
 
