@@ -17,6 +17,7 @@ Every framework must explain how it emerged from real-world observation and repe
 - Explain the pattern of failures you observed
 - Show how the framework crystallized from these observations
 - Establish that this is practice-derived, not theory-first
+- **Start with artifacts**: Emphasize if framework began with diagrams, presentations, or other materials
 
 **Example Pattern:**
 > Time and time again, I've used this framework to diagnose the gaps... The framework reveals the missing pieces with remarkable consistency: a team built sophisticated tooling without establishing clear policy...
@@ -26,6 +27,7 @@ Every framework must explain how it emerged from real-world observation and repe
 - Shows the framework solves real problems, not theoretical ones
 - Helps readers trust that this has been tested in practice
 - Differentiates from academic or purely theoretical frameworks
+- Demonstrates frameworks emerge from artifacts and observation, not blank-page theory
 
 ### 2. Clear Definitions
 Define each component of the framework explicitly with its own subsection.
@@ -292,23 +294,52 @@ If creating a measurement framework:
 - Explain data collection methods
 - Show how to interpret results
 
+## Language and Emphasis
+
+### Literal vs Metaphorical Language
+
+**Prefer literal descriptions over metaphorical ones:**
+
+✅ **Literal (Strong):**
+- "I use GitHub for version control"
+- "We run agents on markdown files"
+- "The team uses Mermaid to create diagrams"
+
+❌ **Metaphorical (Weak):**
+- "Imagine using GitHub for version control"
+- "One might run agents on markdown files"
+- "Think of it like using Mermaid"
+
+**When describing processes:**
+- Name specific tools and actions
+- Use first-person when appropriate ("I use," "We implement")
+- Avoid hypotheticals when you can state facts
+- If claiming "X is like Y," consider if it's actually "X IS Y"
+
+**Example:**
+- Weak: "Treating writing as software engineering"
+- Strong: "Writing IS software engineering when you use GitHub, Cursor, and git"
+
+### Emphasizing Core Thesis
+
+**Make your main argument clear and repeat it:**
+- State thesis clearly in introduction
+- Reinforce throughout article
+- Use direct statements, not hedging
+- Emphasize with structure (headings, sections)
+
+**Example patterns:**
+- "This isn't a metaphor. It's literal."
+- "Not 'like' X, but actually IS X"
+- Repeat key phrases for emphasis
+
 ## Quality Checklist for Frameworks
 
-Before publishing a framework, verify:
+Before publishing a framework, use the comprehensive checklist:
 
-- [ ] Origin story explains how framework emerged from practice
-- [ ] Each element has clear definition and explanation
-- [ ] Visual diagram(s) included with proper paths and alt text
-- [ ] Sequence and dependencies explained (if applicable)
-- [ ] Gap analysis section with 3-5 concrete examples
-- [ ] Measurement approach defined
-- [ ] Practical application section included
-- [ ] References cited properly
-- [ ] Terminology used consistently throughout
-- [ ] Examples are concrete and realistic
-- [ ] Framework solves a real problem
-- [ ] Diagnostic value is clear
-- [ ] Next steps are actionable
+**Checklist:** [Framework Quality Checklist](../../checklists/framework-quality-checklist.md)
+
+This ensures all framework-specific requirements are met: origin story, element definitions, visual diagrams, sequence explanation, gap analysis, measurement approach, and diagnostic value.
 
 ## Key Principles
 

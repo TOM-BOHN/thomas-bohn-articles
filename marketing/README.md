@@ -7,14 +7,15 @@ This folder contains marketing materials for promoting articles on LinkedIn, Med
 ```
 marketing/
 ├── README.md                           # This file
-├── linkedin_post_template.md           # Template for LinkedIn posts
-├── medium_publication_template.md      # Template for Medium publications
 └── posts/                              # Marketing content for each article
     ├── the_enabling_team_framework.md
     ├── the_four_cs_of_data_governance_measurement.md
     ├── the_digital_transformation_framework.md
-    └── the_realms_of_projects_framework.md
+    ├── the_realms_of_projects_framework.md
+    └── the_spec_driven_writing_framework.md
 ```
+
+**Note:** The marketing post template is now located at `.cursor/templates/marketing-post-template.md` for consistency with other templates.
 
 ## Usage
 
@@ -40,10 +41,10 @@ marketing/
 
 When you write a new article:
 
-1. Create a new file in `posts/` named after your article
-2. Use the templates to structure your content
+1. Create a new file in `posts/` named after your article (e.g., `the_framework_name.md`)
+2. Use the template at `.cursor/templates/marketing-post-template.md` to structure your content
 3. Follow the guidelines for hooks, descriptions, and calls to action
-4. Choose relevant hashtags and tags
+4. Choose relevant hashtags and tags (see template for common options)
 5. Ensure the featured image path is correct
 
 ## Guidelines

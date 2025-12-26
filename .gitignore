@@ -1,0 +1,19 @@
+# Plans directory - temporary working memory, not committed to remote
+plans/*
+!plans/.gitkeep
+!plans/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+

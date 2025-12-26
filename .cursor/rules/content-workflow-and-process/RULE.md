@@ -9,7 +9,7 @@ This rule defines the workflow and process for creating new content, editing exi
 
 ## Creating New Content
 
-Follow this 6-phase process when creating new articles or frameworks:
+Follow this 9-phase process when creating new articles or frameworks:
 
 ### Phase 1: Research (Before Writing)
 
@@ -33,16 +33,38 @@ Follow this 6-phase process when creating new articles or frameworks:
 - What examples can I use to illustrate key points?
 - How does this fit with existing articles in the repository?
 
-### Phase 2: Outline (Before Drafting)
+### Phase 2: Gather Artifacts (Before Drafting)
+
+**Purpose:** Start with existing materials, not a blank page.
+
+**Activities:**
+1. Gather existing artifacts: diagrams, rough drafts, presentations, voice notes, demos
+2. Use previous whitepapers as reference for style, voice, and structure
+3. Identify which artifacts will ground the scope and direction
+4. Note what's already documented vs. what needs to be created
+
+**Key Principle:** Don't write from scratch. Start with fragments and shape them into comprehensive content.
+
+**Artifacts to Gather:**
+- Framework diagrams (even rough sketches)
+- Rough drafts or notes
+- Presentation slides or demos
+- Voice recordings explaining concepts
+- Previous whitepapers for reference
+
+**Time Investment:** 30-60 minutes
+
+### Phase 3: Outline (Before Drafting)
 
 **Purpose:** Create a detailed outline following article structure standards.
 
 **Activities:**
 1. Use the standard 8-part article structure as your template
-2. Write topic sentences for each major section
-3. List the key points to cover in each section
-4. Identify where examples, diagrams, or case studies are needed
-5. Note any gaps in your thinking or research
+2. Use `.cursor/templates/article-header-template.md` for opening pattern
+3. Write topic sentences for each major section
+4. List the key points to cover in each section
+5. Identify where examples, diagrams, or case studies are needed
+6. Note any gaps in your thinking or research
 
 **Deliverable:** Detailed outline with topic sentences and key points
 
@@ -85,7 +107,7 @@ Follow this 6-phase process when creating new articles or frameworks:
 - Have I identified where examples are needed?
 - Does the flow make logical sense?
 
-### Phase 3: Draft (Focus on Content)
+### Phase 4: Draft (Focus on Content)
 
 **Purpose:** Write the full draft, focusing on getting ideas down without worrying about perfection.
 
@@ -113,7 +135,7 @@ Follow this 6-phase process when creating new articles or frameworks:
 - Have I explained the "why" behind each framework element?
 - Does the article solve the problem I set out to solve?
 
-### Phase 4: Revision (Focus on Clarity)
+### Phase 5: Revision (Focus on Clarity)
 
 **Purpose:** Edit for clarity, consistency, and flow without over-editing.
 
@@ -128,15 +150,7 @@ Follow this 6-phase process when creating new articles or frameworks:
 
 **Deliverable:** Revised draft with improved clarity and flow
 
-**Revision Checklist:**
-- [ ] Opening hook creates immediate resonance
-- [ ] Framework elements are clearly defined
-- [ ] Examples are concrete and realistic
-- [ ] Terminology is consistent
-- [ ] Transitions between sections are smooth
-- [ ] No unnecessary jargon or complexity
-- [ ] Each paragraph adds value
-- [ ] Conclusion provides actionable next steps
+**Revision Checklist:** See [Content Creation Workflow Checklist - Phase 4](../../checklists/content-creation-workflow-checklist.md#phase-4-revision-focus-on-clarity)
 
 **Common Issues to Fix:**
 - Passive voice overuse
@@ -149,7 +163,41 @@ Follow this 6-phase process when creating new articles or frameworks:
 
 **Time Investment:** 1-2 hours
 
-### Phase 5: Polish (Focus on Details)
+### Phase 6: Condensing (If Needed)
+
+**Purpose:** Remove ideas and explanations to hit target length while maintaining style.
+
+**Activities:**
+1. Identify less important sections (not just long sections)
+2. Remove entire ideas/explanations, not just trim sentences
+3. Maintain paper's voice and style while cutting
+4. Focus on removing less important sections entirely rather than trimming everything equally
+5. Verify core thesis is still clear and emphasized
+6. Read condensed version aloud to check rhythm
+
+**Key Principle:** Condensing is about scope reduction, not word efficiency. Remove ideas, not just words.
+
+**What to Remove:**
+- Less important sections or subsections
+- Redundant explanations
+- Examples that don't add new insight
+- Tangential points
+
+**What to Keep:**
+- Core thesis and key arguments
+- Essential examples
+- Voice and style
+- Logical flow
+
+**Time Investment:** 30-60 minutes
+
+**Quality Check:**
+- Core thesis still clear?
+- Voice and style maintained?
+- Content still flows logically?
+- Target word count achieved?
+
+### Phase 7: Polish (Focus on Details)
 
 **Purpose:** Check formatting, references, image paths, and technical details.
 
@@ -165,20 +213,28 @@ Follow this 6-phase process when creating new articles or frameworks:
 
 **Deliverable:** Polished article ready for final review
 
-**Technical Checklist:**
-- [ ] File named with lowercase and underscores
-- [ ] Images stored in `images/article_name/` subdirectory
-- [ ] Image paths use relative paths
-- [ ] All images have descriptive alt text
-- [ ] Heading hierarchy is correct (# for title, ## for main, ### for sub)
-- [ ] Lists use `-` for unordered, numbers for ordered
-- [ ] Bold used for key terms on first introduction
-- [ ] References section includes all cited sources
-- [ ] No broken links
+**Technical Checklist:** See [Content Creation Workflow Checklist - Phase 5](../../checklists/content-creation-workflow-checklist.md#phase-5-polish-focus-on-details)
 
 **Time Investment:** 30-45 minutes
 
-### Phase 6: Final Review (Read Aloud)
+### Phase 8: Template Validation
+
+**Purpose:** Ensure content matches established templates before considering complete.
+
+**Activities:**
+1. Validate marketing post against `.cursor/templates/marketing-post-template.md`
+2. Validate article header against `.cursor/templates/article-header-template.md`
+3. Check README updated with new article entry
+4. Verify all templates followed exactly (structure, not just theme)
+
+**Template Matching:**
+- Marketing post: LinkedIn + Medium sections in correct format
+- Article header: Opening pattern, framework intro, diagram
+- File organization: Correct directories and naming
+
+**Time Investment:** 10-15 minutes
+
+### Phase 9: Final Review (Read Aloud)
 
 **Purpose:** Ensure natural rhythm, voice, and overall quality.
 
@@ -192,17 +248,7 @@ Follow this 6-phase process when creating new articles or frameworks:
 
 **Deliverable:** Publication-ready article
 
-**Final Quality Check:**
-- [ ] Voice is personal and experiential
-- [ ] Tone is conversational yet professional
-- [ ] Opening hook resonates with target audience
-- [ ] Framework elements are clearly explained
-- [ ] Examples are concrete and realistic
-- [ ] Gap analysis or practical application included
-- [ ] Measurement approach defined
-- [ ] Conclusion is actionable
-- [ ] All quality standards met
-- [ ] Article reads naturally when spoken aloud
+**Final Quality Check:** See [Content Creation Workflow Checklist - Phase 6](../../checklists/content-creation-workflow-checklist.md#phase-6-final-review-read-aloud)
 
 **Time Investment:** 20-30 minutes
 
@@ -329,13 +375,7 @@ Follow this 5-phase process when editing or improving existing articles:
 4. Ensure voice and tone align with other articles
 5. Verify all quality standards are met
 
-**Consistency Checklist:**
-- [ ] Voice is personal and experiential
-- [ ] Tone matches other articles
-- [ ] Terminology is consistent with repository
-- [ ] Structure follows standard format
-- [ ] Formatting matches other articles
-- [ ] Quality standards met
+**Consistency Checklist:** See [Editing Workflow Checklist - Phase 5](../../checklists/editing-workflow-checklist.md#phase-5-verify-consistency)
 
 **Time Investment:** 15-20 minutes
 
@@ -418,12 +458,7 @@ Follow this 5-phase process when adding to or expanding existing frameworks:
 4. Include additional practical application guidance
 5. Add visual diagrams if missing
 
-**Value-Add Checklist:**
-- [ ] New content provides actionable insights
-- [ ] Examples are concrete and realistic
-- [ ] Extensions address reader questions
-- [ ] Additional depth enhances understanding
-- [ ] No unnecessary redundancy
+**Value-Add Checklist:** See [Framework Extension Checklist - Phase 4](../../checklists/framework-extension-checklist.md#phase-4-add-value)
 
 **What to Add:**
 - Missing framework elements
@@ -547,20 +582,59 @@ Fix: Correct image paths in Digital Transformation Framework
 Updated relative paths to images after directory restructure.
 ```
 
+## File Organization
+
+### Article Creation Sequence
+
+When creating a new article, follow this sequence:
+
+1. **Create article content:** `the_framework_name.md` (root directory)
+2. **Create Mermaid diagram:** `images/the_framework_name/the_framework_name.mmd`
+3. **Generate PNG:** `mmdc -i input.mmd -o output.png -b transparent`
+4. **Create marketing post:** `marketing/posts/the_framework_name.md`
+5. **Update README:** Add entry with title, description, key topics
+6. **Validate templates:** Check against `.cursor/templates/`
+7. **Commit all together:** Article, diagram (.mmd + .png), marketing post, README
+
+### Directory Structure
+
+```
+the_framework_name.md                           # Main article
+images/the_framework_name/
+  ├── the_framework_name.mmd                    # Mermaid source
+  └── the_framework_name.png                    # Generated diagram
+marketing/posts/
+  └── the_framework_name.md                     # LinkedIn + Medium
+plans/
+  └── [YYYY-MM-DD]-framework-name.md            # Session reflection (delete after integrating)
+```
+
+### PowerShell Commands
+
+For Windows users (PowerShell):
+- Command chaining: Use semicolon (;) not &&
+- Example: `cd directory; git commit -m "message"`
+- Mermaid: `mmdc -i input.mmd -o output.png -b transparent`
+
 ## Best Practices
 
 ### Do's
-- ✅ Follow the standard 6-phase creation process
+- ✅ Start with artifacts (diagrams, drafts, presentations, voice notes)
+- ✅ Use previous whitepapers as reference for style and voice
+- ✅ Follow the standard 9-phase creation process
 - ✅ Preserve the author's voice when editing
 - ✅ Use concrete examples in every article
 - ✅ Maintain consistent terminology across articles
+- ✅ Validate against templates before considering complete
 - ✅ Update README when adding new content
 - ✅ Test all links and image paths
 - ✅ Read articles aloud before publishing
 - ✅ Focus on practical value over theoretical completeness
 
 ### Don'ts
-- ❌ Skip the outline phase
+- ❌ Start with a blank page (gather artifacts first)
+- ❌ Skip the artifact gathering phase
+- ❌ Skip template validation
 - ❌ Rewrite existing articles in your own voice
 - ❌ Add content without clear value
 - ❌ Use inconsistent terminology
@@ -571,38 +645,21 @@ Updated relative paths to images after directory restructure.
 
 ## Quality Gates
 
-### Before Starting
-- [ ] Understand the problem you're solving
-- [ ] Have concrete examples ready
-- [ ] Know the target audience
-- [ ] Have reviewed existing articles for style
-
-### Before Drafting
-- [ ] Detailed outline created
-- [ ] Framework structure defined
-- [ ] Examples identified
-- [ ] Gaps in thinking addressed
-
-### Before Publishing
-- [ ] All 8 article sections complete
-- [ ] Voice and style consistent with repository
-- [ ] Examples are concrete and realistic
-- [ ] Technical requirements met
-- [ ] Quality standards achieved
-- [ ] Read aloud and sounds natural
-- [ ] README updated
-- [ ] All links and paths tested
+See [Content Creation Workflow Checklist](../../checklists/content-creation-workflow-checklist.md) for detailed quality gates at each phase.
 
 ## Time Estimates
 
 **Creating New Framework Article:**
 - Research: 1-2 hours
+- Gather Artifacts: 30-60 minutes
 - Outline: 30-60 minutes
 - Draft: 3-6 hours
 - Revision: 1-2 hours
+- Condensing (if needed): 30-60 minutes
 - Polish: 30-45 minutes
+- Template Validation: 10-15 minutes
 - Final Review: 20-30 minutes
-- **Total: 6-12 hours**
+- **Total: 7-14 hours**
 
 **Editing Existing Article:**
 - Understand Intent: 15-30 minutes

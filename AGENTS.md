@@ -40,13 +40,41 @@ Every framework must include:
 
 ## Specialized Rules Available
 
-Five detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
+Six detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
 
 1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
 2. **framework-development-standards** - Framework creation requirements
 3. **article-structure-and-quality** - 8-part structure, quality standards
 4. **content-workflow-and-process** - Creation and editing workflows
 5. **release-engineering-and-version-control** - Git practices, commit messages, versioning
+6. **session-reflection-and-improvement** - Post-session reflection and continuous improvement
+
+## Templates Available
+
+Three templates in `.cursor/templates/` provide starting points for common content:
+
+1. **article-header-template.md** - Article opening and framework introduction structure
+2. **marketing-post-template.md** - LinkedIn + Medium publication format
+3. **session-reflection-template.md** - Session tracking (scales lightweight → comprehensive)
+
+## Checklists Available
+
+Six milestone-based checklists in `.cursor/checklists/` guide you through workflows:
+
+### Workflow Checklists
+1. **content-creation-workflow-checklist.md** - Complete workflow for new articles (6 phases)
+   - Phase 1: Before Starting, Phase 2: Before Drafting, Phase 4: Revision, Phase 5: Polish, Phase 6: Final Review
+2. **editing-workflow-checklist.md** - Complete workflow for editing existing content (5 phases)
+   - Understand Intent → Identify Issues → Preserve Core → Enhance Selectively → Verify Consistency
+3. **framework-extension-checklist.md** - Complete workflow for extending frameworks (5 phases)
+   - Study Original → Identify Gaps → Maintain Consistency → Add Value → Update Cross-References
+
+### Quality Gate Checklists
+4. **pre-publication-checklist.md** - Final comprehensive check before publishing (Structure, Quality, Formatting, Technical)
+5. **framework-quality-checklist.md** - Framework-specific requirements (Origin story, definitions, diagrams, gaps, measurement)
+6. **pre-commit-validation.md** - Technical validation before committing
+
+**See `.cursor/checklists/README.md` for complete organization guide.**
 
 ## Key Patterns
 

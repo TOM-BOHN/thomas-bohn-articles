@@ -202,6 +202,15 @@ Use transition phrases to guide readers:
 - Use specific details
 - Help readers visualize what you mean
 
+### No Em Dashes for Interruption or Elaboration
+- Don't use em dashes (—) to interrupt sentences or add elaboration
+- Use periods to create separate sentences instead
+- Use commas for natural pauses
+- Use parentheses sparingly for true asides
+- Keep sentence structure simple and direct
+- Example of what NOT to do: "a writer's room—not a physical room, but a system"
+- Instead write: "a writer's room (not a physical room, but a system)" or break into two sentences
+
 ## Key Principles
 
 1. **Personal Experience Builds Trust**: Use first-person narrative to establish credibility

@@ -9,7 +9,37 @@ This rule defines the standard structure for all articles in this repository and
 
 ## Standard Article Structure
 
-Every article should follow this 8-part structure:
+Every article should follow this 8-part structure with a Table of Contents at the top:
+
+### Table of Contents (Required)
+
+**Purpose:** Provide navigation and overview of article structure.
+
+**Requirements:**
+- Place immediately after article title
+- Include all major sections (##) with anchor links
+- Include key subsections (###) for major components
+- Use proper anchor link format: `#lowercase-with-hyphens`
+
+**Example:**
+```markdown
+# The Framework Name: Subtitle
+
+## Table of Contents
+
+- [The Framework Name](#the-framework-name)
+- [Understanding the Core Components](#understanding-the-core-components)
+  - [Component 1](#component-1)
+  - [Component 2](#component-2)
+- [Common Failure Modes](#common-failure-modes)
+- [Measuring Success](#measuring-success)
+- [Putting It Into Practice](#putting-it-into-practice)
+- [References](#references)
+```
+
+### Article Sections
+
+The 8-part structure:
 
 ### 1. Opening Hook (2-4 paragraphs)
 
@@ -252,6 +282,12 @@ That's the difference between [failure state] and [success state].
 - Use consistent citation style
 - Include URLs for online resources
 
+**Reference Quality Standards:**
+- **Authoritative sources only**: Official blog posts, whitepapers, documentation, academic papers
+- **No marketing materials**: Avoid paid workshops, course advertisements, promotional content
+- **Prefer official sources**: GitHub blog over third-party tutorials, official documentation over blog posts
+- **Verify links work**: All URLs should be accessible and current
+
 **Format:**
 ```markdown
 ## References
@@ -265,6 +301,18 @@ That's the difference between [failure state] and [success state].
 - When citing research or statistics
 - When building on others' work
 - When providing additional reading resources
+
+**Examples of Good vs Poor References:**
+
+✅ **Good:**
+- GitHub Blog: "Spec-Driven Development with AI" (official source)
+- *Team Topologies* by Skelton & Pais (established book)
+- DAMA-DMBOK: Data Management Body of Knowledge (official framework)
+
+❌ **Poor:**
+- "Agentic AI Workshop" (marketing for paid workshop)
+- Random blog post without authority
+- Broken or outdated links
 
 ## Quality Standards
 
@@ -315,6 +363,38 @@ That's the difference between [failure state] and [success state].
 - Respect the reader's time and attention
 
 **Test:** Does this paragraph add new value or just repeat what's already been said?
+
+## Common Quality Issues and Prevention
+
+### Issue: Em Dashes Disrupt Rhythm
+**Problem:** Em dashes (—) create jarring pauses when read aloud
+**Prevention:** Use periods (full stops), commas (pauses), or parentheses (asides) instead
+**Validation:** Read article aloud to catch rhythm problems
+
+### Issue: Corporate Jargon Sounds Generic
+**Problem:** Phrases like "diagnostic tools for organizational transformation" lose personal voice
+**Prevention:** Use plain language, avoid "work-words" and buzzwords
+**Validation:** Check for jargon before considering article complete
+
+### Issue: Overuse of Vague Academic Words
+**Problem:** Words like "systematic," "comprehensive," "holistic" weaken writing
+**Prevention:** Use specific, concrete language
+**Validation:** Search for these words and replace with specific descriptions
+
+### Issue: First Drafts Too Long
+**Pattern:** First drafts typically need ~25% reduction
+**Prevention:** Plan for condensing phase after drafting
+**Solution:** Remove ideas and explanations, not just trim sentences
+
+### Issue: Core Thesis Not Clear
+**Problem:** Main argument buried or not emphasized enough
+**Prevention:** State thesis clearly in introduction and reinforce throughout
+**Validation:** Can reader state the main point after reading introduction?
+
+### Issue: Starting with Blank Page
+**Problem:** Writing from scratch is slow and lacks grounding
+**Prevention:** Start with artifacts (diagrams, drafts, presentations, voice notes)
+**Solution:** Shape existing materials into comprehensive content
 
 ## Formatting Standards
 
@@ -415,41 +495,15 @@ That's the difference between [failure state] and [success state].
 
 ## Pre-Publication Checklist
 
-Before publishing an article, verify:
+Before publishing an article, use the comprehensive checklist:
 
-**Structure:**
-- [ ] Opening hook establishes problem and credibility
-- [ ] Framework introduction provides clear overview
-- [ ] Core elements are systematically explained
-- [ ] Integration section shows how elements work together
-- [ ] Practical application section included
-- [ ] Measurement approach defined
-- [ ] Conclusion provides actionable next steps
-- [ ] References cited properly (if applicable)
+**Checklist:** [Pre-Publication Checklist](../../checklists/pre-publication-checklist.md)
 
-**Quality:**
-- [ ] Voice is personal and experiential
-- [ ] Tone is conversational yet professional
-- [ ] All claims are evidence-based
-- [ ] Terminology is consistent throughout
-- [ ] Examples are concrete and realistic
-- [ ] Logical flow between sections
-- [ ] No unnecessary redundancy
-
-**Formatting:**
-- [ ] Heading hierarchy is correct
-- [ ] Lists use parallel structure
-- [ ] Bold used appropriately for key terms
-- [ ] Images have proper paths and alt text
-- [ ] All links work
-- [ ] Code blocks formatted correctly
-
-**Technical:**
-- [ ] File named with lowercase and underscores
-- [ ] Images stored in correct subdirectory
-- [ ] Relative paths used for all internal links
-- [ ] README updated with article information
-- [ ] No linter errors
+This checklist covers:
+- **Structure:** All 8 sections complete and properly organized
+- **Quality:** Voice, tone, evidence, terminology, examples, flow
+- **Formatting:** Headings, lists, bold, images, links, code blocks
+- **Technical:** File naming, image paths, README updates, linter checks
 
 ## Key Principles
 
