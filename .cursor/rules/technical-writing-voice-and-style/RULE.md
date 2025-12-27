@@ -227,6 +227,71 @@ Use transition phrases to guide readers:
 
 **When stating facts, state them directly.** The word "literally" suggests you expect disbelief, which undermines your authority.
 
+### No AI Tells and Over-Structured Writing
+
+Avoid patterns that signal AI-generated content:
+
+**1. Excessive Meta-Signposting**
+- Don't announce insights with "The key insight:", "The critical difference:", "The meta-insight:"
+- Trust the reader to recognize important points through context and positioning
+- Let bold text and structure signal importance, not explicit labels
+- ❌ "**The key insight:** Specifications are not constraints"
+- ✅ "Specifications are not constraints"
+
+**2. Perfect Parallelism**
+- Vary sentence and paragraph structure—don't make everything uniform
+- Not every bullet needs the same length or construction
+- Mix short, medium, and long list items
+- Break patterns occasionally to create natural rhythm
+- ❌ Every bullet: "Tool name for purpose. Benefit one. Benefit two. Benefit three."
+- ✅ Mix it up: Some bullets get one sentence. Others get three. Vary the structure.
+
+**3. Exhaustive Coverage**
+- Don't answer every possible question in every section
+- Leave some breathing room and ambiguity
+- Real human thinking has rough edges
+- Not everything needs three supporting points
+
+**4. Corporate Language Overload**
+- Replace "enables" with "lets you" or "makes it possible"
+- Replace "ensures" with "makes sure" or describe what happens
+- Replace "establishes" with "creates" or "sets up"
+- Replace "facilitates" with "helps" or "makes easier"
+- ❌ "This approach enables teams to establish quality standards that ensure consistency"
+- ✅ "This approach lets teams create quality standards that keep things consistent"
+
+**5. Mechanical Transitions**
+- Don't use "Consider..." more than once per article
+- Vary how you introduce examples and sections
+- Not every paragraph needs a formal transition phrase
+- Sometimes just start the next thought
+
+**6. Self-Referential Perfection**
+- Limit "Consider this very article..." to once per article maximum
+- Don't constantly point to the article itself as proof
+- One meta-reference is insightful; three is mechanical
+
+**7. Template-Driven Examples**
+- Vary the depth and structure of examples
+- Not every failure mode needs: setup → gap → consequence → solution
+- Some examples can be brief, others detailed
+- Real stories are messy—embrace that
+
+**8. Rhetorical Question + Immediate Answer**
+- Don't overuse the pattern: "Is X true? Yes, X is true."
+- Let some questions hang or answer them indirectly
+- Vary how you present arguments
+- ❌ "Is technical writing software engineering? The answer is yes."
+- ✅ "Technical writing IS software engineering when you apply the same discipline."
+
+**Add Human Texture:**
+- Include moments of doubt or uncertainty
+- Show false starts or learning curves
+- Add personality through word choice and pacing
+- Let frustration, humor, or surprise show through
+- Vary paragraph and sentence rhythm
+- Break your own rules occasionally
+
 ## Key Principles
 
 1. **Personal Experience Builds Trust**: Use first-person narrative to establish credibility
