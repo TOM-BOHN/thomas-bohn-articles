@@ -25,19 +25,19 @@ Read the full framework: [LINK]
 
 ## Medium Publication Details
 
-**Title:** The Four Cs of Data Governance Measurement
+**Title:** The 4 Cs of Data Governance Measurement
 
-**Subtitle:** A framework for measuring data governance maturity and cultural change using Compliance, Competency, Culture, and Capability
+**Subtitle:** How to measure data governance transformation using Capability, Capacity, Competency, and Compliance
 
 **Tags:**
 1. Data Governance
 2. Data Management
 3. Data Strategy
-4. Analytics
-5. Organizational Development
+4. Leadership
+5. Analytics
 
 **Featured Image:** `images/the_four_cs_of_data_governance_measurement/4_cs_of_data_governance_measurement.jpg`
 
 **Description for Medium:**
-A holistic framework for measuring data governance transformation beyond compliance metrics. Introduces the Four Cs—Compliance, Competency, Culture, and Capability—as a comprehensive approach to tracking data governance maturity and cultural change. Based on experience implementing data governance across multiple organizations, this framework provides specific metrics, data collection methods, and guidance on demonstrating the value of governance programs to leadership.
+A comprehensive framework for measuring data governance transformation beyond compliance metrics alone. The framework emerged from a recurring question every data leader asks: "How do we know if our data governance program is actually working?" Leaders invest in tools, hire people, and create policies—but struggle to demonstrate progress. The 4 Cs framework—Capability, Capacity, Competency, and Compliance—provides a holistic approach to measuring data governance maturity and tracking cultural change across organizations. It addresses three critical measurement categories (maturity, efficiency, effectiveness) and reveals why measuring only compliance misses 75% of what makes governance successful. Based on experience implementing data governance across multiple organizations, the framework includes specific metrics for each dimension, data collection methods, real-world scenarios, and practical guidance on demonstrating value to leadership. Shows how cultural change indicators reveal whether governance is becoming embedded or remains a checkbox exercise, and how capability maturity determines long-term sustainability.
 
