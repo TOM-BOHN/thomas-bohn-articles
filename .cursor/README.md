@@ -192,6 +192,8 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 - Problem-focused openings
 - Specific tools and actions (not abstract)
 - Plain language (no corporate jargon)
+- No AI tells (meta-signposting, perfect parallelism, mechanical transitions)
+- Human texture (varied rhythm, moments of doubt, personality)
 
 ### Structure
 - 8-part article format
@@ -237,6 +239,13 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 - [GitHub Spec-Driven Development](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/)
 
 ## Version History
+
+- **v3.3** (2025-12-26): Added AI tell detection and prevention guardrails
+  - Added "No AI Tells and Over-Structured Writing" section to voice/style rule
+  - Document 8 AI tell patterns to avoid (meta-signposting, perfect parallelism, etc.)
+  - Added AI tell detection checklist items to voice-validation-checklist
+  - Added grep commands for automated AI tell detection
+  - Provide guidance on adding human texture (doubt, personality, varied rhythm)
 
 - **v3.2** (2025-12-26): Consolidated checklists into milestone-based workflows
   - Reorganized checklists from topic-based to workflow-based

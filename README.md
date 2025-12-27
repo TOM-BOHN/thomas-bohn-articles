@@ -79,6 +79,13 @@ These articles were created using spec-driven development principles with:
 
 The approach is tool-agnostic—any AI-powered development environment with file access and custom instructions can follow these patterns. The principles of specification-driven writing, automated validation, and iterative refinement apply regardless of specific tooling.
 
+**For complete details on the rules, AI automation, and workflows**, see [`.cursor/README.md`](.cursor/README.md). This includes:
+- How intelligent rules are automatically loaded based on context
+- The 6 core specification rules and 8 workflow checklists
+- Quality standards and validation processes
+- Common workflows for creating, editing, and publishing content
+- AI tell detection and prevention guardrails
+
 ## License
 
 All content © Thomas Bohn. All rights reserved.
