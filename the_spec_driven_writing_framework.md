@@ -37,7 +37,7 @@ The framework emerged from my personal frustration: I had developed dozens of fr
 
 In software development, we don't start coding without specifications. We define what excellent looks like, establish quality standards, create validation criteria, and use tools to automate repetitive work. We collaborate with AI agents to accelerate development while maintaining quality. Why not do the same for technical writing?
 
-[This repository](https://github.com/thomas-bohn/thomas-bohn-articles) demonstrates the framework in action. It's a GitHub repository where whitepapers are markdown files managed with git. It contains detailed specifications for voice, structure, framework development, and quality standards. All of these are codified as machine-readable rules in `.cursor/rules/` that guide both me and AI agents in a collaborative writer's room. I use Cursor (VS Code) to edit, review diffs, and run agents on the files. I use git for version control, branching, and change management. The entire workflow mirrors software development. The specifications define what makes a framework article excellent: the 8-part structure, the pattern recognition language, the gap analysis approach, the measurement methodology. With these specifications in place, creating new framework articles becomes a repeatable process where agents help with extraction, structuring, drafting, and validation.
+[This repository](https://github.com/TOM-BOHN/thomas-bohn-articles) demonstrates the framework in action. It's a GitHub repository where whitepapers are markdown files managed with git. It contains detailed specifications for voice, structure, framework development, and quality standards. All of these are codified as machine-readable rules in `.cursor/rules/` that guide both me and AI agents in a collaborative writer's room. I use Cursor (VS Code) to edit, review diffs, and run agents on the files. I use git for version control, branching, and change management. The entire workflow mirrors software development. The specifications define what makes a framework article excellent: the 8-part structure, the pattern recognition language, the gap analysis approach, the measurement methodology. With these specifications in place, creating new framework articles becomes a repeatable process where agents help with extraction, structuring, drafting, and validation.
 
 The framework's power lies in its ability to separate concerns and enable collaboration:
 
@@ -73,19 +73,19 @@ In this repository, specifications are codified as detailed rules covering six d
 
 **Core Specifications** (the critical path for creating content):
 
-1. **Article Structure and Quality**: Defines the 8-part structure (hook, introduction, elements, integration, application, measurement, conclusion, references) and quality standards for clarity, evidence, practical value, and consistency. This is the foundation—the container that holds everything.
+1. **[Article Structure and Quality](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/article-structure-and-quality/RULE.md)**: Defines the 8-part structure (hook, introduction, elements, integration, application, measurement, conclusion, references) and quality standards for clarity, evidence, practical value, and consistency. This is the foundation—the container that holds everything.
 
-2. **Technical Writing Voice and Style**: Defines the personal, experiential voice; conversational yet professional tone; problem-focused openings; pattern recognition language; and diagnostic positioning that make frameworks engaging and credible. This is how you fill the container.
+2. **[Technical Writing Voice and Style](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/technical-writing-voice-and-style/RULE.md)**: Defines the personal, experiential voice; conversational yet professional tone; problem-focused openings; pattern recognition language; and diagnostic positioning that make frameworks engaging and credible. This is how you fill the container.
 
-3. **Framework Development Standards**: Specifies that frameworks must include origin stories from practice, clear element definitions, visual diagrams, sequence explanations, gap analysis with 3-5 examples, and measurement approaches. This is what makes framework content specifically valuable.
+3. **[Framework Development Standards](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/framework-development-standards/RULE.md)**: Specifies that frameworks must include origin stories from practice, clear element definitions, visual diagrams, sequence explanations, gap analysis with 3-5 examples, and measurement approaches. This is what makes framework content specifically valuable.
 
-4. **Content Workflow and Process**: Establishes the 9-phase development process from research through final review, including how to gather artifacts, structure work, iterate effectively, and maintain quality throughout the workflow. This is how you execute the work systematically.
+4. **[Content Workflow and Process](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/content-workflow-and-process/RULE.md)**: Establishes the 9-phase development process from research through final review, including how to gather artifacts, structure work, iterate effectively, and maintain quality throughout the workflow. This is how you execute the work systematically.
 
 **Supporting Specifications** (important for managing the system):
 
-5. **Session Reflection and Improvement**: Establishes the process for capturing learnings after work sessions and continuously improving specifications, templates, and checklists based on experience. This is how the system gets better over time.
+5. **[Session Reflection and Improvement](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/session-reflection-and-improvement/RULE.md)**: Establishes the process for capturing learnings after work sessions and continuously improving specifications, templates, and checklists based on experience. This is how the system gets better over time.
 
-6. **Release Engineering and Version Control**: Defines how to manage changes, write commit messages, version content, and maintain the repository using git best practices. This is how you manage the technical infrastructure.
+6. **[Release Engineering and Version Control](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/release-engineering-and-version-control/RULE.md)**: Defines how to manage changes, write commit messages, version content, and maintain the repository using git best practices. This is how you manage the technical infrastructure.
 
 **The software engineering toolchain:** I use the same tools and practices for writing whitepapers as I do for software development:
 
@@ -166,21 +166,21 @@ The power of spec-driven validation is that it's repeatable. You're not relying 
 
 **Continuous Improvement**: Validation reveals patterns in what's commonly missed or done incorrectly. These patterns inform updates to specifications and development guidance.
 
-In this repository, validation happens at multiple levels using eight specialized checklists:
+In this repository, validation happens at multiple levels using [eight specialized checklists](https://github.com/TOM-BOHN/thomas-bohn-articles/tree/main/.cursor/checklists):
 
 **Workflow Checklists** guide you through complete processes:
-- **Content Creation Workflow**: 9-phase checklist from research through final review
-- **Editing Workflow**: 5-phase checklist for improving existing content
-- **Framework Extension Workflow**: 5-phase checklist for expanding frameworks
+- **[Content Creation Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/content-creation-workflow-checklist.md)**: 9-phase checklist from research through final review
+- **[Editing Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/editing-workflow-checklist.md)**: 5-phase checklist for improving existing content
+- **[Framework Extension Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/framework-extension-checklist.md)**: 5-phase checklist for expanding frameworks
 
 **Quality Gate Checklists** ensure standards before publication:
-- **Pre-Publication Checklist**: Final check covering structure, quality, formatting, and technical requirements
-- **Framework Quality Checklist**: Framework-specific requirements (origin story, definitions, diagrams, gaps, measurement)
-- **Pre-Commit Validation**: Technical validation before committing changes
+- **[Pre-Publication Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/pre-publication-checklist.md)**: Final check covering structure, quality, formatting, and technical requirements
+- **[Framework Quality Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/framework-quality-checklist.md)**: Framework-specific requirements (origin story, definitions, diagrams, gaps, measurement)
+- **[Pre-Commit Validation](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/pre-commit-validation.md)**: Technical validation before committing changes
 
 **Specialized Checklists** address specific needs:
-- **Condensing Content Checklist**: Guidance for reducing article length while maintaining quality
-- **Voice Validation Checklist**: Voice and style validation before publication
+- **[Condensing Content Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/condensing-content-checklist.md)**: Guidance for reducing article length while maintaining quality
+- **[Voice Validation Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/voice-validation-checklist.md)**: Voice and style validation before publication
 
 The detailed rules serve as the foundation. The checklists provide milestone-based validation. Linters catch technical issues. Human review validates that content delivers practical value and diagnostic power.
 
@@ -300,7 +300,7 @@ I started with frameworks trapped in my head and limited time. By applying agent
 
 I went from weeks per article to hours. I maintained consistent quality. I documented frameworks I'd been meaning to write for years. The specifications made the practice sticky. I do it now because the friction is so low.
 
-[This repository](https://github.com/thomas-bohn/thomas-bohn-articles) demonstrates the framework in action. It's a GitHub repository where whitepapers are code. The specifications in `.cursor/rules/` define excellence through 6 detailed rules. Eight checklists guide workflow execution. Multiple framework articles show consistent application. The commit history shows evolution. The diffs show refinements. This article itself was created through the 9-phase agentic process: collaboration between my expertise and an agent following specifications, all managed through git.
+[This repository](https://github.com/TOM-BOHN/thomas-bohn-articles) demonstrates the framework in action. It's a GitHub repository where whitepapers are code. The specifications in `.cursor/rules/` define excellence through 6 detailed rules. Eight checklists guide workflow execution. Multiple framework articles show consistent application. The commit history shows evolution. The diffs show refinements. This article itself was created through the 9-phase agentic process: collaboration between my expertise and an agent following specifications, all managed through git.
 
 You can build the same system. Set up a GitHub repository. Write whitepapers in markdown. Define specifications in machine-readable rules. Use VS Code or Cursor to edit and review diffs. Collaborate with agents running on your files. Validate against standards. Use git to track every change. Scale your expertise with AI as your writing partner and software engineering as your process.
 
@@ -320,5 +320,5 @@ This framework applies software engineering principles to technical writing:
 
 - Nonaka, I., & Takeuchi, H. (1995). *The Knowledge-Creating Company: How Japanese Companies Create the Dynamics of Innovation*. Oxford University Press.
 
-- This repository: https://github.com/thomas-bohn/thomas-bohn-articles - Demonstrates the framework in practice with specifications in `.cursor/rules/` and multiple framework articles.
+- This repository: https://github.com/TOM-BOHN/thomas-bohn-articles - Demonstrates the framework in practice with specifications in `.cursor/rules/` and multiple framework articles.
 
