@@ -114,7 +114,7 @@ The framework's power lies in making these gaps visible. When capability adoptio
 
 The Enabling Team operates in three delivery modes that correspond to different phases of capability transformation: Strategizing, Developing, and Facilitating. These modes allow the team to focus on the most impactful work, build coalition support, and ensure sustained adoption.
 
-![The Enabling Team Work Delivery Modes](images/the_enabling_team_framework/the_enabling_team_work_delivey_modes.png)
+![The Enabling Team Work Delivery Modes](images/the_enabling_team_framework/the_enabling_team_work_delivery_modes.png)
 
 1. **Strategizing:** The team works as a **trusted advisor** to identify, evaluate, and build business cases for new capabilities. This brings the Advising role to life—researching emerging practices, assessing organizational gaps, and determining which capabilities deliver the most value. The output is a business case that secures executive support and justifies investment before moving to development.
 

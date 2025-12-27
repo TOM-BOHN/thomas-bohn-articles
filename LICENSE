@@ -1,0 +1,45 @@
+# Copyright and License
+
+Copyright © 2025 Thomas Bohn. All rights reserved.
+
+## Article Content
+
+All articles, whitepapers, frameworks, and written content in this repository are the intellectual property of Thomas Bohn and are protected by copyright law.
+
+**Articles and written content may not be:**
+- Reproduced in whole or in part without permission
+- Modified or adapted without permission
+- Used for commercial purposes without permission
+- Redistributed without permission
+
+**You may:**
+- Read and reference the articles for personal learning
+- Link to articles in this repository
+- Quote brief excerpts with proper attribution
+
+For permissions beyond personal use, please contact Thomas Bohn.
+
+## Development Configuration and Tools
+
+The configuration files, rules, templates, and checklists in the `.cursor/` directory are provided for reference and educational purposes.
+
+**You may:**
+- Study the configuration system
+- Adapt the approach for your own projects
+- Reference the methodology in your own work
+
+**Attribution:**
+If you adapt or reference the spec-driven writing methodology or configuration system, please provide attribution to Thomas Bohn and link to this repository.
+
+## Images and Diagrams
+
+All images, diagrams, and visual content are copyright © 2025 Thomas Bohn and subject to the same restrictions as article content.
+
+## Disclaimer
+
+THE CONTENT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CONTENT OR THE USE OR OTHER DEALINGS IN THE CONTENT.
+
+---
+
+For questions about licensing or permissions, please open an issue in this repository.
+

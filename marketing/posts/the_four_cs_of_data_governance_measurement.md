@@ -36,7 +36,7 @@ Read the full framework: [LINK]
 4. Analytics
 5. Organizational Development
 
-**Featured Image:** `images/the_four_cs_of_data_governance_measurement/4 Cs of Data Governance Measurement.jpg`
+**Featured Image:** `images/the_four_cs_of_data_governance_measurement/4_cs_of_data_governance_measurement.jpg`
 
 **Description for Medium:**
 A holistic framework for measuring data governance transformation beyond compliance metrics. Introduces the Four Cs—Compliance, Competency, Culture, and Capability—as a comprehensive approach to tracking data governance maturity and cultural change. Based on experience implementing data governance across multiple organizations, this framework provides specific metrics, data collection methods, and guidance on demonstrating the value of governance programs to leadership.

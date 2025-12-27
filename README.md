@@ -5,6 +5,7 @@ A collection of whitepapers and articles on software engineering leadership, org
 ## Articles
 
 ### [The Spec-Driven Writing Framework](the_spec_driven_writing_framework.md)
+*~5,700 words | 25 min read*
 
 An approach to creating technical content by treating writing as software engineering. Not metaphorically, but literally. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing. It emerged from a personal challenge: frameworks existed in fragments (diagrams, drafts, presentations, voice notes) but couldn't be turned into comprehensive whitepapers fast enough.
 
@@ -19,6 +20,7 @@ An approach to creating technical content by treating writing as software engine
 - Proving that technical writing IS software engineering when you apply the same discipline and tools
 
 ### [The Enabling Team Framework](the_enabling_team_framework.md)
+*~4,500 words | 20 min read*
 
 A structured approach for how enabling teams should think about, organize, and deliver capability transformation work across an organization. This framework provides the practical "how" for enabling teams—breaking down complex capability uplift into clear roles, sequential elements, delivery modes, and work types.
 
@@ -30,6 +32,7 @@ A structured approach for how enabling teams should think about, organize, and d
 - Work management through epic templates
 
 ### [The Four Cs of Data Governance Measurement](the_four_cs_of_data_governance_measurement.md)
+*~3,800 words | 17 min read*
 
 A comprehensive framework for measuring data governance maturity and cultural change across organizations. This article introduces the Four Cs—Compliance, Competency, Culture, and Capability—as a holistic approach to tracking data governance transformation.
 
@@ -41,6 +44,7 @@ A comprehensive framework for measuring data governance maturity and cultural ch
 - Building data-driven organizations
 
 ### [The Digital Transformation Framework](the_digital_transformation_framework.md)
+*~5,200 words | 23 min read*
 
 A diagnostic tool for understanding business partner maturity and building strategic partnerships in analytics work. This framework helps analytics teams escape the "delivery danger zone" by recognizing three distinct levels of partnership—Transformation, Innovation, and Delivery—and positioning themselves as trusted advisors rather than replaceable order-takers.
 
@@ -53,6 +57,7 @@ A diagnostic tool for understanding business partner maturity and building strat
 - Portfolio diagnostics and value-add assessment
 
 ### [The Realms of Projects Framework](the_realms_of_projects_framework.md)
+*~6,000 words | 27 min read*
 
 A diagnostic tool for understanding what type of work you're being asked to do and whether it fits your team's charter and capabilities. This framework helps Centers of Excellence and specialized teams categorize work into three realms and nine project types, each requiring fundamentally different execution approaches. It provides clarity on boundaries, helps teams say no professionally, and prevents burnout from misaligned work.
 
@@ -68,24 +73,36 @@ A diagnostic tool for understanding what type of work you're being asked to do a
 
 These articles emerge from real-world experience leading organizational transformation initiatives, building enabling teams, and implementing sustainable change in software engineering organizations. The frameworks presented here serve as both diagnostic tools for advising leaders and practical checklists for executing transformation work.
 
-## Development Environment
+## About the Author
 
-These articles were created using spec-driven development principles with:
-- **Version Control**: Git for change management and collaboration
-- **AI Assistance**: Cursor IDE (as of Dec 2025) for agentic development
-- **Specifications**: Machine-readable rules in `.cursor/rules/` that guide both humans and agents
-- **Validation**: Checklists in `.cursor/checklists/` for quality gates and workflow guidance
-- **Templates**: Starting points in `.cursor/templates/` for common content patterns
+Thomas Bohn is a software engineering leader with extensive experience in organizational transformation, data governance, and building high-performing teams. These frameworks represent years of practical application in real-world environments, refined through repeated use and validated by results.
 
-The approach is tool-agnostic—any AI-powered development environment with file access and custom instructions can follow these patterns. The principles of specification-driven writing, automated validation, and iterative refinement apply regardless of specific tooling.
+## Using These Frameworks
 
-**For complete details on the rules, AI automation, and workflows**, see [`.cursor/README.md`](.cursor/README.md). This includes:
-- How intelligent rules are automatically loaded based on context
-- The 6 core specification rules and 8 workflow checklists
-- Quality standards and validation processes
-- Common workflows for creating, editing, and publishing content
-- AI tell detection and prevention guardrails
+These frameworks are designed to be:
+- **Diagnostic**: Identify gaps and failure patterns in your organization
+- **Practical**: Provide clear next steps and actionable guidance
+- **Adaptable**: Apply to various contexts and organizational sizes
+- **Proven**: Based on real-world experience, not academic theory
+
+## Development Process
+
+These articles were created using a spec-driven writing approach that treats technical content as software engineering. The methodology uses version control, AI assistance, machine-readable specifications, and automated validation to ensure quality and consistency.
+
+**Interested in the process?** See [DEVELOPMENT.md](DEVELOPMENT.md) for complete details on the spec-driven writing system, including:
+- How the system works
+- Tools and workflows
+- Quality standards
+- How to adapt this approach for your own projects
+
+## Contributing
+
+While the articles themselves represent the author's personal experience and voice, feedback and suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
+- Reporting issues or typos
+- Suggesting improvements
+- Sharing how you've applied these frameworks
+- Questions and discussion
 
 ## License
 
-All content © Thomas Bohn. All rights reserved.
+All content © 2025 Thomas Bohn. All rights reserved. See [LICENSE](LICENSE) for details.
