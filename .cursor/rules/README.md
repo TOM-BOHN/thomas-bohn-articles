@@ -23,6 +23,7 @@ This repository uses **modern Cursor Project Rules** with intelligent applicatio
 | `content-workflow-and-process` | Workflow, process, phases, steps, maintenance | 688 |
 | `release-engineering-and-version-control` | Commit, git, version, commit message, changelog | 165 |
 | `session-reflection-and-improvement` | Reflection, retrospective, improvement, learnings | 117 |
+| `linkedin-marketing-optimization` | Marketing, LinkedIn, social media, posts, engagement | 650 |
 
 ## How Intelligent Application Works
 
@@ -73,8 +74,14 @@ AGENTS.md                                       # Core context (always loaded)
 │   └── RULE.md                                 # Framework requirements
 ├── article-structure-and-quality/
 │   └── RULE.md                                 # Structure standards
-└── content-workflow-and-process/
-    └── RULE.md                                 # Workflows & processes
+├── content-workflow-and-process/
+│   └── RULE.md                                 # Workflows & processes
+├── release-engineering-and-version-control/
+│   └── RULE.md                                 # Git & version control
+├── session-reflection-and-improvement/
+│   └── RULE.md                                 # Session reflection
+└── linkedin-marketing-optimization/
+    └── RULE.md                                 # LinkedIn marketing strategy
 ```
 
 ## Why This Architecture?
@@ -163,6 +170,17 @@ AGENTS.md                                       # Core context (always loaded)
 - Capturing learnings
 - Improving processes and rules
 - Updating templates and checklists
+
+### linkedin-marketing-optimization
+**Triggers on:** marketing, LinkedIn, social media, post, engagement, impressions, algorithm, hashtags, sharing, promotion, distribution, audience, reach, external article, commentary
+
+**Use when:**
+- Creating LinkedIn posts for articles
+- Sharing external content with commentary
+- Optimizing posts for engagement
+- Planning content distribution
+- Analyzing post performance
+- Choosing hashtags and timing
 
 ## Benefits
 

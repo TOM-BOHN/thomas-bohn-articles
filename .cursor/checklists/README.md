@@ -56,6 +56,7 @@ This directory contains milestone-based checklists for content creation, editing
 ### Specialized Checklists
 - **[condensing-content-checklist.md](condensing-content-checklist.md)** - Guidance for reducing article length while maintaining quality
 - **[voice-validation-checklist.md](voice-validation-checklist.md)** - Voice and style validation before publication
+- **[linkedin-marketing-checklist.md](linkedin-marketing-checklist.md)** - Complete checklist for creating and posting optimized LinkedIn content
 
 ## How to Use
 

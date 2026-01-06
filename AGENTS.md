@@ -40,7 +40,7 @@ Every framework must include:
 
 ## Specialized Rules Available
 
-Six detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
+Seven detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
 
 1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
 2. **framework-development-standards** - Framework creation requirements
@@ -48,6 +48,7 @@ Six detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's 
 4. **content-workflow-and-process** - Creation and editing workflows
 5. **release-engineering-and-version-control** - Git practices, commit messages, versioning
 6. **session-reflection-and-improvement** - Post-session reflection and continuous improvement
+7. **linkedin-marketing-optimization** - LinkedIn algorithm optimization, engagement strategies, post structure
 
 ## Templates Available
 
@@ -59,7 +60,7 @@ Three templates in `.cursor/templates/` provide starting points for common conte
 
 ## Checklists Available
 
-Eight milestone-based checklists in `.cursor/checklists/` guide you through workflows:
+Nine milestone-based checklists in `.cursor/checklists/` guide you through workflows:
 
 ### Workflow Checklists
 1. **content-creation-workflow-checklist.md** - Complete workflow for new articles (9 phases)
@@ -68,15 +69,17 @@ Eight milestone-based checklists in `.cursor/checklists/` guide you through work
    - Understand Intent → Identify Issues → Preserve Core → Enhance Selectively → Verify Consistency
 3. **framework-extension-checklist.md** - Complete workflow for extending frameworks (5 phases)
    - Study Original → Identify Gaps → Maintain Consistency → Add Value → Update Cross-References
+4. **linkedin-marketing-checklist.md** - Complete workflow for creating and posting LinkedIn content
+   - Pre-Creation → Post Creation → Pre-Post → Post Execution → Post-Post → Learning
 
 ### Quality Gate Checklists
-4. **pre-publication-checklist.md** - Final comprehensive check before publishing (Structure, Quality, Formatting, Technical)
-5. **framework-quality-checklist.md** - Framework-specific requirements (Origin story, definitions, diagrams, gaps, measurement)
-6. **pre-commit-validation.md** - Technical validation before committing
+5. **pre-publication-checklist.md** - Final comprehensive check before publishing (Structure, Quality, Formatting, Technical)
+6. **framework-quality-checklist.md** - Framework-specific requirements (Origin story, definitions, diagrams, gaps, measurement)
+7. **pre-commit-validation.md** - Technical validation before committing
 
 ### Specialized Checklists
-7. **condensing-content-checklist.md** - Guidance for reducing article length while maintaining quality
-8. **voice-validation-checklist.md** - Voice and style validation before publication
+8. **condensing-content-checklist.md** - Guidance for reducing article length while maintaining quality
+9. **voice-validation-checklist.md** - Voice and style validation before publication
 
 **See `.cursor/checklists/README.md` for complete organization guide.**
 

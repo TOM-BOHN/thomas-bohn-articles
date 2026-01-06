@@ -20,9 +20,46 @@ Key insights:
 
 [Call to action - invite readers to engage]
 
-Read the full framework: [LINK]
+Read the full framework: [See first comment for link]
 
 #[Hashtag1] #[Hashtag2] #[Hashtag3] #[Hashtag4] #[Hashtag5] #[Hashtag6]
+
+---
+
+## LinkedIn Self-Comment (Post immediately after main post)
+
+Read the full article here: [FULL URL]
+
+---
+
+## Alternative: Sharing External Article with Commentary
+
+Use this format when sharing someone else's article:
+
+### LinkedIn Post (External Content)
+
+[Opening hook: Why this article caught your attention or what problem it addresses]
+
+[Author Name] just published [Article Title], and [specific insight that resonated].
+
+Key takeaways:
+• [Your interpretation of insight 1]
+• [Your interpretation of insight 2]
+• [Your interpretation of insight 3]
+
+[Your commentary: How this connects to your experience, what it means for your audience, or what question it raises]
+
+[Call to action: Invite discussion]
+
+Read the full article: [See first comment for link]
+
+#[Hashtag1] #[Hashtag2] #[Hashtag3] #[Hashtag4] #[Hashtag5] #[Hashtag6]
+
+### LinkedIn Self-Comment (External Content)
+
+Read the full article here: [FULL URL]
+
+Credit: [Author Name] ([Author LinkedIn Profile URL if tagging])
 
 ---
 
@@ -49,14 +86,30 @@ Read the full framework: [LINK]
 ## Template Usage Notes
 
 ### LinkedIn Post Guidelines
-- **Opening hook**: Start with a relatable problem from your experience. Use "I" statements.
+
+**IMPORTANT: Link-in-Comments Strategy**
+- **NEVER put the article link in the main post body** - it kills organic reach
+- Always reference "See first comment for link" in the main post
+- Post the link as a self-comment immediately after publishing
+- This approach maximizes impressions while still providing access
+
+**Post Structure:**
+- **Opening hook**: Start with a relatable problem from your experience. Use "I" statements. First 2-3 lines determine if readers click "See More."
 - **Framework title**: Use bold formatting. Include subtitle if it adds clarity.
 - **One-line description**: Focus on what it enables or solves, not just what it is.
-- **Key insights**: 4 bullet points, each should be specific and actionable. Use "•" not "-".
+- **Key insights**: 3-4 bullet points, each should be specific and actionable. Use "•" not "-".
 - **Result statement**: Quantify if possible (weeks to hours, 10x faster, etc.)
 - **Personal note**: Make it authentic. Reference the creation process or your experience.
 - **Call to action**: Invite engagement without being pushy.
-- **Hashtags**: 5-6 relevant hashtags. Include topic, domain, and tool/method tags.
+- **Hashtags**: 5-6 relevant hashtags. Mix 2-3 popular tags with 2-3 niche tags.
+
+**Optimization:**
+- **Length**: 150-300 words ideal
+- **Timing**: Post Tuesday-Thursday, 8-10 AM or 12-1 PM (your audience's timezone)
+- **Engagement**: Respond to every comment in first 60 minutes
+- **Visuals**: Include framework diagrams or infographics when possible (1200x627px optimal)
+
+**For detailed optimization strategies, see:** `.cursor/rules/linkedin-marketing-optimization/RULE.md`
 
 ### Medium Publication Details Guidelines
 - **Title**: Must match article title exactly
