@@ -20,9 +20,15 @@ The result: I went from weeks per article to hours while maintaining quality. Th
 
 This challenges what we consider "software." If content lives in git, validates against specs, reviews through diffs, and develops with agents—is it different from code? The answer is no. Technical writing IS software engineering when you apply the same discipline and tools.
 
-Read the full framework: [LINK]
+Read the full framework: [See first comment for link]
 
 #Leadership #AI #TechnicalWriting #SoftwareEngineering #AgenticWorkflows #GitHub
+
+---
+
+## LinkedIn Self-Comment (Post immediately after main post)
+
+Read the full article here: [FULL URL]
 
 ---
 
@@ -39,7 +45,7 @@ Read the full framework: [LINK]
 4. Agentic Workflows
 5. Leadership
 
-**Featured Image:** `images/the_spec_driven_writing_framework/overview.png`
+**Featured Image:** `../whitepapers/images/the_spec_driven_writing_framework/overview.png`
 
 **Description for Medium:**
 A system for creating high-quality technical content by treating writing as software engineering—not metaphorically, but literally applying the same tools and practices. The framework emerged from a personal bottleneck: dozens of organizational frameworks trapped in fragments (diagrams, drafts, voice notes) that took weeks to document as comprehensive whitepapers. The breakthrough came from asking "What if I treated writing exactly like software engineering?" The answer transformed content creation from a time-intensive craft into a scalable engineering process. The framework includes four core components (Specification, Development, Validation, Iteration), six detailed rules as machine-readable specifications in `.cursor/rules/`, eight checklists, and a nine-phase workflow. It uses GitHub for version control, Cursor for diff reviews, and AI agents as collaborators in a writer's room. Previous articles compound as reference material that grounds future work. Based on experience creating framework articles for organizational transformation, this approach reduced article creation time from weeks to hours while maintaining quality through explicit specifications that make excellence repeatable.

@@ -13,6 +13,19 @@ marketing/
     ├── the_digital_transformation_framework.md
     ├── the_realms_of_projects_framework.md
     └── the_spec_driven_writing_framework.md
+
+whitepapers/
+├── the_digital_transformation_framework.md
+├── the_enabling_team_framework.md
+├── the_four_cs_of_data_governance_measurement.md
+├── the_realms_of_projects_framework.md
+├── the_spec_driven_writing_framework.md
+└── images/                             # Supporting images for each article
+    ├── the_digital_transformation_framework/
+    ├── the_enabling_team_framework/
+    ├── the_four_cs_of_data_governance_measurement/
+    ├── the_realms_of_projects_framework/
+    └── the_spec_driven_writing_framework/
 ```
 
 **Note:** The marketing post template is now located at `.cursor/templates/marketing-post-template.md` for consistency with other templates.

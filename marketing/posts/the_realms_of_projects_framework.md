@@ -17,9 +17,15 @@ The framework organizes all work into 3 realms and 9 project types, each with sp
 
 If you're leading a Center of Excellence, platform team, or specialized team that's overwhelmed by diverse requests, this framework will help you gain clarity and protect capacity for high-value work.
 
-Read the full framework: [LINK]
+Read the full framework: [See first comment for link]
 
 #Leadership #CenterOfExcellence #TeamManagement #Prioritization #OrganizationalDesign
+
+---
+
+## LinkedIn Self-Comment (Post immediately after main post)
+
+Read the full article here: [FULL URL]
 
 ---
 
@@ -36,7 +42,7 @@ Read the full framework: [LINK]
 4. Framework
 5. Project Management
 
-**Featured Image:** `images/the_realms_of_projects_framework/the_realms_of_projects_framework.png`
+**Featured Image:** `../whitepapers/images/the_realms_of_projects_framework/the_realms_of_projects_framework.png`
 
 **Description for Medium:**
 A practical framework for Centers of Excellence and specialized teams to understand what type of work they're being asked to do and whether it fits their charter. Organizes all possible work into three realms (Services and Success, Digital Transformation, Strategy and Planning) and nine distinct project types, each requiring different execution approaches. Includes color-coded fit assessment, diagnostic questions for unbundling complex requests, five common failure patterns, and daily usage guidance. Based on experience building and leading Centers of Excellence across multiple organizations.

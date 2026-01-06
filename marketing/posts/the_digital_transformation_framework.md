@@ -17,9 +17,15 @@ The framework distinguishes three levels of partnership—Transformation, Innova
 
 If you're leading an analytics or data team and want to build strategic relationships that make you irreplaceable, this framework will change how you engage with business partners.
 
-Read the full framework: [LINK]
+Read the full framework: [See first comment for link]
 
 #DataLeadership #Analytics #DigitalTransformation #BusinessPartnership #StrategicAdvisor
+
+---
+
+## LinkedIn Self-Comment (Post immediately after main post)
+
+Read the full article here: [FULL URL]
 
 ---
 
@@ -36,7 +42,7 @@ Read the full framework: [LINK]
 4. Leadership
 5. Business Intelligence
 
-**Featured Image:** `images/the_digital_transformation_framework/the_digital_transformation_framework.png`
+**Featured Image:** `../whitepapers/images/the_digital_transformation_framework/the_digital_transformation_framework.png`
 
 **Description for Medium:**
 A diagnostic framework for analytics and technology teams to understand business partner maturity and position themselves as strategic partners rather than order-takers. Explores three distinct levels of partnership—Transformation, Innovation, and Delivery—and reveals why treating all work as delivery guarantees failure. Includes the maturity paradox, five common failure modes, and practical guidance on building relationships that make you irreplaceable. Based on experience leading analytics teams and advising organizations on analytics strategy.

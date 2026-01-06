@@ -165,9 +165,9 @@ The repository uses different image formats for different purposes:
 - `.cursor/checklists/README.md` - Checklist organization guide
 
 ### Example Articles
-- `the_spec_driven_writing_framework.md` - Meta-documentation of this process
-- `the_realms_of_projects_framework.md` - Example of framework structure
-- `the_enabling_team_framework.md` - Example of team framework
+- `whitepapers/the_spec_driven_writing_framework.md` - Meta-documentation of this process
+- `whitepapers/the_realms_of_projects_framework.md` - Example of framework structure
+- `whitepapers/the_enabling_team_framework.md` - Example of team framework
 
 ### External References
 - [Cursor Rules Documentation](https://cursor.com/docs/context/rules)

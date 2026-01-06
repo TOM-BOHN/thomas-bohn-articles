@@ -4,7 +4,7 @@ A collection of whitepapers and articles on software engineering leadership, org
 
 ## Articles
 
-### [The Spec-Driven Writing Framework](the_spec_driven_writing_framework.md)
+### [The Spec-Driven Writing Framework](whitepapers/the_spec_driven_writing_framework.md)
 *~5,700 words | 25 min read*
 
 An approach to creating technical content by treating writing as software engineering. Not metaphorically, but literally. This framework applies specification-driven design, version control, automated validation, and agentic development to technical writing. It emerged from a personal challenge: frameworks existed in fragments (diagrams, drafts, presentations, voice notes) but couldn't be turned into comprehensive whitepapers fast enough.
@@ -19,7 +19,7 @@ An approach to creating technical content by treating writing as software engine
 - Result: weeks per article to hours while maintaining quality
 - Proving that technical writing IS software engineering when you apply the same discipline and tools
 
-### [The Enabling Team Framework](the_enabling_team_framework.md)
+### [The Enabling Team Framework](whitepapers/the_enabling_team_framework.md)
 *~4,500 words | 20 min read*
 
 A structured approach for how enabling teams should think about, organize, and deliver capability transformation work across an organization. This framework provides the practical "how" for enabling teams—breaking down complex capability uplift into clear roles, sequential elements, delivery modes, and work types.
@@ -31,7 +31,7 @@ A structured approach for how enabling teams should think about, organize, and d
 - Gap analysis and diagnostic patterns
 - Work management through epic templates
 
-### [The Four Cs of Data Governance Measurement](the_four_cs_of_data_governance_measurement.md)
+### [The Four Cs of Data Governance Measurement](whitepapers/the_four_cs_of_data_governance_measurement.md)
 *~3,800 words | 17 min read*
 
 A comprehensive framework for measuring data governance maturity and cultural change across organizations. This article introduces the Four Cs—Compliance, Competency, Culture, and Capability—as a holistic approach to tracking data governance transformation.
@@ -43,7 +43,7 @@ A comprehensive framework for measuring data governance maturity and cultural ch
 - Measuring progress and adoption
 - Building data-driven organizations
 
-### [The Digital Transformation Framework](the_digital_transformation_framework.md)
+### [The Digital Transformation Framework](whitepapers/the_digital_transformation_framework.md)
 *~5,200 words | 23 min read*
 
 A diagnostic tool for understanding business partner maturity and building strategic partnerships in analytics work. This framework helps analytics teams escape the "delivery danger zone" by recognizing three distinct levels of partnership—Transformation, Innovation, and Delivery—and positioning themselves as trusted advisors rather than replaceable order-takers.
@@ -56,7 +56,7 @@ A diagnostic tool for understanding business partner maturity and building strat
 - Five common failure modes and how to avoid them
 - Portfolio diagnostics and value-add assessment
 
-### [The Realms of Projects Framework](the_realms_of_projects_framework.md)
+### [The Realms of Projects Framework](whitepapers/the_realms_of_projects_framework.md)
 *~6,000 words | 27 min read*
 
 A diagnostic tool for understanding what type of work you're being asked to do and whether it fits your team's charter and capabilities. This framework helps Centers of Excellence and specialized teams categorize work into three realms and nine project types, each requiring fundamentally different execution approaches. It provides clarity on boundaries, helps teams say no professionally, and prevents burnout from misaligned work.

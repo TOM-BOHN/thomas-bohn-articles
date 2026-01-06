@@ -17,9 +17,15 @@ The framework provides specific metrics for each dimension, guidance on data col
 
 If you're leading data governance transformation and need to demonstrate value beyond compliance metrics, this framework will help you measure what actually matters.
 
-Read the full framework: [LINK]
+Read the full framework: [See first comment for link]
 
 #DataGovernance #DataStrategy #DataLeadership #Analytics #ChangeManagement
+
+---
+
+## LinkedIn Self-Comment (Post immediately after main post)
+
+Read the full article here: [FULL URL]
 
 ---
 
@@ -36,7 +42,7 @@ Read the full framework: [LINK]
 4. Leadership
 5. Analytics
 
-**Featured Image:** `images/the_four_cs_of_data_governance_measurement/4_cs_of_data_governance_measurement.jpg`
+**Featured Image:** `../whitepapers/images/the_four_cs_of_data_governance_measurement/4_cs_of_data_governance_measurement.jpg`
 
 **Description for Medium:**
 A comprehensive framework for measuring data governance transformation beyond compliance metrics alone. The framework emerged from a recurring question every data leader asks: "How do we know if our data governance program is actually working?" Leaders invest in tools, hire people, and create policies—but struggle to demonstrate progress. The 4 Cs framework—Capability, Capacity, Competency, and Compliance—provides a holistic approach to measuring data governance maturity and tracking cultural change across organizations. It addresses three critical measurement categories (maturity, efficiency, effectiveness) and reveals why measuring only compliance misses 75% of what makes governance successful. Based on experience implementing data governance across multiple organizations, the framework includes specific metrics for each dimension, data collection methods, real-world scenarios, and practical guidance on demonstrating value to leadership. Shows how cultural change indicators reveal whether governance is becoming embedded or remains a checkbox exercise, and how capability maturity determines long-term sustainability.
