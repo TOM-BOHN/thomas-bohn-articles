@@ -28,7 +28,7 @@ whitepapers/
     └── the_spec_driven_writing_framework/
 ```
 
-**Note:** The marketing post template is now located at `.cursor/templates/marketing-post-template.md` for consistency with other templates.
+**Note:** The marketing post template is located at `.cursor/resources/marketing/templates/marketing-post.md`.
 
 ## Usage
 
@@ -55,7 +55,7 @@ whitepapers/
 When you write a new article:
 
 1. Create a new file in `posts/` named after your article (e.g., `the_framework_name.md`)
-2. Use the template at `.cursor/templates/marketing-post-template.md` to structure your content
+2. Use the template at `.cursor/resources/marketing/templates/marketing-post.md` to structure your content
 3. Follow the guidelines for hooks, descriptions, and calls to action
 4. Choose relevant hashtags and tags (see template for common options)
 5. Ensure the featured image path is correct

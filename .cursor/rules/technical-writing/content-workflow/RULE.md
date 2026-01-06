@@ -60,7 +60,7 @@ Follow this 9-phase process when creating new articles or frameworks:
 
 **Activities:**
 1. Use the standard 8-part article structure as your template
-2. Use `.cursor/templates/article-header-template.md` for opening pattern
+2. Use `.cursor/resources/technical-writing/templates/article-header.md` for opening pattern
 3. Write topic sentences for each major section
 4. List the key points to cover in each section
 5. Identify where examples, diagrams, or case studies are needed
@@ -222,8 +222,8 @@ Follow this 9-phase process when creating new articles or frameworks:
 **Purpose:** Ensure content matches established templates before considering complete.
 
 **Activities:**
-1. Validate marketing post against `.cursor/templates/marketing-post-template.md`
-2. Validate article header against `.cursor/templates/article-header-template.md`
+1. Validate marketing post against `.cursor/resources/marketing/templates/marketing-post.md`
+2. Validate article header against `.cursor/resources/technical-writing/templates/article-header.md`
 3. Check README updated with new article entry
 4. Verify all templates followed exactly (structure, not just theme)
 
@@ -593,7 +593,7 @@ When creating a new article, follow this sequence:
 3. **Generate PNG:** `mmdc -i input.mmd -o output.png -b transparent`
 4. **Create marketing post:** `marketing/posts/the_framework_name.md`
 5. **Update README:** Add entry with title, description, key topics
-6. **Validate templates:** Check against `.cursor/templates/`
+6. **Validate templates:** Check against `.cursor/resources/[concern]/templates/`
 7. **Commit all together:** Article, diagram (.mmd + .png), marketing post, README
 
 ### Directory Structure

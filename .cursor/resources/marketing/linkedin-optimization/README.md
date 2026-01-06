@@ -33,8 +33,8 @@ This rule provides comprehensive guidance for creating high-performing LinkedIn 
 
 ### Related Files
 
-- **Checklist:** `.cursor/checklists/linkedin-marketing-checklist.md` - Complete checklist for every post (pre-creation through learning phase)
-- **Template:** `.cursor/templates/marketing-post-template.md` - Enhanced with link-in-comments strategy
+- **Checklist:** `.cursor/resources/marketing/checklists/linkedin-marketing.md` - Complete checklist for every post (pre-creation through learning phase)
+- **Template:** `.cursor/resources/marketing/templates/marketing-post.md` - Enhanced with link-in-comments strategy
 - **Examples:** `marketing/posts/` - All 5 framework posts updated
 - **Workflow:** `EXAMPLE_WORKFLOW.md` (this directory) - Complete workflow demonstration
 
@@ -69,7 +69,7 @@ The AI automatically loads this rule when you mention:
 
 ### For Your Own Articles
 
-1. Open `.cursor/templates/marketing-post-template.md`
+1. Open `.cursor/resources/marketing/templates/marketing-post.md`
 2. Fill in the LinkedIn Post section
 3. Review against checklist in QUICK_START.md
 4. Post during optimal time (Tue-Thu, 8-10 AM)
@@ -127,7 +127,7 @@ All marketing posts now use link-in-comments strategy:
 
 ### Template Enhanced
 
-`.cursor/templates/marketing-post-template.md` now includes:
+`.cursor/resources/marketing/templates/marketing-post.md` now includes:
 - Link-in-comments strategy section
 - Self-comment template
 - External article sharing template
@@ -200,7 +200,7 @@ See QUICK_START.md for:
 - Hashtag strategy
 - Essential strategies
 
-See `.cursor/checklists/linkedin-marketing-checklist.md` for:
+See `.cursor/resources/marketing/checklists/linkedin-marketing.md` for:
 - Complete pre-creation checklist
 - Post creation quality checks
 - Engagement execution plan
@@ -232,7 +232,7 @@ Just ask:
 ## Next Steps
 
 1. Review QUICK_START.md for essential strategies
-2. Open `.cursor/templates/marketing-post-template.md`
+2. Open `.cursor/resources/marketing/templates/marketing-post.md`
 3. Create your first optimized post
 4. Track metrics in LinkedIn Analytics
 5. Refine based on performance data

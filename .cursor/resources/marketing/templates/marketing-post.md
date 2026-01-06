@@ -109,7 +109,7 @@ Credit: [Author Name] ([Author LinkedIn Profile URL if tagging])
 - **Engagement**: Respond to every comment in first 60 minutes
 - **Visuals**: Include framework diagrams or infographics when possible (1200x627px optimal)
 
-**For detailed optimization strategies, see:** `.cursor/rules/linkedin-marketing-optimization/RULE.md`
+**For detailed optimization strategies, see:** `.cursor/rules/marketing/linkedin-optimization/RULE.md`
 
 ### Medium Publication Details Guidelines
 - **Title**: Must match article title exactly

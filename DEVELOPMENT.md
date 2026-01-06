@@ -11,8 +11,8 @@ These articles were created using specification-driven development principles, t
 - **Version Control**: Git for change management and collaboration
 - **AI Assistance**: Cursor IDE (as of Dec 2025) for agentic development
 - **Specifications**: Machine-readable rules in `.cursor/rules/` that guide both humans and agents
-- **Validation**: Checklists in `.cursor/checklists/` for quality gates and workflow guidance
-- **Templates**: Starting points in `.cursor/templates/` for common content patterns
+- **Validation**: Checklists in `.cursor/resources/[concern]/checklists/` for quality gates and workflow guidance
+- **Templates**: Starting points in `.cursor/resources/[concern]/templates/` for common content patterns
 
 ## Tool-Agnostic Approach
 
@@ -22,42 +22,58 @@ The approach is tool-agnostic—any AI-powered development environment with file
 
 ### 1. Specifications (`.cursor/rules/`)
 
-Six specialized rules provide comprehensive guidance:
+Seven specialized rules provide comprehensive guidance, organized by concern:
 
-1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
-2. **framework-development-standards** - Framework creation requirements
-3. **article-structure-and-quality** - 8-part structure, quality standards
-4. **content-workflow-and-process** - Creation and editing workflows
-5. **release-engineering-and-version-control** - Git practices, commit messages, versioning
-6. **session-reflection-and-improvement** - Post-session reflection and continuous improvement
+**Technical Writing** (`.cursor/rules/technical-writing/`):
+1. **voice-and-style** - Voice, tone, writing techniques
+2. **article-structure** - 8-part structure, quality standards
+3. **content-workflow** - Creation and editing workflows
+
+**Framework Design** (`.cursor/rules/framework-design/`):
+4. **framework-development** - Framework creation requirements
+
+**Marketing** (`.cursor/rules/marketing/`):
+5. **linkedin-optimization** - LinkedIn algorithm optimization, engagement strategies
+
+**DevOps** (`.cursor/rules/devops/`):
+6. **version-control** - Git practices, commit messages, versioning
+7. **session-reflection** - Post-session reflection and continuous improvement
 
 Rules are automatically loaded by the AI based on context, keywords, and task type.
 
-### 2. Checklists (`.cursor/checklists/`)
+### 2. Checklists (`.cursor/resources/[concern]/checklists/`)
 
-Eight milestone-based checklists guide workflows:
+Checklists are organized by concern:
 
-**Workflow Checklists:**
-- **content-creation-workflow-checklist.md** - Complete workflow for new articles (9 phases)
-- **editing-workflow-checklist.md** - Complete workflow for editing existing content (5 phases)
-- **framework-extension-checklist.md** - Complete workflow for extending frameworks (5 phases)
+**Technical Writing:**
+- **content-creation.md** - Complete workflow for new articles (9 phases)
+- **editing.md** - Complete workflow for editing existing content (5 phases)
+- **pre-publication.md** - Final comprehensive check before publishing
+- **condensing.md** - Guidance for reducing article length
+- **voice-validation.md** - Voice and style validation
 
-**Quality Gate Checklists:**
-- **pre-publication-checklist.md** - Final comprehensive check before publishing
-- **framework-quality-checklist.md** - Framework-specific requirements
-- **pre-commit-validation.md** - Technical validation before committing
+**Framework Design:**
+- **framework-quality.md** - Framework-specific requirements
+- **framework-extension.md** - Complete workflow for extending frameworks (5 phases)
 
-**Specialized Checklists:**
-- **condensing-content-checklist.md** - Guidance for reducing article length
-- **voice-validation-checklist.md** - Voice and style validation
+**Marketing:**
+- **linkedin-marketing.md** - Complete workflow for creating and posting LinkedIn content
 
-### 3. Templates (`.cursor/templates/`)
+**DevOps:**
+- **pre-commit.md** - Technical validation before committing
 
-Three templates provide starting points:
+### 3. Templates (`.cursor/resources/[concern]/templates/`)
 
-- **article-header-template.md** - Article opening and framework introduction structure
-- **marketing-post-template.md** - LinkedIn + Medium publication format
-- **session-reflection-template.md** - Session tracking (scales lightweight → comprehensive)
+Templates are organized by concern:
+
+**Technical Writing:**
+- **article-header.md** - Article opening and framework introduction structure
+
+**Marketing:**
+- **marketing-post.md** - LinkedIn + Medium publication format
+
+**DevOps:**
+- **session-reflection.md** - Session tracking (scales lightweight → comprehensive)
 
 ## How It Works
 
@@ -71,7 +87,7 @@ The system uses intelligent rule application:
 
 **Example:**
 - You: "I'm writing a new framework article"
-- AI: *Automatically loads framework-development-standards and technical-writing-voice-and-style*
+- AI: *Automatically loads framework-design/framework-development and technical-writing/voice-and-style*
 
 ### Specification-Driven Quality
 
@@ -162,7 +178,8 @@ The repository uses different image formats for different purposes:
 - `.cursor/README.md` - Complete system documentation
 - `.cursor/rules/README.md` - How intelligent rules work
 - `.cursor/rules/QUICK_REFERENCE.md` - Quick standards lookup
-- `.cursor/checklists/README.md` - Checklist organization guide
+- `.cursor/docs/quick-reference.md` - Quick standards lookup
+- `.cursor/docs/how-rules-work-together.md` - Visual guide to rule system
 
 ### Example Articles
 - `whitepapers/the_spec_driven_writing_framework.md` - Meta-documentation of this process

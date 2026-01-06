@@ -122,12 +122,12 @@ Reflections are **working documents** for updating rules, not permanent document
 
 | Reflection Content | Where It Should Go |
 |-------------------|-------------------|
-| Voice learnings | `.cursor/rules/technical-writing-voice-and-style/RULE.md` |
-| Process improvements | `.cursor/rules/content-workflow-and-process/RULE.md` |
-| Templates needed | `.cursor/templates/[template-name].md` |
-| Checklists needed | `.cursor/checklists/[checklist-name].md` |
-| Quality patterns | `.cursor/rules/article-structure-and-quality/RULE.md` |
-| Tool learnings | `.cursor/rules/release-engineering-and-version-control/RULE.md` |
+| Voice learnings | `.cursor/rules/technical-writing/voice-and-style/RULE.md` |
+| Process improvements | `.cursor/rules/technical-writing/content-workflow/RULE.md` |
+| Templates needed | `.cursor/resources/[concern]/templates/[template-name].md` |
+| Checklists needed | `.cursor/resources/[concern]/checklists/[checklist-name].md` |
+| Quality patterns | `.cursor/rules/technical-writing/article-structure/RULE.md` |
+| Tool learnings | `.cursor/rules/devops/version-control/RULE.md` |
 
 **The rules are the source of truth.** Reflections are the mechanism for updating rules.
 

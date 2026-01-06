@@ -16,7 +16,7 @@ Reflect on completed work to identify improvements to specifications, processes,
 
 ## What to Capture
 
-Use `.cursor/templates/session-reflection-template.md` to document:
+Use `.cursor/resources/devops/templates/session-reflection.md` to document:
 
 **1. Voice and Style**
 - Feedback on voice, tone, punctuation, word choice
@@ -28,7 +28,7 @@ Use `.cursor/templates/session-reflection-template.md` to document:
 
 **3. Templates and Checklists**
 - Repeated patterns, manual quality checks, format requirements
-- Create in: `.cursor/templates/` or `.cursor/checklists/`
+- Create in: `.cursor/resources/[concern]/templates/` or `.cursor/resources/[concern]/checklists/`
 
 **4. Specifications**
 - Unclear requirements, contradictions, new patterns
@@ -48,7 +48,7 @@ Use `.cursor/templates/session-reflection-template.md` to document:
 
 ## Using the Template
 
-**Template:** `.cursor/templates/session-reflection-template.md`
+**Template:** `.cursor/resources/devops/templates/session-reflection.md`
 **Location:** `plans/[YYYY-MM-DD]-[work-item-name].md`
 
 **Lifecycle:** Create → Update → Integrate → Delete

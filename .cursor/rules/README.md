@@ -15,27 +15,27 @@ This repository uses **modern Cursor Project Rules** with intelligent applicatio
 ### Specialized Rules (Folders in `.cursor/rules/`)
 **Applied intelligently** - Cursor's AI automatically loads these based on your task and keywords in the description:
 
-| Rule | When Applied | Lines |
-|------|--------------|-------|
-| `technical-writing-voice-and-style` | Writing, editing, voice, tone, style, language | 238 |
-| `framework-development-standards` | Framework, model, structure, elements, gap analysis | 355 |
-| `article-structure-and-quality` | Structure, organization, sections, outline, format | 518 |
-| `content-workflow-and-process` | Workflow, process, phases, steps, maintenance | 688 |
-| `release-engineering-and-version-control` | Commit, git, version, commit message, changelog | 165 |
-| `session-reflection-and-improvement` | Reflection, retrospective, improvement, learnings | 117 |
-| `linkedin-marketing-optimization` | Marketing, LinkedIn, social media, posts, engagement | 650 |
+| Rule | When Applied | Lines | Location |
+|------|--------------|-------|----------|
+| `technical-writing/voice-and-style` | Writing, editing, voice, tone, style, language | 238 | `rules/technical-writing/voice-and-style/` |
+| `technical-writing/article-structure` | Structure, organization, sections, outline, format | 518 | `rules/technical-writing/article-structure/` |
+| `technical-writing/content-workflow` | Workflow, process, phases, steps, maintenance | 688 | `rules/technical-writing/content-workflow/` |
+| `framework-design/framework-development` | Framework, model, structure, elements, gap analysis | 355 | `rules/framework-design/framework-development/` |
+| `marketing/linkedin-optimization` | Marketing, LinkedIn, social media, posts, engagement | 650 | `rules/marketing/linkedin-optimization/` |
+| `devops/version-control` | Commit, git, version, commit message, changelog | 165 | `rules/devops/version-control/` |
+| `devops/session-reflection` | Reflection, retrospective, improvement, learnings | 117 | `rules/devops/session-reflection/` |
 
 ## How Intelligent Application Works
 
 ### Keyword-Based Triggering
 Each rule has a rich description with keywords that help Cursor's AI decide when to apply it:
 
-**Example:** `technical-writing-voice-and-style`
+**Example:** `technical-writing/voice-and-style`
 ```yaml
 description: "Apply when writing or editing articles... Keywords: writing, editing, voice, tone, style, article, content, phrasing, wording, language, prose"
 ```
 
-When you say "I'm editing this article" or "How should I phrase this?", Cursor recognizes keywords like "editing", "article", "phrase" and automatically loads the voice & style rule.
+When you say "I'm editing this article" or "How should I phrase this?", Cursor recognizes keywords like "editing", "article", "phrase" and automatically loads the `technical-writing/voice-and-style` rule.
 
 ### Context-Aware Loading
 Cursor's AI analyzes:
@@ -49,12 +49,12 @@ Cursor's AI analyzes:
 **Automatic (Recommended):**
 ```
 You: "I'm creating a new framework about DevOps maturity"
-AI: *Automatically loads framework-development-standards*
+AI: *Automatically loads framework-design/framework-development*
 ```
 
 **Manual (@-mention):**
 ```
-You: "@technical-writing-voice-and-style - Review my opening"
+You: "@technical-writing/voice-and-style - Review my opening"
 AI: *Explicitly loads specified rule*
 ```
 
@@ -64,24 +64,23 @@ Following Cursor's current best practices (as of v2.2+):
 
 ```
 AGENTS.md                                       # Core context (always loaded)
-.cursor/rules/
-├── README.md                                   # This file
-├── QUICK_REFERENCE.md                          # Quick standards
-├── HOW_RULES_WORK_TOGETHER.md                  # Visual guide
-├── technical-writing-voice-and-style/
-│   └── RULE.md                                 # Voice & style guidance
-├── framework-development-standards/
-│   └── RULE.md                                 # Framework requirements
-├── article-structure-and-quality/
-│   └── RULE.md                                 # Structure standards
-├── content-workflow-and-process/
-│   └── RULE.md                                 # Workflows & processes
-├── release-engineering-and-version-control/
-│   └── RULE.md                                 # Git & version control
-├── session-reflection-and-improvement/
-│   └── RULE.md                                 # Session reflection
-└── linkedin-marketing-optimization/
-    └── RULE.md                                 # LinkedIn marketing strategy
+.cursor/
+├── docs/
+│   ├── how-rules-work-together.md             # Visual guide (system-level)
+│   └── quick-reference.md                      # Quick standards (system-level)
+└── rules/
+    ├── README.md                               # This file
+    ├── technical-writing/                      # Write like a human, act like an editor
+    │   ├── voice-and-style/RULE.md
+    │   ├── article-structure/RULE.md
+    │   └── content-workflow/RULE.md
+    ├── framework-design/                       # Design emerging frameworks
+    │   └── framework-development/RULE.md
+    ├── marketing/                              # Write posts and marketing materials
+    │   └── linkedin-optimization/RULE.md
+    └── devops/                                # Manage writing like code
+        ├── version-control/RULE.md
+        └── session-reflection/RULE.md
 ```
 
 ## Why This Architecture?
@@ -115,7 +114,7 @@ AGENTS.md                                       # Core context (always loaded)
 
 ## Rule Descriptions with Keywords
 
-### technical-writing-voice-and-style
+### technical-writing/voice-and-style
 **Triggers on:** writing, editing, voice, tone, style, article, content, phrasing, wording, language, prose
 
 **Use when:**
@@ -124,7 +123,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Phrasing or wording help
 - Style guidance needed
 
-### framework-development-standards
+### framework-design/framework-development
 **Triggers on:** framework, model, structure, elements, components, origin story, definitions, diagrams, sequence, gap analysis, failure modes, measurement, maturity, capability, assessment
 
 **Use when:**
@@ -133,7 +132,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Checking framework completeness
 - Developing visual diagrams
 
-### article-structure-and-quality
+### technical-writing/article-structure
 **Triggers on:** structure, organization, sections, outline, format, quality, completeness, hook, introduction, conclusion, references, formatting, headings, whitepaper, case study, measurement guide
 
 **Use when:**
@@ -142,7 +141,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Organizing content
 - Quality review
 
-### content-workflow-and-process
+### technical-writing/content-workflow
 **Triggers on:** workflow, process, phases, steps, research, outline, draft, revision, polish, review, editing, extending, repository, maintenance, file naming, images, best practices
 
 **Use when:**
@@ -151,7 +150,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Repository maintenance
 - File management questions
 
-### release-engineering-and-version-control
+### devops/version-control
 **Triggers on:** commit, git, version, release, changelog, merge, branch, pull request, PR, staging, deployment, version control, commit message, git history
 
 **Use when:**
@@ -161,7 +160,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Git operations and troubleshooting
 - Maintaining CHANGELOG
 
-### session-reflection-and-improvement
+### devops/session-reflection
 **Triggers on:** reflection, retrospective, improvement, learnings, process, quality, voice, patterns, session end, wrap up, review, what worked, what didn't
 
 **Use when:**
@@ -171,7 +170,7 @@ AGENTS.md                                       # Core context (always loaded)
 - Improving processes and rules
 - Updating templates and checklists
 
-### linkedin-marketing-optimization
+### marketing/linkedin-optimization
 **Triggers on:** marketing, LinkedIn, social media, post, engagement, impressions, algorithm, hashtags, sharing, promotion, distribution, audience, reach, external article, commentary
 
 **Use when:**
@@ -226,19 +225,19 @@ AGENTS.md                                       # Core context (always loaded)
 ```
 You: "I'm writing a new framework article"
 AI: *Detects keywords: "writing", "framework", "article"*
-AI: *Loads: framework-development-standards + technical-writing-voice-and-style*
+AI: *Loads: framework-design/framework-development + technical-writing/voice-and-style*
 ```
 
 ```
 You: "How should I structure this whitepaper?"
 AI: *Detects keywords: "structure", "whitepaper"*
-AI: *Loads: article-structure-and-quality*
+AI: *Loads: technical-writing/article-structure*
 ```
 
 ```
 You: "What's the workflow for creating content?"
 AI: *Detects keywords: "workflow", "creating"*
-AI: *Loads: content-workflow-and-process*
+AI: *Loads: technical-writing/content-workflow*
 ```
 
 ### Explicit Invocation (When Needed)

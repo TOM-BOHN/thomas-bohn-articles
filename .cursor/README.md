@@ -7,37 +7,42 @@ This directory contains the configuration, rules, templates, and checklists for 
 ```
 .cursor/
 ├── README.md                          # This file
-├── rules/                             # Intelligent rules for different aspects of writing
+├── docs/                              # System-level documentation
+│   ├── how-rules-work-together.md     # Visual guide to rule system
+│   └── quick-reference.md             # Quick standards reference
+├── rules/                             # Intelligent rules organized by concern
 │   ├── README.md                      # How rules work and when they apply
-│   ├── QUICK_REFERENCE.md             # Quick standards reference
-│   ├── HOW_RULES_WORK_TOGETHER.md     # Visual guide to rule system
-│   ├── technical-writing-voice-and-style/
-│   │   └── RULE.md                    # Voice, tone, and style guidance
-│   ├── framework-development-standards/
-│   │   └── RULE.md                    # Framework creation requirements
-│   ├── article-structure-and-quality/
-│   │   └── RULE.md                    # Structure and quality standards
-│   ├── content-workflow-and-process/
-│   │   └── RULE.md                    # Creation and editing workflows
-│   ├── release-engineering-and-version-control/
-│   │   └── RULE.md                    # Git practices and versioning
-│   └── session-reflection-and-improvement/
-│       └── RULE.md                    # Post-session reflection process
-├── templates/                         # Reusable templates for common content
-│   ├── marketing-post-template.md     # LinkedIn + Medium publication format
-│   ├── article-header-template.md     # Article opening and framework intro
-│   └── session-reflection-template.md # Session tracking (scales lightweight → comprehensive)
-├── checklists/                        # Milestone-based workflow checklists
-│   ├── README.md                      # Checklist organization guide
-│   ├── content-creation-workflow-checklist.md    # New content workflow
-│   ├── editing-workflow-checklist.md             # Editing workflow
-│   ├── framework-extension-checklist.md          # Framework extension workflow
-│   ├── pre-publication-checklist.md              # Final quality gate
-│   ├── framework-quality-checklist.md            # Framework-specific requirements
-│   ├── pre-commit-validation.md                  # Technical validation
-│   ├── condensing-content-checklist.md           # Content condensing guidance
-│   └── voice-validation-checklist.md             # Voice and style validation
-└── references/                        # Reference materials and examples
+│   ├── technical-writing/             # Write like a human, act like an editor
+│   │   ├── voice-and-style/RULE.md
+│   │   ├── article-structure/RULE.md
+│   │   └── content-workflow/RULE.md
+│   ├── framework-design/              # Design emerging frameworks
+│   │   └── framework-development/RULE.md
+│   ├── marketing/                     # Write posts and marketing materials
+│   │   └── linkedin-optimization/RULE.md
+│   └── devops/                        # Manage writing like code
+│       ├── version-control/RULE.md
+│       └── session-reflection/RULE.md
+├── resources/                         # Concern-based resources (templates, checklists, standards)
+│   ├── technical-writing/
+│   │   ├── templates/article-header.md
+│   │   └── checklists/
+│   │       ├── content-creation.md
+│   │       ├── editing.md
+│   │       ├── voice-validation.md
+│   │       ├── condensing.md
+│   │       └── pre-publication.md
+│   ├── framework-design/
+│   │   └── checklists/
+│   │       ├── framework-quality.md
+│   │       └── framework-extension.md
+│   ├── marketing/
+│   │   ├── templates/marketing-post.md
+│   │   └── checklists/linkedin-marketing.md
+│   └── devops/
+│       ├── templates/session-reflection.md
+│       └── checklists/pre-commit.md
+└── references/                        # Shared reference materials
     ├── emphasis-examples.md           # Weak → strong thesis emphasis patterns
     └── artifact-examples.md           # Types of starting artifacts and usage
 
@@ -53,19 +58,19 @@ plans/                                 # Working memory (NOT committed to remote
 
 ### For Writing New Content
 1. Review `AGENTS.md` in project root for core principles
-2. Use `templates/article-header-template.md` for article structure
-3. Follow `checklists/content-creation-workflow-checklist.md` through all 9 phases
+2. Use `resources/technical-writing/templates/article-header.md` for article structure
+3. Follow `resources/technical-writing/checklists/content-creation.md` through all 9 phases
 4. Let Cursor's AI automatically load relevant rules based on your task
-5. Use `checklists/pre-publication-checklist.md` before publishing
+5. Use `resources/technical-writing/checklists/pre-publication.md` before publishing
 
 ### For Editing Existing Content
-1. Follow `checklists/editing-workflow-checklist.md` through each phase
-2. Cursor will automatically load `technical-writing-voice-and-style` rule
+1. Follow `resources/technical-writing/checklists/editing.md` through each phase
+2. Cursor will automatically load `technical-writing/voice-and-style` rule
 3. Make targeted improvements while preserving author's voice
-4. Use `checklists/pre-publication-checklist.md` before publishing
+4. Use `resources/technical-writing/checklists/pre-publication.md` before publishing
 
 ### For Session Reflection
-1. During session: Use `.cursor/templates/session-reflection-template.md` to create `plans/[date]-[work-item].md`
+1. During session: Use `.cursor/resources/devops/templates/session-reflection.md` to create `plans/[date]-[work-item].md`
 2. Scale detail level to work complexity (lightweight → comprehensive)
 3. Capture learnings as they emerge
 4. Update rules, templates, or checklists based on insights
@@ -92,7 +97,7 @@ Rules in `.cursor/rules/` are automatically loaded by Cursor's AI based on:
 
 **Example:**
 - You: "I'm writing a new framework article"
-- AI: *Automatically loads framework-development-standards and technical-writing-voice-and-style*
+- AI: *Automatically loads framework-design/framework-development and technical-writing/voice-and-style*
 
 See `rules/README.md` for complete details on how intelligent application works.
 
@@ -104,17 +109,13 @@ Templates provide starting points and format standards:
 Copy template content and fill in your specific details.
 
 ### Checklists (Milestone-Based Workflows)
-Checklists are organized by workflow milestones, not topics:
-- **Content Creation Workflow**: Complete workflow for new articles (9 phases)
-- **Editing Workflow**: Complete workflow for editing existing content (5 phases)
-- **Framework Extension Workflow**: Complete workflow for extending frameworks (5 phases)
-- **Pre-Publication Checklist**: Final comprehensive quality gate
-- **Framework Quality Checklist**: Framework-specific requirements
-- **Pre-Commit Validation**: Technical validation before committing
-- **Condensing Content Checklist**: Guidance for reducing article length
-- **Voice Validation Checklist**: Voice and style validation
+Checklists are organized by concern and workflow milestones:
+- **Technical Writing**: Content creation, editing, voice validation, condensing, pre-publication
+- **Framework Design**: Framework quality, framework extension
+- **Marketing**: LinkedIn marketing
+- **DevOps**: Pre-commit validation
 
-See `checklists/README.md` for complete organization and usage guide.
+See `resources/[concern]/checklists/` for checklists organized by concern.
 
 ## Key Principles
 
@@ -137,7 +138,7 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 
 ### Creating New Framework Article
 1. Start with artifacts (diagram, rough draft, presentation, voice notes)
-2. Follow `checklists/content-creation-workflow-checklist.md`:
+2. Follow `resources/technical-writing/checklists/content-creation.md`:
    - Phase 1: Research (understand repository standards)
    - Phase 2: Gather Artifacts (start with existing materials)
    - Phase 3: Outline (create detailed structure)
@@ -147,24 +148,24 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
    - Phase 7: Polish (focus on details)
    - Phase 8: Template Validation (match templates exactly)
    - Phase 9: Final Review (read aloud)
-3. Use `article-header-template.md` for structure
+3. Use `resources/technical-writing/templates/article-header.md` for structure
 4. Let AI load relevant rules automatically
 5. Create Mermaid diagram (.mmd) and generate PNG
-6. Validate with `checklists/pre-publication-checklist.md`
-7. Validate with `checklists/framework-quality-checklist.md`
-8. Create marketing post using `marketing-post-template.md`
+6. Validate with `resources/technical-writing/checklists/pre-publication.md`
+7. Validate with `resources/framework-design/checklists/framework-quality.md`
+8. Create marketing post using `resources/marketing/templates/marketing-post.md`
 9. Update README with article entry
 10. Commit all files together
 11. Run session reflection and update rules/templates as needed
 
 ### Editing Existing Article
-1. Follow `checklists/editing-workflow-checklist.md`:
+1. Follow `resources/technical-writing/checklists/editing.md`:
    - Phase 1: Understand Intent
    - Phase 2: Identify Issues
    - Phase 3: Preserve Core
    - Phase 4: Enhance Selectively
    - Phase 5: Verify Consistency
-2. Validate with `checklists/pre-publication-checklist.md`
+2. Validate with `resources/technical-writing/checklists/pre-publication.md`
 3. Commit with descriptive message
 4. Capture learnings in reflection
 
@@ -179,7 +180,7 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 
 ### Session Reflection
 1. At end of major work, review what was accomplished
-2. Use reflection framework in `rules/session-reflection-and-improvement/RULE.md`
+2. Use reflection framework in `rules/devops/session-reflection/RULE.md`
 3. Document learnings in `reflections/YYYY-MM-DD-[article-name].md`
 4. Update rules, templates, or checklists based on insights
 5. Commit improvements separately from content
@@ -220,10 +221,11 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 
 ### Internal References
 - `AGENTS.md` - Core principles (project root)
+- `docs/how-rules-work-together.md` - Visual guide to rule system
+- `docs/quick-reference.md` - Quick standards lookup
 - `rules/README.md` - How intelligent rules work
-- `rules/QUICK_REFERENCE.md` - Quick standards lookup
-- `templates/` - Reusable content templates
-- `checklists/` - Validation checklists
+- `resources/[concern]/templates/` - Reusable content templates by concern
+- `resources/[concern]/checklists/` - Validation checklists by concern
 - `references/` - Reference materials and examples
 - `plans/` - Working memory (temporary, not committed)
 - `plans/README.md` - Plans directory documentation
@@ -240,6 +242,13 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 
 ## Version History
 
+- **v4.0** (2025-01-XX): Reorganized by concern and resource type
+  - Organized rules by concern: technical-writing, framework-design, marketing, devops
+  - Grouped resources (templates, checklists) under `resources/[concern]/`
+  - Moved system docs to `docs/` directory
+  - Standardized file naming (lowercase-hyphens)
+  - Updated all internal references to new structure
+  
 - **v3.3** (2025-12-26): Added AI tell detection and prevention guardrails
   - Added "No AI Tells and Over-Structured Writing" section to voice/style rule
   - Document 8 AI tell patterns to avoid (meta-signposting, perfect parallelism, etc.)
@@ -254,7 +263,7 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
   - Updated rules to reference consolidated checklists
   
 - **v3.1** (2025-12-26): Added session reflection rule, templates, and checklists
-  - New rule: session-reflection-and-improvement
+  - New rule: devops/session-reflection
   - New templates: marketing-post, article-header, session-reflection
   - New checklists: pre-commit-validation and workflow checklists
   - Created reflections directory for session learnings
@@ -269,23 +278,22 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 
 ### Questions About Rules
 - See `rules/README.md` for how rules work
-- See `rules/QUICK_REFERENCE.md` for quick lookup
-- See `rules/HOW_RULES_WORK_TOGETHER.md` for visual guide
+- See `docs/quick-reference.md` for quick lookup
+- See `docs/how-rules-work-together.md` for visual guide
 
 ### Questions About Process
-- See `rules/content-workflow-and-process/RULE.md` for complete workflows
-- See `templates/` for starting points
+- See `rules/technical-writing/content-workflow/RULE.md` for complete workflows
+- See `resources/[concern]/templates/` for starting points
 - See example articles for reference
 
 ### Questions About Quality
-- See `checklists/README.md` for checklist organization
-- See `checklists/pre-publication-checklist.md` for complete standards
-- See `rules/article-structure-and-quality/RULE.md` for details
+- See `resources/[concern]/checklists/` for checklist organization by concern
+- See `resources/technical-writing/checklists/pre-publication.md` for complete standards
+- See `rules/technical-writing/article-structure/RULE.md` for details
 - Rules reflect all learnings from previous sessions (integrated from reflections)
 
 ### Improving the System
-- Use `rules/session-reflection-and-improvement/RULE.md` at end of sessions
+- Use `rules/devops/session-reflection/RULE.md` at end of sessions
 - Document learnings in `reflections/` directory
 - Update rules, templates, or checklists based on insights
 - Every session makes the next session better
-

@@ -40,48 +40,56 @@ Every framework must include:
 
 ## Specialized Rules Available
 
-Seven detailed rules in `.cursor/rules/` provide comprehensive guidance. Cursor's AI will automatically apply them when relevant based on your task:
+Seven detailed rules in `.cursor/rules/` provide comprehensive guidance, organized by concern. Cursor's AI will automatically apply them when relevant based on your task:
 
-1. **technical-writing-voice-and-style** - Voice, tone, writing techniques
-2. **framework-development-standards** - Framework creation requirements
-3. **article-structure-and-quality** - 8-part structure, quality standards
-4. **content-workflow-and-process** - Creation and editing workflows
-5. **release-engineering-and-version-control** - Git practices, commit messages, versioning
-6. **session-reflection-and-improvement** - Post-session reflection and continuous improvement
-7. **linkedin-marketing-optimization** - LinkedIn algorithm optimization, engagement strategies, post structure
+**Technical Writing** (`.cursor/rules/technical-writing/`):
+1. **voice-and-style** - Voice, tone, writing techniques
+2. **article-structure** - 8-part structure, quality standards
+3. **content-workflow** - Creation and editing workflows
+
+**Framework Design** (`.cursor/rules/framework-design/`):
+4. **framework-development** - Framework creation requirements
+
+**Marketing** (`.cursor/rules/marketing/`):
+5. **linkedin-optimization** - LinkedIn algorithm optimization, engagement strategies, post structure
+
+**DevOps** (`.cursor/rules/devops/`):
+6. **version-control** - Git practices, commit messages, versioning
+7. **session-reflection** - Post-session reflection and continuous improvement
 
 ## Templates Available
 
-Three templates in `.cursor/templates/` provide starting points for common content:
+Templates are organized by concern in `.cursor/resources/[concern]/templates/`:
 
-1. **article-header-template.md** - Article opening and framework introduction structure
-2. **marketing-post-template.md** - LinkedIn + Medium publication format
-3. **session-reflection-template.md** - Session tracking (scales lightweight → comprehensive)
+**Technical Writing:**
+1. **article-header.md** - Article opening and framework introduction structure
+
+**Marketing:**
+2. **marketing-post.md** - LinkedIn + Medium publication format
+
+**DevOps:**
+3. **session-reflection.md** - Session tracking (scales lightweight → comprehensive)
 
 ## Checklists Available
 
-Nine milestone-based checklists in `.cursor/checklists/` guide you through workflows:
+Checklists are organized by concern in `.cursor/resources/[concern]/checklists/`:
 
-### Workflow Checklists
-1. **content-creation-workflow-checklist.md** - Complete workflow for new articles (9 phases)
-   - Phase 1: Research, Phase 2: Gather Artifacts, Phase 3: Outline, Phase 4: Draft, Phase 5: Revision, Phase 6: Condensing, Phase 7: Polish, Phase 8: Template Validation, Phase 9: Final Review
-2. **editing-workflow-checklist.md** - Complete workflow for editing existing content (5 phases)
-   - Understand Intent → Identify Issues → Preserve Core → Enhance Selectively → Verify Consistency
-3. **framework-extension-checklist.md** - Complete workflow for extending frameworks (5 phases)
-   - Study Original → Identify Gaps → Maintain Consistency → Add Value → Update Cross-References
-4. **linkedin-marketing-checklist.md** - Complete workflow for creating and posting LinkedIn content
-   - Pre-Creation → Post Creation → Pre-Post → Post Execution → Post-Post → Learning
+**Technical Writing** (`.cursor/resources/technical-writing/checklists/`):
+1. **content-creation.md** - Complete workflow for new articles (9 phases)
+2. **editing.md** - Complete workflow for editing existing content (5 phases)
+3. **pre-publication.md** - Final comprehensive check before publishing
+4. **condensing.md** - Guidance for reducing article length while maintaining quality
+5. **voice-validation.md** - Voice and style validation before publication
 
-### Quality Gate Checklists
-5. **pre-publication-checklist.md** - Final comprehensive check before publishing (Structure, Quality, Formatting, Technical)
-6. **framework-quality-checklist.md** - Framework-specific requirements (Origin story, definitions, diagrams, gaps, measurement)
-7. **pre-commit-validation.md** - Technical validation before committing
+**Framework Design** (`.cursor/resources/framework-design/checklists/`):
+6. **framework-quality.md** - Framework-specific requirements
+7. **framework-extension.md** - Complete workflow for extending frameworks (5 phases)
 
-### Specialized Checklists
-8. **condensing-content-checklist.md** - Guidance for reducing article length while maintaining quality
-9. **voice-validation-checklist.md** - Voice and style validation before publication
+**Marketing** (`.cursor/resources/marketing/checklists/`):
+8. **linkedin-marketing.md** - Complete workflow for creating and posting LinkedIn content
 
-**See `.cursor/checklists/README.md` for complete organization guide.**
+**DevOps** (`.cursor/resources/devops/checklists/`):
+9. **pre-commit.md** - Technical validation before committing
 
 ## Key Patterns
 

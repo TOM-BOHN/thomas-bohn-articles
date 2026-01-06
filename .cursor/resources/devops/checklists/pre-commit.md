@@ -8,7 +8,7 @@ Use this checklist before committing any article or framework content to ensure 
 - [ ] Article follows 8-part structure (hook, intro, elements, integration, application, measurement, conclusion, references)
 - [ ] Table of Contents present at top with working anchor links
 - [ ] All major sections included and complete
-- [ ] Article header follows template pattern (see `.cursor/templates/article-header-template.md`)
+- [ ] Article header follows template pattern (see `.cursor/resources/technical-writing/templates/article-header.md`)
 - [ ] Framework introduction section includes: definition, origin, implementation, power, diagram
 
 ### Visual Elements
@@ -22,7 +22,7 @@ Use this checklist before committing any article or framework content to ensure 
 
 ### Marketing Post
 - [ ] Marketing post exists in `marketing/posts/[article_name].md`
-- [ ] Marketing post follows template format (see `.cursor/templates/marketing-post-template.md`)
+- [ ] Marketing post follows template format (see `.cursor/resources/marketing/templates/marketing-post.md`)
 - [ ] LinkedIn Post section complete with:
   - [ ] Opening hook (2-3 sentences)
   - [ ] Framework title in bold

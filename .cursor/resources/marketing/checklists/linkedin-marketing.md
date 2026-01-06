@@ -218,13 +218,13 @@ Use this checklist every time you create a LinkedIn post for maximum reach and e
 ## Resources
 
 **Templates:**
-- `.cursor/templates/marketing-post-template.md` - Main template
+- `.cursor/resources/marketing/templates/marketing-post.md` - Main template
 
 **Rules:**
-- `.cursor/rules/linkedin-marketing-optimization/RULE.md` - Complete rule (650 lines)
-- `.cursor/rules/linkedin-marketing-optimization/QUICK_START.md` - Essential strategies
-- `.cursor/rules/linkedin-marketing-optimization/EXAMPLE_WORKFLOW.md` - Complete workflow example
-- `.cursor/rules/linkedin-marketing-optimization/README.md` - Overview
+- `.cursor/rules/marketing/linkedin-optimization/RULE.md` - Complete rule (650 lines)
+- `.cursor/rules/marketing/linkedin-optimization/quick-start.md` - Essential strategies
+- `.cursor/rules/marketing/linkedin-optimization/example-workflow.md` - Complete workflow example
+- `.cursor/rules/marketing/linkedin-optimization/README.md` - Overview
 
 **Examples:**
 - `marketing/posts/` - All 5 framework posts (updated with link-in-comments)

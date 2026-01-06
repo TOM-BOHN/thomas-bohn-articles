@@ -73,19 +73,19 @@ In this repository, specifications are codified as detailed rules covering six d
 
 **Core Specifications** (the critical path for creating content):
 
-1. **[Article Structure and Quality](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/article-structure-and-quality/RULE.md)**: Defines the 8-part structure (hook, introduction, elements, integration, application, measurement, conclusion, references) and quality standards for clarity, evidence, practical value, and consistency. This is the foundation—the container that holds everything.
+1. **[Article Structure and Quality](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/technical-writing/article-structure/RULE.md)**: Defines the 8-part structure (hook, introduction, elements, integration, application, measurement, conclusion, references) and quality standards for clarity, evidence, practical value, and consistency. This is the foundation—the container that holds everything.
 
-2. **[Technical Writing Voice and Style](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/technical-writing-voice-and-style/RULE.md)**: Defines the personal, experiential voice; conversational yet professional tone; problem-focused openings; pattern recognition language; and diagnostic positioning that make frameworks engaging and credible. This is how you fill the container.
+2. **[Technical Writing Voice and Style](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/technical-writing/voice-and-style/RULE.md)**: Defines the personal, experiential voice; conversational yet professional tone; problem-focused openings; pattern recognition language; and diagnostic positioning that make frameworks engaging and credible. This is how you fill the container.
 
-3. **[Framework Development Standards](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/framework-development-standards/RULE.md)**: Specifies that frameworks must include origin stories from practice, clear element definitions, visual diagrams, sequence explanations, gap analysis with 3-5 examples, and measurement approaches. This is what makes framework content specifically valuable.
+3. **[Framework Development Standards](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/framework-design/framework-development/RULE.md)**: Specifies that frameworks must include origin stories from practice, clear element definitions, visual diagrams, sequence explanations, gap analysis with 3-5 examples, and measurement approaches. This is what makes framework content specifically valuable.
 
-4. **[Content Workflow and Process](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/content-workflow-and-process/RULE.md)**: Establishes the 9-phase development process from research through final review, including how to gather artifacts, structure work, iterate effectively, and maintain quality throughout the workflow. This is how you execute the work systematically.
+4. **[Content Workflow and Process](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/technical-writing/content-workflow/RULE.md)**: Establishes the 9-phase development process from research through final review, including how to gather artifacts, structure work, iterate effectively, and maintain quality throughout the workflow. This is how you execute the work systematically.
 
 **Supporting Specifications** (important for managing the system):
 
-5. **[Session Reflection and Improvement](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/session-reflection-and-improvement/RULE.md)**: Establishes the process for capturing learnings after work sessions and continuously improving specifications, templates, and checklists based on experience. This is how the system gets better over time.
+5. **[Session Reflection and Improvement](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/devops/session-reflection/RULE.md)**: Establishes the process for capturing learnings after work sessions and continuously improving specifications, templates, and checklists based on experience. This is how the system gets better over time.
 
-6. **[Release Engineering and Version Control](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/release-engineering-and-version-control/RULE.md)**: Defines how to manage changes, write commit messages, version content, and maintain the repository using git best practices. This is how you manage the technical infrastructure.
+6. **[Release Engineering and Version Control](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/rules/devops/version-control/RULE.md)**: Defines how to manage changes, write commit messages, version content, and maintain the repository using git best practices. This is how you manage the technical infrastructure.
 
 **The software engineering toolchain:** I use the same tools and practices for writing whitepapers as I do for software development:
 
@@ -169,18 +169,18 @@ The power of spec-driven validation is that it's repeatable. You're not relying 
 In this repository, validation happens at multiple levels using [eight specialized checklists](https://github.com/TOM-BOHN/thomas-bohn-articles/tree/main/.cursor/checklists):
 
 **Workflow Checklists** guide you through complete processes:
-- **[Content Creation Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/content-creation-workflow-checklist.md)**: 9-phase checklist from research through final review
-- **[Editing Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/editing-workflow-checklist.md)**: 5-phase checklist for improving existing content
-- **[Framework Extension Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/framework-extension-checklist.md)**: 5-phase checklist for expanding frameworks
+- **[Content Creation Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/technical-writing/checklists/content-creation.md)**: 9-phase checklist from research through final review
+- **[Editing Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/technical-writing/checklists/editing.md)**: 5-phase checklist for improving existing content
+- **[Framework Extension Workflow](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/framework-design/checklists/framework-extension.md)**: 5-phase checklist for expanding frameworks
 
 **Quality Gate Checklists** ensure standards before publication:
-- **[Pre-Publication Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/pre-publication-checklist.md)**: Final check covering structure, quality, formatting, and technical requirements
-- **[Framework Quality Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/framework-quality-checklist.md)**: Framework-specific requirements (origin story, definitions, diagrams, gaps, measurement)
-- **[Pre-Commit Validation](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/pre-commit-validation.md)**: Technical validation before committing changes
+- **[Pre-Publication Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/technical-writing/checklists/pre-publication.md)**: Final check covering structure, quality, formatting, and technical requirements
+- **[Framework Quality Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/framework-design/checklists/framework-quality.md)**: Framework-specific requirements (origin story, definitions, diagrams, gaps, measurement)
+- **[Pre-Commit Validation](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/devops/checklists/pre-commit.md)**: Technical validation before committing changes
 
 **Specialized Checklists** address specific needs:
-- **[Condensing Content Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/condensing-content-checklist.md)**: Guidance for reducing article length while maintaining quality
-- **[Voice Validation Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/checklists/voice-validation-checklist.md)**: Voice and style validation before publication
+- **[Condensing Content Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/technical-writing/checklists/condensing.md)**: Guidance for reducing article length while maintaining quality
+- **[Voice Validation Checklist](https://github.com/TOM-BOHN/thomas-bohn-articles/blob/main/.cursor/resources/technical-writing/checklists/voice-validation.md)**: Voice and style validation before publication
 
 The detailed rules serve as the foundation. The checklists provide milestone-based validation. Linters catch technical issues. Human review validates that content delivers practical value and diagnostic power.
 

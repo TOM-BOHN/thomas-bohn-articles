@@ -22,7 +22,7 @@ Use this checklist as you progress through the 9-phase content creation process.
 
 ## Phase 3: Outline (Before Drafting)
 - [ ] Use standard 8-part article structure
-- [ ] Use `.cursor/templates/article-header-template.md` for opening
+- [ ] Use `.cursor/resources/technical-writing/templates/article-header.md` for opening
 - [ ] Write topic sentences for each section
 - [ ] List key points for each section
 - [ ] Identify where examples/diagrams needed
@@ -80,8 +80,8 @@ Use this checklist as you progress through the 9-phase content creation process.
 **Time:** 30-45 minutes
 
 ## Phase 8: Template Validation
-- [ ] Marketing post matches `.cursor/templates/marketing-post-template.md`
-- [ ] Article header matches `.cursor/templates/article-header-template.md`
+- [ ] Marketing post matches `.cursor/resources/marketing/templates/marketing-post.md`
+- [ ] Article header matches `.cursor/resources/technical-writing/templates/article-header.md`
 - [ ] README updated with new article entry
 - [ ] All templates followed exactly (structure, not just theme)
 - [ ] File organization correct

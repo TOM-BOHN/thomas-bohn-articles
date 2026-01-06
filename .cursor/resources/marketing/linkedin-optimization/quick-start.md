@@ -196,14 +196,14 @@ Before publishing, verify:
 
 ## Quick Reference: Template Location
 
-**Main template:** `.cursor/templates/marketing-post-template.md`
-**Full rule:** `.cursor/rules/linkedin-marketing-optimization/RULE.md`
-**Checklist:** `.cursor/checklists/linkedin-marketing-checklist.md`
+**Main template:** `.cursor/resources/marketing/templates/marketing-post.md`
+**Full rule:** `.cursor/rules/marketing/linkedin-optimization/RULE.md`
+**Checklist:** `.cursor/resources/marketing/checklists/linkedin-marketing.md`
 **Examples:** `marketing/posts/` (all files updated with link-in-comments strategy)
 
 ## Getting Started
 
-1. Open `.cursor/templates/marketing-post-template.md`
+1. Open `.cursor/resources/marketing/templates/marketing-post.md`
 2. Fill in your content following the structure
 3. Review against pre-post checklist
 4. Post during optimal time window
