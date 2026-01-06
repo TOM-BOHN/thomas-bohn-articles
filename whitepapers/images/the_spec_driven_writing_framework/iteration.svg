@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="240" viewBox="0 0 1400 240">
+  <!-- Top Row -->
+  <!-- Step 1: Content Iteration (top left) -->
+  <rect x="20" y="20" width="650" height="95" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="345" y="50" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">Content Iteration</text>
+  <text x="345" y="75" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Address validation gaps | Incorporate feedback</text>
+  <text x="345" y="95" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Add new insights</text>
+  
+  <!-- Arrow right -->
+  <text x="690" y="72" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#7b1fa2">→</text>
+  
+  <!-- Step 2: Process Iteration (top right) -->
+  <rect x="730" y="20" width="650" height="95" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="1055" y="50" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">Process Iteration</text>
+  <text x="1055" y="75" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Update specifications | Enhance validation</text>
+  <text x="1055" y="95" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Improve guidance</text>
+  
+  <!-- Bottom Row -->
+  <!-- Step 3: Compounding Knowledge (bottom left) -->
+  <rect x="20" y="165" width="650" height="55" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="345" y="190" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">Compounding Knowledge</text>
+  <text x="345" y="210" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Each article improves next | Growing reference library</text>
+  
+  <!-- Arrow up from Compounding Knowledge to Content Iteration -->
+  <text x="345" y="145" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#7b1fa2">↑</text>
+  
+  <!-- Step 4: Session Reflection (bottom right) -->
+  <rect x="730" y="165" width="650" height="55" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="1055" y="190" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">Session Reflection</text>
+  <text x="1055" y="210" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Capture learnings | Document what worked | Integrate into rules</text>
+  
+  <!-- Arrow up from Session Reflection to Process Iteration -->
+  <text x="1055" y="145" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="#7b1fa2">↑</text>
+</svg>
