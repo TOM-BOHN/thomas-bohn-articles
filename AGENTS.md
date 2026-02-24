@@ -40,35 +40,42 @@ Every framework must include:
 
 ## Specialized Rules Available
 
-Seven detailed rules in `.cursor/rules/` provide comprehensive guidance, organized by concern. Cursor's AI will automatically apply them when relevant based on your task:
+Many rules in `.cursor/rules/` provide comprehensive guidance, organized by concern. Cursor's AI will automatically apply them when relevant based on your task.
 
-**Technical Writing** (`.cursor/rules/technical-writing/`):
-1. **voice-and-style** - Voice, tone, writing techniques
-2. **article-structure** - 8-part structure, quality standards
-3. **content-workflow** - Creation and editing workflows
+- **Full list and when to use each:** [.cursor/rules/README.md](.cursor/rules/README.md)
+- **Which resources (templates, checklists, scripts) support which rules:** [.cursor/resources/README.md](.cursor/resources/README.md)
 
-**Framework Design** (`.cursor/rules/framework-design/`):
-4. **framework-development** - Framework creation requirements
+**Technical Writing** (`.cursor/rules/technical-writing/`): voice-and-style, article-structure, content-workflow; technical-writing-manager, technical-writing-author, technical-writing-reviewer; add-images, compact-text; voice-tlb (full), voice-tlb-compact, style-tlb.
 
-**Marketing** (`.cursor/rules/marketing/`):
-5. **linkedin-optimization** - LinkedIn algorithm optimization, engagement strategies, post structure
+**Solution architecture, plan, requirements** (`.cursor/rules/solution-architecture/`, `solution-plan/`, `solution-requirements/`): Architecture research, repo discovery, C4 diagrams; phased plans and plan review; requirements and requirements review. See each directory's README.
 
-**DevOps** (`.cursor/rules/devops/`):
-6. **version-control** - Git practices, commit messages, versioning
-7. **session-reflection** - Post-session reflection and continuous improvement
+**Business** (`.cursor/rules/business/`): Value analyst, priority analyst, training expert. See README.
 
-## Templates Available
+**Docs organization** (`.cursor/rules/docs-zette/`): Manager, structure analyst, directory builder, placement analyst, reorganization analyst. See README.
 
-Templates are organized by concern in `.cursor/resources/[concern]/templates/`:
+**Cursor rule writing** (`.cursor/rules/cursor-rule-writing/`): Manager, writer, reviewer for creating/updating Cursor rules. See README.
 
-**Technical Writing:**
-1. **article-header.md** - Article opening and framework introduction structure
+**Framework Design** (`.cursor/rules/framework-design/`): framework-development.
 
-**Marketing:**
-2. **marketing-post.md** - LinkedIn + Medium publication format
+**Marketing** (`.cursor/rules/marketing/`): linkedin-optimization.
 
-**DevOps:**
-3. **session-reflection.md** - Session tracking (scales lightweight → comprehensive)
+**DevOps** (`.cursor/rules/devops/`): version-control, release-engineer, session-reflection.
+
+## Templates and Resources Available
+
+Templates and related resources (checklists, strategy docs, scripts) are organized by concern. **Full rule→resource mapping:** [.cursor/resources/README.md](.cursor/resources/README.md).
+
+**Technical Writing** (`.cursor/resources/technical-writing/`):
+- **templates/article-header.md** - Article opening and framework introduction structure
+- **add-images/visualization-strategy-simple.md** - Simple Whiteboard visualization strategy (referenced by add-images rule)
+
+**Marketing** (`.cursor/resources/marketing/`):
+- **templates/marketing-post.md** - LinkedIn + Medium publication format
+
+**DevOps** (`.cursor/resources/devops/templates/`):
+- **session-reflection.md** - Session tracking (scales lightweight → comprehensive)
+- **pull_request_template.md** - Article/doc-focused PR template (can be copied to `.github/`)
+- **issue_template.md** - Short issue template for ideas or fixes
 
 ## Checklists Available
 

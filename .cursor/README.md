@@ -10,48 +10,33 @@ This directory contains the configuration, rules, templates, and checklists for 
 ├── docs/                              # System-level documentation
 │   ├── how-rules-work-together.md     # Visual guide to rule system
 │   └── quick-reference.md             # Quick standards reference
-├── rules/                             # Intelligent rules organized by concern
+├── rules/                             # Intelligent rules (see rules/README.md for full list)
 │   ├── README.md                      # How rules work and when they apply
-│   ├── technical-writing/             # Write like a human, act like an editor
-│   │   ├── voice-and-style/RULE.md
-│   │   ├── article-structure/RULE.md
-│   │   └── content-workflow/RULE.md
-│   ├── framework-design/              # Design emerging frameworks
-│   │   └── framework-development/RULE.md
-│   ├── marketing/                     # Write posts and marketing materials
-│   │   └── linkedin-optimization/RULE.md
-│   └── devops/                        # Manage writing like code
-│       ├── version-control/RULE.md
-│       └── session-reflection/RULE.md
-├── resources/                         # Concern-based resources (templates, checklists, standards)
-│   ├── technical-writing/
-│   │   ├── templates/article-header.md
-│   │   └── checklists/
-│   │       ├── content-creation.md
-│   │       ├── editing.md
-│   │       ├── voice-validation.md
-│   │       ├── condensing.md
-│   │       └── pre-publication.md
-│   ├── framework-design/
-│   │   └── checklists/
-│   │       ├── framework-quality.md
-│   │       └── framework-extension.md
-│   ├── marketing/
-│   │   ├── templates/marketing-post.md
-│   │   └── checklists/linkedin-marketing.md
-│   └── devops/
-│       ├── templates/session-reflection.md
-│       └── checklists/pre-commit.md
-└── references/                        # Shared reference materials
-    ├── emphasis-examples.md           # Weak → strong thesis emphasis patterns
-    └── artifact-examples.md           # Types of starting artifacts and usage
-
-plans/                                 # Working memory (NOT committed to remote)
-├── .gitkeep                           # Directory structure (committed)
-├── README.md                          # Plans documentation (committed)
-├── [date]-[work-item]-session.md      # Session summaries
-└── reflections/                       # Detailed reflections (working memory)
-    └── [date]-[article-name].md       # Comprehensive session reflections
+│   ├── technical-writing/             # Voice, style, workflow, author, reviewer, add-images, compaction
+│   ├── framework-design/              # Framework development
+│   ├── marketing/                     # LinkedIn and distribution
+│   ├── devops/                        # Version control, release-engineer, session-reflection
+│   ├── solution-architecture/         # Repo discovery, C4 diagrams, research
+│   ├── solution-plan/                 # Plan engineer and reviewer
+│   ├── solution-requirements/         # Requirements engineer and reviewer
+│   ├── business/                      # Value analyst, priority analyst, training
+│   ├── docs-zette/                    # Docs hierarchy, placement, reorganization
+│   └── cursor-rule-writing/           # Rule manager, writer, reviewer
+├── resources/                         # Templates, checklists, scripts (see resources/README.md)
+│   ├── README.md                      # Rule → resource mapping
+│   ├── technical-writing/             # add-images/, templates/, checklists/
+│   ├── solution-architecture/         # repo-discovery template and checklist
+│   ├── cursor-rule-writing/scripts/   # validate_all_rules.sh
+│   ├── framework-design/checklists/
+│   ├── marketing/                     # templates/, checklists/, linkedin-optimization/
+│   └── devops/                        # templates/ (session-reflection, PR, issue), checklists/
+├── references/                        # Shared reference materials
+│   ├── emphasis-examples.md
+│   └── artifact-examples.md
+└── plans/                             # Working memory (see plans/README.md)
+    ├── .gitkeep
+    ├── README.md
+    └── [date]-[work-item]-session.md
 ```
 
 ## Quick Start
@@ -223,7 +208,8 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 - `AGENTS.md` - Core principles (project root)
 - `docs/how-rules-work-together.md` - Visual guide to rule system
 - `docs/quick-reference.md` - Quick standards lookup
-- `rules/README.md` - How intelligent rules work
+- `rules/README.md` - How intelligent rules work; full list of rules by domain
+- `resources/README.md` - Rule → resource mapping; where to find templates, checklists, scripts
 - `resources/[concern]/templates/` - Reusable content templates by concern
 - `resources/[concern]/checklists/` - Validation checklists by concern
 - `references/` - Reference materials and examples
@@ -241,6 +227,12 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 - [GitHub Spec-Driven Development](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/)
 
 ## Version History
+
+- **v4.1** (2026-02): Agentic writing rules integration and resource alignment
+  - Integrated writing-related rules from agentic-sdlc-spec-driven-design (solution-architecture, solution-plan, solution-requirements, business, docs-zette, cursor-rule-writing, technical-writing extensions)
+  - Merged release-engineer rule with full workflow, GitFlow, commit template, PR template reference
+  - Added resources: solution-architecture (repo-discovery template/checklist), cursor-rule-writing (validate_all_rules.sh), technical-writing/add-images (visualization-strategy-simple), devops (PR/issue templates)
+  - Updated directory structure and internal references; added resources/README.md for rule→resource mapping
 
 - **v4.0** (2025-01-XX): Reorganized by concern and resource type
   - Organized rules by concern: technical-writing, framework-design, marketing, devops
@@ -277,7 +269,8 @@ When editing, enhance clarity without erasing the author's voice. Templates and 
 ## Getting Help
 
 ### Questions About Rules
-- See `rules/README.md` for how rules work
+- See `rules/README.md` for how rules work and the full list of rules by domain
+- See `resources/README.md` for which resources (templates, checklists, scripts) support which rules
 - See `docs/quick-reference.md` for quick lookup
 - See `docs/how-rules-work-together.md` for visual guide
 

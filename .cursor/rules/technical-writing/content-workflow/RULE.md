@@ -1,11 +1,20 @@
 ---
 description: "Apply when planning work or following process - comprehensive workflows for creation, editing, and maintenance. Keywords: workflow, process, phases, steps, research, outline, draft, revision, polish, review, editing, extending, repository, maintenance, file naming, images, version control, best practices"
 alwaysApply: false
+category: orchestration
+phase: ["Phase 5", "Phase 6"]
+tags: ["workflow", "process", "creation", "editing", "technical-writing", "maintenance"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
 ---
 
 # Content Workflow and Process
 
 This rule defines the workflow and process for creating new content, editing existing articles, extending frameworks, and maintaining the repository.
+
+## Role
+
+You apply the repository's workflows for content creation, editing, extension, and maintenance. Follow the phases and steps below when planning or executing writing work.
 
 ## Creating New Content
 

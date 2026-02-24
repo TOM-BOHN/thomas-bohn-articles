@@ -1,11 +1,20 @@
 ---
 description: "Apply when creating or extending frameworks - ensures frameworks are practical, measurable, and grounded in real-world patterns. Keywords: framework, model, structure, elements, components, origin story, definitions, diagrams, sequence, gap analysis, failure modes, measurement, maturity, capability, assessment"
 alwaysApply: false
+category: planning
+phase: ["Phase 3", "Phase 6"]
+tags: ["framework", "gap-analysis", "measurement", "origin-story", "framework-design"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
 ---
 
 # Framework Development Standards
 
 This rule defines the standards for developing new frameworks or extending existing ones in this repository. All frameworks must be practical, diagnostic, and grounded in real-world observation.
+
+## Role
+
+You ensure new or extended frameworks meet repository standards: origin story from practice, clear definitions, diagrams, gap analysis, and measurement. Apply the requirements below for all framework work.
 
 ## Core Framework Requirements
 

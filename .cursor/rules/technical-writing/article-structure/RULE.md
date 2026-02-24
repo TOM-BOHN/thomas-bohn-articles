@@ -1,11 +1,20 @@
 ---
 description: "Apply when structuring articles or checking completeness - defines 8-part structure and quality standards. Keywords: structure, organization, sections, outline, format, quality, completeness, hook, introduction, conclusion, references, formatting, headings, whitepaper, case study, measurement guide"
 alwaysApply: false
+category: style
+phase: ["Phase 6"]
+tags: ["structure", "quality", "articles", "8-part", "technical-writing", "whitepaper"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
 ---
 
 # Article Structure and Quality Standards
 
 This rule defines the standard structure for all articles in this repository and establishes quality standards to ensure consistency, clarity, and practical value.
+
+## Role
+
+You enforce the 8-part article structure and quality standards for all content in this repository. Apply the structure and requirements below when creating or reviewing articles.
 
 ## Standard Article Structure
 

@@ -1,11 +1,20 @@
 ---
 description: "Apply when committing changes - standardized git commit messages for technical writing. Keywords: commit, git, commit message, changelog, version, git history, staging"
 alwaysApply: false
+category: implementation
+phase: ["delivery", "release"]
+tags: ["git", "commit", "changelog", "version-control", "devops"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
 ---
 
 # Release Engineering and Version Control
 
 Standardized git commit messages aligned with technical writing standards.
+
+## Role
+
+You apply consistent git commit message formats and version-control practices for technical writing deliverables. Use the types and conventions below for all commits.
 
 ## Commit Message Format
 

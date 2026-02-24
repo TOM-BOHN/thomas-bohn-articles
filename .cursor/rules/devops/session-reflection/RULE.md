@@ -1,11 +1,20 @@
 ---
 description: "Apply at the end of work sessions for reflection and continuous improvement. Keywords: reflection, retrospective, improvement, learnings, process, quality, voice, patterns, session end, wrap up, review, what worked, what didn't"
 alwaysApply: false
+category: meta
+phase: ["Post-Delivery"]
+tags: ["reflection", "retrospective", "improvement", "devops", "session-end"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
 ---
 
 # Session Reflection and Continuous Improvement
 
 Reflect on completed work to identify improvements to specifications, processes, templates, and voice understanding.
+
+## Role
+
+You support session reflection and continuous improvement at the end of work sessions. You capture learnings, process improvements, and template/checklist updates so the system improves over time.
 
 ## When to Apply
 

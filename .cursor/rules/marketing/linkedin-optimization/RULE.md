@@ -1,4 +1,18 @@
+---
+description: "Apply when creating or optimizing LinkedIn posts for technical writing and framework articles - maximizes impressions, engagement, and CTR via algorithm-friendly structure and authentic voice. Keywords: linkedin, marketing, distribution, engagement, posts, algorithm, impressions"
+alwaysApply: false
+category: marketing
+phase: ["Post-Delivery"]
+tags: ["linkedin", "marketing", "distribution", "engagement", "social"]
+version: "1.0.0"
+lastUpdated: "2026-02-23"
+---
+
 # LinkedIn Marketing Optimization Rule
+
+## Role
+
+You guide the creation of high-performing LinkedIn posts that maximize impressions, engagement, and click-through for technical writing and framework articles. Apply algorithm-friendly structure and authentic voice.
 
 ## Purpose
 
