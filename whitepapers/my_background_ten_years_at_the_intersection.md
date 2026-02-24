@@ -3,7 +3,13 @@
 
 # My Background: Ten Years at the Intersection of Product, Architecture, and Engineering
 
-I've spent the last decade and a half at the intersection of product management, solution architecture, and engineering delivery. The through-line across every role has been the same: ship the solutions the business needs, help the organization understand how data fits into its processes, and build the frameworks and tools that let teams deliver at progressively higher levels. What I care about is value. Aligning capacity to work. Prioritizing ruthlessly. Developing the competencies that let a team rise to the best it's capable of.
+## Executive Summary
+
+Over the last 15 years, spanning roles at IBM, Orbitz, and Salesforce, my career has been defined by operating at the exact intersection of product management, solution architecture, and engineering delivery. I specialize in taking massive, complex enterprise data problems—like predicting customer attrition or mapping technical health—designing the scalable architecture to solve them, and leading the cross-functional engineering teams to actually ship the product. By focusing not just on the technology, but on the data governance, frameworks, and operating models that support it, my product and platform work has driven over $100M in enterprise value through retained revenue, cost savings, and reduced cost-to-serve. Ultimately, my goal is to build the engines and architectures that make enterprise scale possible.
+
+## Introduction
+
+The through-line across every role in my career has been the same: ship the solutions the business needs, help the organization understand how data fits into its processes, and build the frameworks and tools that let teams deliver at progressively higher levels. What I care about is value. Aligning capacity to work. Prioritizing ruthlessly. Developing the competencies that let a team rise to the best it's capable of.
 
 This piece is a window into that arc. It's grounded in what I've actually done and the outcomes I've driven, written so I can speak to it clearly in conversation and leave something for anyone who wants the fuller picture.
 
