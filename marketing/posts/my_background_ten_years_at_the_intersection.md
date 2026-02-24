@@ -2,11 +2,11 @@
 
 ## LinkedIn Post
 
-"Walk me through your background." It sounds simple. But when your career spans BI consulting, data governance, ML product management, and engineering leadership across 15 years, the answer can either land clearly or lose the room. I've written a cleaner version.
+I take massive, complex enterprise data problems—predicting customer attrition, mapping technical health at scale—design the architecture to solve them, and lead cross-functional engineering teams to ship the product. That's been true across every role for 15 years. Most people can do one of these well. I've built a career doing all three.
 
 **My Background: Ten Years at the Intersection of Product, Architecture, and Engineering**
 
-A career narrative from IBM and Orbitz through four chapters at Salesforce—and the through-line that connects all of it.
+A career narrative from IBM and Orbitz through four chapters at Salesforce—the data governance work, the ML products, the architecture decisions, and the operating models that made enterprise scale possible.
 
 Key insights:
 • Data quality is the prerequisite for everything downstream. An XGBoost attrition model is only as trustworthy as the metadata feeding it—a lesson from 2018 I've carried into every architecture decision since
@@ -46,4 +46,4 @@ Read the full article here: [FULL URL]
 **Featured Image:** `../whitepapers/images/my_background_ten_years_at_the_intersection/career_timeline.png`
 
 **Description for Medium:**
-A first-person career narrative covering 15 years operating at the intersection of product management, solution architecture, and data engineering delivery. Traces the arc from IBM Global Business Services and Orbitz Worldwide through four chapters at Salesforce, culminating in Senior Manager of AI Product Management leading the Technical Health Score and Product Adoption Depth Score for Salesforce's Customer Success platform. Covers the data governance and metadata catalog work that enabled XGBoost-based attrition prediction, the modern data stack (S3, Spark, SageMaker, dbt, Tableau) behind THS, the platform consolidation to Snowflake and Airflow, and the operating model conviction that technical excellence and organizational maturity have to advance together. Written as a transparent window into the career arc behind the work.
+A first-person career narrative covering 15 years specializing in taking massive, complex enterprise data problems, designing scalable architecture to solve them, and leading cross-functional engineering teams to ship. Traces the arc from IBM Global Business Services and Orbitz Worldwide through four chapters at Salesforce, culminating in Senior Manager of AI Product Management leading the Technical Health Score and Product Adoption Depth Score for Salesforce's Customer Success platform. Covers the data governance and metadata catalog work that enabled XGBoost-based attrition prediction, the modern data stack (S3, Spark, SageMaker, dbt, Tableau) behind THS, the platform consolidation to Snowflake and Airflow, and the operating model conviction that technical excellence and organizational maturity have to advance together. Product and platform work has driven over $100M in enterprise value. Written as a transparent window into the career arc and the engines built to make enterprise scale possible.

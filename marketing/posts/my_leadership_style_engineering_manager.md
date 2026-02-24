@@ -2,7 +2,7 @@
 
 ## LinkedIn Post
 
-I spent months trying to articulate what my job actually is as an engineering manager. Not a list of tasks—anyone can write that. The actual answer: I own the how. Product owns the what. Nobody else is going to establish the operating model, the culture, or the foundation. That's the job.
+I spent months trying to articulate what my job actually is as an engineering manager. Not a list of tasks—anyone can write that. The answer I landed on: my job is to build the engine that allows engineers and data scientists to do their best work. Product owns the what. I own the how that makes the what possible.
 
 **My Leadership Style: How I Approach Engineering Management**
 
@@ -11,7 +11,7 @@ Four core tenets, eleven priorities, and one goal that sounds counterintuitive: 
 Key insights:
 • Most V2MOMs are product-focused. The engineering manager's V2MOM should be HOW-focused—the operating model, quality standards, and architecture foundation that nobody else in the room owns
 • "Make yourself irrelevant" is the direction you're always moving: delegating decisions, raising the bar, and building autonomous capability until the team runs without you in the daily loop
-• The designer-versus-executor shift is real. In an AI-augmented world, the leverage is in developing your team's design capacity—not being the single source of solution architecture yourself
+• The designer-versus-executor shift is real. The goal isn't to develop design capacity—it's to transform the team from pure executors into empowered solution designers while you orchestrate the systems around them
 • Agentic transformation isn't a side initiative. It's Priority #3, with concrete actions, not a line item on someone else's roadmap
 
 When these four tenets are working, two things happen: the team gets more capable and autonomous over time, and your attention can move to the next layer of value.
