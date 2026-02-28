@@ -22,7 +22,7 @@ Over the past two years, I applied this exact framework to my work on Salesforce
 
 By running THS and PAD through this three-way model, we successfully quantified their worth. We sized their value based on the market reach of their wrapper, the tangible efficiency gains for Customer Success teams, and the reliability of the scores themselves. The result was a clear, defensible measurement of the data product's value, grounded in explicit assumptions and reproducible math.
 
-![Where the Hidden Data Product Lives in Customer Success Score — the three-way model in practice](images/measuring_value_for_data_products/css_three_pillars.png)
+![Where the Hidden Data Product Lives in Customer Success Score — the three-way model in practice](images/measuring_value_for_data_products/css_square_three_pillars.png)
 
 ---
 
