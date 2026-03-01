@@ -8,7 +8,7 @@
 **Owner:** Thomas L. Bohn
 
 <!-- Visualization Strategy: Simple Whiteboard Visual Style -->
-<!-- Diagram: Four-tier pyramid, base to top: Foundational frameworks | Artifacts | Strategy documents | Executive briefing. Optional dashed "drill one layer deeper" arrows from top to base. Whiteboard/sketch aesthetic, limited palette, clear labels. See plans/pyramid_approach_framework_spec.md §5 for full diagram spec. -->
+<!-- Diagram: Four-tier pyramid, base to top: Foundational frameworks | Artifacts | Strategy documents | Executive briefing. Optional dashed "drill one layer deeper" arrows from top to base. Whiteboard/sketch aesthetic, limited palette, clear labels. See plans/pyramid_approach_technical_writing/pyramid_approach_framework_spec.md §5 for full diagram spec. -->
 
 ## Executive Summary
 
@@ -183,15 +183,15 @@ External resources cited or relevant to the approach described in this article:
 
 ### Conceptual References
 
-- **C4 Model for Software Architecture** ([c4model.com](https://c4model.com/). Four levels (System/context → Containers → Components → Code) for scale and scope; the Pyramid maps directly to the same idea for documentation (Executive briefing → Strategy → Artifacts → Foundational frameworks).
-- **Zettelkasten Method** ([Wikipedia: Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten). Personal knowledge-management and note-taking system based on linked, atomic notes; principles of hierarchy and linking (adapted, not applied literally) inform directory organization and "grounding components" in the Pyramid.
-- **Retrieval-Augmented Generation (RAG)** ([Wikipedia: Retrieval-augmented generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). Use of documents as grounding for AI (e.g., Slack AI, Cursor context) so answers cite your material instead of inventing; "break-through" questions that the bot can't answer indicate gaps in the written pyramid.
+- **C4 Model for Software Architecture** ([c4model.com](https://c4model.com/)). Four levels (System/context → Containers → Components → Code) for scale and scope; the Pyramid maps directly to the same idea for documentation (Executive briefing → Strategy → Artifacts → Foundational frameworks).
+- **Zettelkasten Method** ([Wikipedia: Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)). Personal knowledge-management and note-taking system based on linked, atomic notes; principles of hierarchy and linking (adapted, not applied literally) inform directory organization and "grounding components" in the Pyramid.
+- **Retrieval-Augmented Generation (RAG)** ([Wikipedia: Retrieval-augmented generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)). Use of documents as grounding for AI (e.g., Slack AI, Cursor context) so answers cite your material instead of inventing; "break-through" questions that the bot can't answer indicate gaps in the written pyramid.
 
 ### Software References
 
-- **Cursor** ([cursor.com](https://www.cursor.com/). AI-powered editor used in this article for technical writing, rules-driven workflows, and agentic conversations over code and docs; [Cursor Docs](https://cursor.com/docs) for features and context.
-- **Docusaurus** ([docusaurus.io](https://docusaurus.io/). Static-site generator for documentation; write in Markdown and publish as internal or public doc sites (e.g., strategy wikis, technical docs).
-- **GitHub** ([github.com](https://github.com). Version-controlled repositories used here as the source of truth for Markdown and directory structure; enables roll-ups and agentic context over files and rules.
+- **Cursor** ([cursor.com](https://www.cursor.com/)). AI-powered editor used in this article for technical writing, rules-driven workflows, and agentic conversations over code and docs; [Cursor Docs](https://cursor.com/docs) for features and context.
+- **Docusaurus** ([docusaurus.io](https://docusaurus.io/)). Static-site generator for documentation; write in Markdown and publish as internal or public doc sites (e.g., strategy wikis, technical docs).
+- **GitHub** ([github.com](https://github.com)). Version-controlled repositories used here as the source of truth for Markdown and directory structure; enables roll-ups and agentic context over files and rules.
 
 ---
 
@@ -200,4 +200,4 @@ External resources cited or relevant to the approach described in this article:
 *Omit this section when publishing the article externally (e.g., to Medium or a public blog). The links below are for readers working in this repository.*
 
 - Repository conventions for technical writing and framework articles: [AGENTS.md](../AGENTS.md), [.cursor/resources/technical-writing/](../.cursor/resources/technical-writing/).
-- Framework specification (full definition, diagram spec, gap analysis): [plans/pyramid_approach_framework_spec.md](../plans/pyramid_approach_framework_spec.md).
+- Framework specification (full definition, diagram spec, gap analysis): [plans/pyramid_approach_technical_writing/pyramid_approach_framework_spec.md](../plans/pyramid_approach_technical_writing/pyramid_approach_framework_spec.md).

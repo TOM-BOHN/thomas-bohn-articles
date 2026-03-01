@@ -2,6 +2,9 @@
 plans/*
 !plans/.gitkeep
 !plans/README.md
+# Pyramid approach article — plan artifacts (grouped, committed)
+!plans/pyramid_approach_technical_writing/
+!plans/pyramid_approach_technical_writing/*
 
 # OS files
 .DS_Store
