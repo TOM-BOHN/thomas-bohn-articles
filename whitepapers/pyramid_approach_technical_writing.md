@@ -149,10 +149,10 @@ The foundation of technical writing should never be persuasive messaging tailore
 
 **References**
 
-* **C4 Model for Software Architecture** (c4model.com). 
-* **Zettelkasten Method** (Wikipedia). Principles of hierarchy and linking that inform directory organization in the Pyramid.
-* **Cursor** (cursor.com). AI-powered editor used for agentic conversations over code and documentation.
-* **Docusaurus** (docusaurus.io). Static-site generator for documentation.
+* **C4 Model for Software Architecture** ([c4model.com](https://c4model.com/)). Four levels for scale and scope; the Pyramid maps to the same idea for documentation.
+* **Zettelkasten Method** ([Wikipedia: Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)). Principles of hierarchy and linking that inform directory organization in the Pyramid.
+* **Cursor** ([cursor.com](https://www.cursor.com/)). AI-powered editor used for agentic conversations over code and documentation.
+* **Docusaurus** ([docusaurus.io](https://docusaurus.io/)). Static-site generator for documentation.
 
 ---
 

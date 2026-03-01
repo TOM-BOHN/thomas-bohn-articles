@@ -12,7 +12,8 @@ marketing/
     ├── the_four_cs_of_data_governance_measurement.md
     ├── the_digital_transformation_framework.md
     ├── the_realms_of_projects_framework.md
-    └── the_spec_driven_writing_framework.md
+    ├── the_spec_driven_writing_framework.md
+    └── pyramid_approach_technical_writing.md
 
 whitepapers/
 ├── the_digital_transformation_framework.md
@@ -20,12 +21,14 @@ whitepapers/
 ├── the_four_cs_of_data_governance_measurement.md
 ├── the_realms_of_projects_framework.md
 ├── the_spec_driven_writing_framework.md
+├── pyramid_approach_technical_writing.md
 └── images/                             # Supporting images for each article
     ├── the_digital_transformation_framework/
     ├── the_enabling_team_framework/
     ├── the_four_cs_of_data_governance_measurement/
     ├── the_realms_of_projects_framework/
-    └── the_spec_driven_writing_framework/
+    ├── the_spec_driven_writing_framework/
+    └── pyramid_approach_technical_writing/
 ```
 
 **Note:** The marketing post template is located at `.cursor/resources/marketing/templates/marketing-post.md`.
