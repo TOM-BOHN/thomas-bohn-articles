@@ -177,6 +177,25 @@ That's the Pyramid approach in practice.
 
 ## References
 
-- C4 model for software architecture: [c4model.com](https://c4model.com/) (for artifact-level diagrams and the four-level scale/scope parallel: System → Containers → Components → Code maps to Executive briefing → Strategy → Artifacts → Foundational frameworks).
-- Repository conventions for technical writing and framework articles: see [AGENTS.md](../AGENTS.md) and [.cursor/resources/technical-writing/](../.cursor/resources/technical-writing/) in this repo.
-- Framework specification (full definition, diagram spec, gap analysis): see [plans/pyramid_approach_framework_spec.md](../plans/pyramid_approach_framework_spec.md) in this repository.
+External resources cited or relevant to the approach described in this article:
+
+### Conceptual references
+
+- **C4 model for software architecture** — [c4model.com](https://c4model.com/). Four levels (System/context → Containers → Components → Code) for scale and scope; the Pyramid maps directly to the same idea for documentation (Executive briefing → Strategy → Artifacts → Foundational frameworks).
+- **Zettelkasten method** — [Wikipedia: Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten). Personal knowledge-management and note-taking system based on linked, atomic notes; principles of hierarchy and linking (adapted, not applied literally) inform directory organization and "grounding components" in the Pyramid.
+- **Retrieval-augmented generation (RAG)** — [Wikipedia: Retrieval-augmented generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation). Use of documents as grounding for AI (e.g., Slack AI, Cursor context) so answers cite your material instead of inventing; "break-through" questions that the bot can't answer indicate gaps in the written pyramid.
+
+### Software references
+
+- **Cursor** — [cursor.com](https://www.cursor.com/). AI-powered editor used in this article for technical writing, rules-driven workflows, and agentic conversations over code and docs; [Cursor Docs](https://cursor.com/docs) for features and context.
+- **Docusaurus** — [docusaurus.io](https://docusaurus.io/). Static-site generator for documentation; write in Markdown and publish as internal or public doc sites (e.g., strategy wikis, technical docs).
+- **GitHub** — [github.com](https://github.com). Version-controlled repositories used here as the source of truth for Markdown and directory structure; enables roll-ups and agentic context over files and rules.
+
+---
+
+## Repository and internal references
+
+*Omit this section when publishing the article externally (e.g., to Medium or a public blog). The links below are for readers working in this repository.*
+
+- Repository conventions for technical writing and framework articles: [AGENTS.md](../AGENTS.md), [.cursor/resources/technical-writing/](../.cursor/resources/technical-writing/).
+- Framework specification (full definition, diagram spec, gap analysis): [plans/pyramid_approach_framework_spec.md](../plans/pyramid_approach_framework_spec.md).
