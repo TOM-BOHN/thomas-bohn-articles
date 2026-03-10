@@ -12,7 +12,7 @@
 
 Leaders keep asking: How do we prove that a data product or a Gen AI model actually works? How do we define and build metrics so we can measure impact? And how do we take a data product to market—roll it out, drive adoption, and connect it to business value?
 
-These conversations follow a familiar pattern. We build a score or a model and assume adoption will follow; or we run a one-off analysis and call it an experiment. What's missing is a **disciplined approach to experimentation** (hypothesis, metrics, design, rollout, success criteria) and a **clear go-to-market and rollout plan** (who gets it, when, how we drive adoption, and how we measure success). This article covers both. **Experimentation** draws on data science and industrial engineering methods: A/B testing, process mapping, time studies, and unstructured feedback (e.g., time with vs. without the data product). **Go-to-market** covers actual deployment and rollout—how we take the product to market, who we launch to, and how we align the data product roadmap with GTM (sales, CS, marketing). For **measuring success** once the product is in market, I use the three-way model in [Measuring Value for Data Products](measuring_value_for_data_products.md) (external exposure, internal exposure, foundational health). Here, the focus is on **how we run experiments** and **how we deploy and roll out**.
+These conversations follow a familiar pattern. We build a score or a model and assume adoption will follow; or we run a one-off analysis and call it an experiment. What's missing is a **disciplined approach to experimentation** (hypothesis, metrics, design, rollout, success criteria) and a **clear go-to-market and rollout plan** (who gets it, when, how we drive adoption, and how we measure success). This article covers both. **Experimentation** draws on data science and industrial engineering methods: A/B testing, process mapping, time studies, and unstructured feedback (e.g., time with vs. without the data product). **Go-to-market** covers actual deployment and rollout—how we take the product to market, who we launch to, and how we align the data product roadmap with GTM (sales, CS, marketing). For **measuring success** once the product is in market, I use the three-way model in [Measuring Value for Data Products](../measuring_value_for_data_products.md) (external exposure, internal exposure, foundational health). Here, the focus is on **how we run experiments** and **how we deploy and roll out**.
 
 ---
 
@@ -72,7 +72,7 @@ We define **target segments** (e.g., Signature Success Plan customers first, the
 
 ## How This Ties to Measuring Success
 
-Once the data product is in market, **measuring success** is the domain of [Measuring Value for Data Products](measuring_value_for_data_products.md). The three-way model (external exposure, internal exposure, foundational health) tells us how to size value through the wrapper, through internal use, and through the quality and adoption of the data product itself. **Experimentation** gives us the evidence that the product works (before/after, A/B, time studies, feedback). **GTM** gives us the plan to get it to users and the adoption metrics to track. Together, experimentation and GTM close the loop: we run experiments to validate, we deploy and roll out to reach users, and we measure success with the three-way model to justify investment and guide the next iteration.
+Once the data product is in market, **measuring success** is the domain of [Measuring Value for Data Products](../measuring_value_for_data_products.md). The three-way model (external exposure, internal exposure, foundational health) tells us how to size value through the wrapper, through internal use, and through the quality and adoption of the data product itself. **Experimentation** gives us the evidence that the product works (before/after, A/B, time studies, feedback). **GTM** gives us the plan to get it to users and the adoption metrics to track. Together, experimentation and GTM close the loop: we run experiments to validate, we deploy and roll out to reach users, and we measure success with the three-way model to justify investment and guide the next iteration.
 
 ---
 
@@ -84,5 +84,5 @@ Experimentation and go-to-market are the two engines that take a data product fr
 
 ## References
 
-- [Measuring Value for Data Products](measuring_value_for_data_products.md) — Three-way model (external, internal, foundational) for measuring success of a data product in market.
+- [Measuring Value for Data Products](../measuring_value_for_data_products.md) — Three-way model (external, internal, foundational) for measuring success of a data product in market.
 - Long-form experience: THS, PAD, recommendation engine, scorecards; CSS in Success Plans; adoption and rollout.

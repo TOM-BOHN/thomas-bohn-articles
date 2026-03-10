@@ -26,7 +26,7 @@ Alignment starts with one **shared goal** that everyone can point to. For Custom
 
 When alignment fails, it is usually because engineering led with what they built instead of what the business can do with it. We must always lead with the **"so what."** Phrases like "With this score you can predict churn," or "This signal tells you when to escalate," bridge the translation gap.
 
-The [Pyramid Approach to Technical Writing](pyramid_approach_technical_writing.md) supports this translation process perfectly. At the deepest level, we write comprehensive solution architecture and design documents for ourselves. We aggregate that content into high-level strategy documents. Finally, at the top of the pyramid, we tailor the message into executive briefings specific to non-engineering audiences. The pyramid gives us a single stack of truth. We can tailor the message by audience (using one-pagers, CRM fields, or release notes) without rewriting from scratch, and we can always drill one layer deeper if a stakeholder asks for more detail.
+The [Pyramid Approach to Technical Writing](../pyramid_approach_technical_writing.md) supports this translation process perfectly. At the deepest level, we write comprehensive solution architecture and design documents for ourselves. We aggregate that content into high-level strategy documents. Finally, at the top of the pyramid, we tailor the message into executive briefings specific to non-engineering audiences. The pyramid gives us a single stack of truth. We can tailor the message by audience (using one-pagers, CRM fields, or release notes) without rewriting from scratch, and we can always drill one layer deeper if a stakeholder asks for more detail.
 
 We build once and expose appropriately. We take the same approach for our data products: we tailor the output to the **specific persona** (a Customer Success Manager sees a score and talking points; an executive sees a trend line and a risk count; a support agent sees a short summary in their console), and we pair it with the **enablement and descriptive material** that fits that persona. Designing outputs and their accompanying enablement with these workflows in mind from the start is the definition of successful translation.
 
@@ -76,5 +76,5 @@ Stakeholder management for technical leaders is not about saying yes to every re
 
 ## References
 
-- [Pyramid Approach to Technical Writing](pyramid_approach_technical_writing.md) — Decomposition, reuse, and audience-specific briefings from ground truth (artifacts, strategy, executive briefing).
-- [The Enabling Team Framework](the_enabling_team_framework.md) — Advising and facilitating without owning the operational process; policy, standards, methodology, process, architecture.
+- [Pyramid Approach to Technical Writing](../pyramid_approach_technical_writing.md) — Decomposition, reuse, and audience-specific briefings from ground truth (artifacts, strategy, executive briefing).
+- [The Enabling Team Framework](../the_enabling_team_framework.md) — Advising and facilitating without owning the operational process; policy, standards, methodology, process, architecture.

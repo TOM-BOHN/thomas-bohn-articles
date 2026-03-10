@@ -15,4 +15,8 @@ Short-form and framework whitepapers on software engineering leadership, organiz
 | The Digital Transformation Framework | [the_digital_transformation_framework.md](the_digital_transformation_framework.md) | Framework for digital transformation initiatives. |
 | A Year in Cursor (2025) | [a_year_in_cursor_2025.md](a_year_in_cursor_2025.md) | Reflection on using Cursor over the past year. |
 
+## Ground-Truth Articles (Panel Discussion Prep)
+
+The [ground_truth/](ground_truth/) subdirectory contains four whitepapers that anchor panel discussion prep and vignettes: Gen AI and agentic solutions, stakeholder management for technical leaders, experimentation and GTM for data products, and leading data and analytics teams. See [ground_truth/README.md](ground_truth/README.md) for the full index.
+
 Images for whitepapers that include diagrams live in `images/<article_name>/`.
